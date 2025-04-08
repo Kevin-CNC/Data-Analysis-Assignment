@@ -7,5 +7,5 @@
 - pandas
 
 ## Recommended Run Command:
-py -3.13 main.p
+py -3.13 main.py
 
