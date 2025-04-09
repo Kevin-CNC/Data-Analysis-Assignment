@@ -25,7 +25,7 @@ def readCsvAndCleanData(csvPath:str):
     # AGE OPERATIONS
     messy_df["Age"] = PND.to_numeric(messy_df["Age"])
     
-    AgeMedian = messy_df["Age"].median() # We get the median ages with the current ages that we have and use it to fill in blanks
+    AgeMedian = NP.median(messy_df["Age"].dropna()) # We get the median ages with the current ages that we have and use it to fill in blanks
     messy_df["Age"] = messy_df["Age"].fillna(AgeMedian) 
     ###################
     # GENDER OPERATIONS
@@ -42,7 +42,7 @@ def readCsvAndCleanData(csvPath:str):
     # tries to convert all types to numerical; if can't then makes them NaN
     messy_df["Sales"] = PND.to_numeric(messy_df["Sales"], errors='coerce')
     
-    salesMedian = messy_df["Sales"].median()
+    salesMedian = NP.median(messy_df["Sales"].dropna())
     messy_df["Sales"] = messy_df["Sales"].fillna(salesMedian)
     ####################
     # PROFIT OPERATIONS
@@ -50,7 +50,7 @@ def readCsvAndCleanData(csvPath:str):
     # tries to convert all types to numerical; if can't then makes them NaN
     messy_df["Profit"] = PND.to_numeric(messy_df["Profit"], errors='coerce')
     
-    profitsMedian = messy_df["Profit"].median()
+    profitsMedian = NP.median(messy_df["Profit"].dropna())
     messy_df["Profit"] = messy_df["Profit"].fillna(profitsMedian)
     ####################
     # DATE OPERATIONS
@@ -154,14 +154,6 @@ def performEDA(cleaned_df:PND.DataFrame):
     PLT.grid(True)
     PLT.show()
     
-    
-    # results of the EDA:
-    """
-        Furnitures have the lowest discounts by average; with electronics being on top.
-        However in terms of overall sales, Furnitures and Grocery are the highest, while Electronics is the lowest.
-        
-        Diagrams suggest, due to very regular pattern, that the data is artificial & not realistic.
-    """
     
     # extra graphs to satisfy assignment requirements (already implemented scatter and boxplot)
     # histogram:
