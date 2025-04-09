@@ -1,0 +1,1884 @@
+ID,Name,Age,Gender,Sales,Profit,Date,Category,Discount,Profit Margin,Mature Status
+1,David,25.0,Female,100.0,30.0,2023-01-01,Grocery,20.0,0.3,Mature
+2,Eve,25.0,Female,200.0,10.0,2023-01-01,Clothing,20.0,0.05,Mature
+3,Charlie,35.0,Other,200.0,30.0,2023-01-01,Electronics,10.0,0.15,Mature
+5,Eve,25.0,Male,100.0,10.0,2023-02-15,Electronics,10.0,0.1,Mature
+6,Bob,25.0,Other,300.0,30.0,2023-02-15,Furniture,0.0,0.1,Mature
+13,Eve,25.0,Male,300.0,40.0,2023-02-15,Furniture,5.0,0.13333333333333333,Mature
+14,Bob,25.0,Other,300.0,10.0,2023-01-01,Electronics,5.0,0.03333333333333333,Mature
+18,Eve,25.0,Male,300.0,40.0,2023-01-01,Electronics,0.0,0.13333333333333333,Mature
+20,David,20.0,Other,400.0,20.0,2023-02-15,Grocery,5.0,0.05,Not Mature
+22,Eve,25.0,Male,300.0,30.0,2023-01-01,Grocery,5.0,0.1,Mature
+29,David,25.0,Other,300.0,30.0,2023-01-01,Grocery,10.0,0.1,Mature
+34,Alice,35.0,Male,200.0,20.0,2023-01-01,Electronics,0.0,0.1,Mature
+36,Eve,20.0,Male,200.0,20.0,2023-01-01,Electronics,0.0,0.1,Not Mature
+39,Alice,35.0,Female,400.0,30.0,2023-02-15,Grocery,15.0,0.075,Mature
+41,David,35.0,Other,400.0,10.0,2023-01-01,Grocery,10.0,0.025,Mature
+42,Alice,20.0,Female,200.0,20.0,2023-02-15,Furniture,5.0,0.1,Not Mature
+43,David,35.0,Other,300.0,10.0,2023-02-15,Clothing,15.0,0.03333333333333333,Mature
+48,Eve,30.0,Other,300.0,20.0,2023-01-01,Clothing,20.0,0.06666666666666667,Mature
+52,David,25.0,Other,100.0,40.0,2023-02-15,Grocery,10.0,0.4,Mature
+60,Bob,30.0,Other,200.0,40.0,2023-02-15,Furniture,20.0,0.2,Mature
+63,Eve,20.0,Male,100.0,20.0,2023-02-15,Electronics,15.0,0.2,Not Mature
+65,Bob,25.0,Female,100.0,10.0,2023-02-15,Furniture,0.0,0.1,Mature
+68,Bob,25.0,Other,400.0,20.0,2023-01-01,Grocery,10.0,0.05,Mature
+69,David,30.0,Female,400.0,10.0,2023-02-15,Electronics,10.0,0.025,Mature
+72,Eve,25.0,Female,400.0,40.0,2023-01-01,Clothing,0.0,0.1,Mature
+74,Bob,35.0,Other,400.0,10.0,2023-02-15,Furniture,15.0,0.025,Mature
+75,Eve,20.0,Other,300.0,10.0,2023-02-15,Clothing,5.0,0.03333333333333333,Not Mature
+80,David,25.0,Female,400.0,40.0,2023-02-15,Electronics,20.0,0.1,Mature
+83,Eve,25.0,Female,200.0,30.0,2023-01-01,Grocery,20.0,0.15,Mature
+84,Eve,35.0,Female,200.0,20.0,2023-02-15,Clothing,0.0,0.1,Mature
+86,Alice,20.0,Other,200.0,20.0,2023-02-15,Grocery,20.0,0.1,Not Mature
+87,Alice,30.0,Male,400.0,30.0,2023-02-15,Electronics,15.0,0.075,Mature
+88,Alice,35.0,Male,200.0,20.0,2023-02-15,Electronics,15.0,0.1,Mature
+90,Charlie,35.0,Other,200.0,40.0,2023-01-01,Grocery,10.0,0.2,Mature
+91,Charlie,25.0,Male,100.0,10.0,2023-01-01,Grocery,20.0,0.1,Mature
+94,Charlie,25.0,Other,200.0,10.0,2023-02-15,Furniture,0.0,0.05,Mature
+101,David,30.0,Other,100.0,20.0,2023-01-01,Furniture,20.0,0.2,Mature
+107,Charlie,25.0,Male,200.0,30.0,2023-01-01,Furniture,5.0,0.15,Mature
+109,Charlie,20.0,Other,300.0,10.0,2023-01-01,Furniture,5.0,0.03333333333333333,Not Mature
+113,Eve,35.0,Other,300.0,40.0,2023-01-01,Furniture,0.0,0.13333333333333333,Mature
+116,Eve,20.0,Female,400.0,10.0,2023-01-01,Clothing,10.0,0.025,Not Mature
+118,Charlie,25.0,Female,200.0,20.0,2023-02-15,Clothing,0.0,0.1,Mature
+123,Eve,20.0,Female,300.0,40.0,2023-01-01,Furniture,0.0,0.13333333333333333,Not Mature
+124,Charlie,25.0,Other,200.0,40.0,2023-02-15,Furniture,5.0,0.2,Mature
+126,David,25.0,Other,100.0,20.0,2023-02-15,Clothing,10.0,0.2,Mature
+127,Eve,20.0,Other,100.0,30.0,2023-01-01,Grocery,15.0,0.3,Not Mature
+129,Eve,25.0,Male,100.0,40.0,2023-02-15,Electronics,10.0,0.4,Mature
+131,Charlie,30.0,Other,200.0,20.0,2023-01-01,Clothing,0.0,0.1,Mature
+133,David,25.0,Female,300.0,30.0,2023-01-01,Electronics,0.0,0.1,Mature
+138,Bob,20.0,Male,400.0,30.0,2023-01-01,Furniture,0.0,0.075,Not Mature
+139,Bob,35.0,Other,400.0,20.0,2023-01-01,Grocery,15.0,0.05,Mature
+141,Alice,20.0,Female,100.0,10.0,2023-01-01,Furniture,15.0,0.1,Not Mature
+143,David,20.0,Other,100.0,10.0,2023-02-15,Clothing,20.0,0.1,Not Mature
+144,David,25.0,Other,200.0,30.0,2023-01-01,Grocery,0.0,0.15,Mature
+147,David,25.0,Female,200.0,10.0,2023-01-01,Grocery,5.0,0.05,Mature
+149,Bob,30.0,Male,200.0,20.0,2023-02-15,Clothing,15.0,0.1,Mature
+151,Alice,35.0,Other,100.0,40.0,2023-02-15,Furniture,0.0,0.4,Mature
+166,Bob,25.0,Female,400.0,20.0,2023-01-01,Clothing,20.0,0.05,Mature
+173,Bob,35.0,Female,100.0,40.0,2023-01-01,Electronics,10.0,0.4,Mature
+174,David,20.0,Male,100.0,40.0,2023-01-01,Clothing,0.0,0.4,Not Mature
+179,Eve,25.0,Other,200.0,40.0,2023-01-01,Grocery,10.0,0.2,Mature
+181,Alice,25.0,Other,300.0,20.0,2023-01-01,Electronics,5.0,0.06666666666666667,Mature
+185,Bob,35.0,Male,200.0,10.0,2023-02-15,Furniture,5.0,0.05,Mature
+186,David,25.0,Male,300.0,40.0,2023-02-15,Electronics,20.0,0.13333333333333333,Mature
+188,Alice,35.0,Other,400.0,20.0,2023-01-01,Furniture,15.0,0.05,Mature
+191,Bob,25.0,Male,400.0,40.0,2023-01-01,Clothing,0.0,0.1,Mature
+193,David,20.0,Male,200.0,40.0,2023-01-01,Electronics,0.0,0.2,Not Mature
+198,Alice,25.0,Male,400.0,20.0,2023-01-01,Electronics,15.0,0.05,Mature
+203,Alice,20.0,Other,200.0,10.0,2023-02-15,Clothing,10.0,0.05,Not Mature
+206,Charlie,20.0,Other,400.0,20.0,2023-01-01,Clothing,20.0,0.05,Not Mature
+207,Eve,35.0,Female,400.0,20.0,2023-02-15,Clothing,20.0,0.05,Mature
+208,Charlie,30.0,Other,100.0,10.0,2023-01-01,Electronics,20.0,0.1,Mature
+210,David,30.0,Male,300.0,20.0,2023-02-15,Clothing,15.0,0.06666666666666667,Mature
+211,Charlie,35.0,Male,100.0,30.0,2023-01-01,Clothing,15.0,0.3,Mature
+217,David,25.0,Male,100.0,30.0,2023-02-15,Clothing,10.0,0.3,Mature
+220,Alice,35.0,Other,400.0,20.0,2023-02-15,Furniture,20.0,0.05,Mature
+223,Charlie,20.0,Female,400.0,20.0,2023-01-01,Clothing,20.0,0.05,Not Mature
+225,Alice,35.0,Female,100.0,40.0,2023-02-15,Electronics,0.0,0.4,Mature
+228,Bob,25.0,Female,200.0,20.0,2023-01-01,Grocery,10.0,0.1,Mature
+229,Charlie,25.0,Male,300.0,10.0,2023-01-01,Furniture,15.0,0.03333333333333333,Mature
+232,Alice,30.0,Male,200.0,40.0,2023-01-01,Clothing,10.0,0.2,Mature
+237,Alice,20.0,Other,400.0,30.0,2023-02-15,Grocery,0.0,0.075,Not Mature
+240,Eve,35.0,Female,200.0,20.0,2023-02-15,Grocery,0.0,0.1,Mature
+243,Alice,20.0,Other,200.0,20.0,2023-01-01,Grocery,5.0,0.1,Not Mature
+244,Charlie,30.0,Other,200.0,20.0,2023-02-15,Furniture,5.0,0.1,Mature
+246,Charlie,30.0,Other,100.0,10.0,2023-02-15,Grocery,5.0,0.1,Mature
+247,David,25.0,Male,200.0,30.0,2023-02-15,Clothing,0.0,0.15,Mature
+249,David,35.0,Other,200.0,20.0,2023-02-15,Grocery,5.0,0.1,Mature
+252,David,25.0,Other,200.0,20.0,2023-02-15,Clothing,15.0,0.1,Mature
+255,Alice,35.0,Male,300.0,20.0,2023-02-15,Grocery,10.0,0.06666666666666667,Mature
+256,Charlie,30.0,Other,200.0,40.0,2023-01-01,Electronics,10.0,0.2,Mature
+257,Alice,30.0,Other,100.0,10.0,2023-02-15,Grocery,0.0,0.1,Mature
+259,Bob,25.0,Female,300.0,20.0,2023-02-15,Electronics,5.0,0.06666666666666667,Mature
+260,Bob,30.0,Other,400.0,30.0,2023-02-15,Furniture,0.0,0.075,Mature
+262,Charlie,25.0,Female,400.0,20.0,2023-02-15,Clothing,15.0,0.05,Mature
+264,Alice,20.0,Male,100.0,20.0,2023-02-15,Furniture,0.0,0.2,Not Mature
+267,David,25.0,Female,200.0,20.0,2023-02-15,Electronics,10.0,0.1,Mature
+268,Alice,25.0,Male,100.0,10.0,2023-02-15,Grocery,15.0,0.1,Mature
+272,Alice,25.0,Other,200.0,10.0,2023-02-15,Furniture,10.0,0.05,Mature
+273,Alice,25.0,Male,200.0,10.0,2023-01-01,Clothing,20.0,0.05,Mature
+276,Charlie,30.0,Female,200.0,20.0,2023-02-15,Electronics,20.0,0.1,Mature
+283,Alice,35.0,Other,400.0,30.0,2023-02-15,Clothing,5.0,0.075,Mature
+284,David,30.0,Female,400.0,10.0,2023-01-01,Clothing,5.0,0.025,Mature
+285,Alice,25.0,Female,100.0,10.0,2023-01-01,Grocery,15.0,0.1,Mature
+287,David,30.0,Female,200.0,30.0,2023-01-01,Clothing,5.0,0.15,Mature
+290,David,30.0,Other,300.0,20.0,2023-01-01,Clothing,20.0,0.06666666666666667,Mature
+295,David,35.0,Other,200.0,10.0,2023-01-01,Clothing,15.0,0.05,Mature
+303,Alice,20.0,Female,100.0,20.0,2023-02-15,Grocery,5.0,0.2,Not Mature
+304,Eve,35.0,Female,200.0,40.0,2023-02-15,Clothing,5.0,0.2,Mature
+306,David,35.0,Female,400.0,10.0,2023-02-15,Furniture,5.0,0.025,Mature
+307,Alice,30.0,Other,400.0,20.0,2023-02-15,Clothing,5.0,0.05,Mature
+308,David,30.0,Female,200.0,40.0,2023-01-01,Furniture,20.0,0.2,Mature
+310,Eve,25.0,Female,100.0,10.0,2023-01-01,Grocery,15.0,0.1,Mature
+312,Charlie,20.0,Other,200.0,20.0,2023-01-01,Electronics,0.0,0.1,Not Mature
+314,Alice,20.0,Female,200.0,30.0,2023-02-15,Clothing,10.0,0.15,Not Mature
+315,Bob,25.0,Other,200.0,40.0,2023-01-01,Electronics,20.0,0.2,Mature
+316,Bob,20.0,Male,300.0,40.0,2023-02-15,Grocery,10.0,0.13333333333333333,Not Mature
+318,Bob,35.0,Other,200.0,20.0,2023-02-15,Clothing,20.0,0.1,Mature
+321,Bob,25.0,Male,100.0,20.0,2023-01-01,Furniture,10.0,0.2,Mature
+322,Bob,30.0,Other,100.0,10.0,2023-01-01,Furniture,10.0,0.1,Mature
+323,Bob,35.0,Female,400.0,10.0,2023-02-15,Furniture,0.0,0.025,Mature
+328,Eve,30.0,Other,300.0,20.0,2023-02-15,Clothing,0.0,0.06666666666666667,Mature
+329,Bob,20.0,Male,200.0,20.0,2023-01-01,Grocery,10.0,0.1,Not Mature
+331,Charlie,20.0,Male,100.0,30.0,2023-02-15,Electronics,5.0,0.3,Not Mature
+333,Alice,30.0,Other,200.0,10.0,2023-01-01,Furniture,0.0,0.05,Mature
+335,David,35.0,Male,400.0,10.0,2023-02-15,Grocery,15.0,0.025,Mature
+339,Eve,30.0,Male,200.0,30.0,2023-01-01,Furniture,20.0,0.15,Mature
+340,David,35.0,Other,300.0,40.0,2023-01-01,Grocery,15.0,0.13333333333333333,Mature
+341,Alice,25.0,Other,400.0,20.0,2023-01-01,Clothing,10.0,0.05,Mature
+342,David,25.0,Female,100.0,30.0,2023-01-01,Grocery,10.0,0.3,Mature
+352,Bob,20.0,Female,200.0,20.0,2023-01-01,Grocery,20.0,0.1,Not Mature
+357,David,25.0,Male,100.0,40.0,2023-01-01,Grocery,20.0,0.4,Mature
+367,David,35.0,Other,100.0,40.0,2023-01-01,Grocery,15.0,0.4,Mature
+368,Charlie,25.0,Female,200.0,40.0,2023-02-15,Electronics,20.0,0.2,Mature
+369,David,35.0,Female,100.0,40.0,2023-02-15,Grocery,20.0,0.4,Mature
+373,Bob,25.0,Female,100.0,20.0,2023-01-01,Electronics,20.0,0.2,Mature
+379,Bob,30.0,Other,100.0,10.0,2023-02-15,Grocery,5.0,0.1,Mature
+381,Bob,30.0,Male,200.0,10.0,2023-01-01,Clothing,5.0,0.05,Mature
+382,Eve,35.0,Other,400.0,10.0,2023-02-15,Electronics,0.0,0.025,Mature
+383,Alice,25.0,Other,300.0,20.0,2023-02-15,Furniture,5.0,0.06666666666666667,Mature
+384,David,35.0,Female,200.0,20.0,2023-02-15,Grocery,0.0,0.1,Mature
+387,Bob,30.0,Other,400.0,20.0,2023-01-01,Furniture,0.0,0.05,Mature
+389,Alice,25.0,Other,200.0,30.0,2023-02-15,Furniture,5.0,0.15,Mature
+395,Eve,30.0,Female,100.0,10.0,2023-01-01,Clothing,0.0,0.1,Mature
+396,Eve,35.0,Female,200.0,40.0,2023-01-01,Grocery,0.0,0.2,Mature
+397,Eve,25.0,Other,200.0,20.0,2023-01-01,Clothing,15.0,0.1,Mature
+399,David,25.0,Other,400.0,10.0,2023-02-15,Grocery,5.0,0.025,Mature
+401,Charlie,35.0,Other,200.0,20.0,2023-01-01,Clothing,5.0,0.1,Mature
+403,Alice,25.0,Male,200.0,30.0,2023-02-15,Electronics,20.0,0.15,Mature
+404,Eve,35.0,Other,100.0,30.0,2023-02-15,Electronics,20.0,0.3,Mature
+406,Eve,35.0,Male,200.0,30.0,2023-01-01,Grocery,20.0,0.15,Mature
+415,Alice,25.0,Other,100.0,20.0,2023-01-01,Furniture,0.0,0.2,Mature
+416,Eve,35.0,Other,200.0,10.0,2023-02-15,Furniture,20.0,0.05,Mature
+417,Bob,30.0,Other,200.0,40.0,2023-02-15,Clothing,10.0,0.2,Mature
+423,Bob,20.0,Other,400.0,20.0,2023-02-15,Electronics,5.0,0.05,Not Mature
+427,Alice,30.0,Other,200.0,20.0,2023-02-15,Furniture,15.0,0.1,Mature
+430,David,35.0,Other,100.0,40.0,2023-02-15,Electronics,15.0,0.4,Mature
+431,Bob,25.0,Other,300.0,10.0,2023-01-01,Furniture,0.0,0.03333333333333333,Mature
+432,Alice,20.0,Male,300.0,20.0,2023-02-15,Furniture,0.0,0.06666666666666667,Not Mature
+433,David,30.0,Female,200.0,20.0,2023-01-01,Clothing,20.0,0.1,Mature
+434,Charlie,25.0,Male,300.0,10.0,2023-01-01,Clothing,5.0,0.03333333333333333,Mature
+436,David,35.0,Male,200.0,30.0,2023-01-01,Furniture,15.0,0.15,Mature
+437,Bob,25.0,Other,200.0,10.0,2023-01-01,Furniture,10.0,0.05,Mature
+440,Alice,30.0,Other,200.0,40.0,2023-01-01,Electronics,5.0,0.2,Mature
+445,Eve,25.0,Male,400.0,10.0,2023-02-15,Clothing,10.0,0.025,Mature
+446,David,20.0,Other,200.0,10.0,2023-02-15,Clothing,15.0,0.05,Not Mature
+449,Alice,25.0,Male,100.0,40.0,2023-02-15,Clothing,5.0,0.4,Mature
+452,David,30.0,Other,300.0,20.0,2023-02-15,Clothing,0.0,0.06666666666666667,Mature
+454,Eve,35.0,Other,100.0,40.0,2023-02-15,Electronics,5.0,0.4,Mature
+456,Bob,25.0,Male,300.0,40.0,2023-02-15,Furniture,0.0,0.13333333333333333,Mature
+458,Charlie,25.0,Male,300.0,20.0,2023-01-01,Electronics,0.0,0.06666666666666667,Mature
+459,Bob,35.0,Female,200.0,40.0,2023-01-01,Clothing,15.0,0.2,Mature
+460,Charlie,25.0,Other,200.0,40.0,2023-02-15,Furniture,20.0,0.2,Mature
+461,Alice,20.0,Female,200.0,10.0,2023-02-15,Electronics,5.0,0.05,Not Mature
+466,Bob,35.0,Female,100.0,20.0,2023-01-01,Grocery,15.0,0.2,Mature
+469,Alice,20.0,Female,300.0,40.0,2023-01-01,Clothing,20.0,0.13333333333333333,Not Mature
+470,David,25.0,Female,200.0,40.0,2023-01-01,Grocery,15.0,0.2,Mature
+474,Eve,25.0,Other,200.0,10.0,2023-02-15,Furniture,15.0,0.05,Mature
+475,Charlie,25.0,Other,200.0,30.0,2023-01-01,Clothing,15.0,0.15,Mature
+476,Eve,30.0,Male,200.0,20.0,2023-02-15,Furniture,0.0,0.1,Mature
+477,David,25.0,Male,100.0,20.0,2023-02-15,Grocery,15.0,0.2,Mature
+483,Bob,30.0,Female,200.0,20.0,2023-01-01,Grocery,5.0,0.1,Mature
+486,Charlie,25.0,Male,300.0,20.0,2023-02-15,Grocery,0.0,0.06666666666666667,Mature
+491,Alice,30.0,Male,100.0,40.0,2023-02-15,Electronics,0.0,0.4,Mature
+493,David,25.0,Female,400.0,10.0,2023-02-15,Electronics,15.0,0.025,Mature
+496,Alice,30.0,Male,300.0,20.0,2023-01-01,Grocery,20.0,0.06666666666666667,Mature
+499,Alice,25.0,Female,200.0,20.0,2023-02-15,Electronics,20.0,0.1,Mature
+502,Alice,20.0,Other,100.0,30.0,2023-01-01,Clothing,20.0,0.3,Not Mature
+504,Charlie,25.0,Other,200.0,10.0,2023-01-01,Grocery,10.0,0.05,Mature
+505,Charlie,25.0,Other,200.0,20.0,2023-01-01,Furniture,5.0,0.1,Mature
+510,Alice,25.0,Other,200.0,40.0,2023-02-15,Electronics,0.0,0.2,Mature
+511,Charlie,35.0,Male,400.0,20.0,2023-01-01,Grocery,0.0,0.05,Mature
+512,David,20.0,Other,300.0,20.0,2023-01-01,Clothing,15.0,0.06666666666666667,Not Mature
+513,Alice,25.0,Other,400.0,30.0,2023-01-01,Furniture,20.0,0.075,Mature
+516,Charlie,20.0,Other,200.0,30.0,2023-01-01,Grocery,10.0,0.15,Not Mature
+518,Eve,35.0,Other,300.0,40.0,2023-01-01,Electronics,0.0,0.13333333333333333,Mature
+520,Charlie,20.0,Male,400.0,10.0,2023-01-01,Electronics,20.0,0.025,Not Mature
+522,Alice,25.0,Male,400.0,20.0,2023-02-15,Electronics,15.0,0.05,Mature
+525,Eve,20.0,Female,400.0,40.0,2023-01-01,Furniture,20.0,0.1,Not Mature
+531,Bob,25.0,Male,200.0,20.0,2023-01-01,Electronics,0.0,0.1,Mature
+540,David,30.0,Other,300.0,20.0,2023-02-15,Electronics,5.0,0.06666666666666667,Mature
+544,David,20.0,Other,200.0,10.0,2023-01-01,Clothing,10.0,0.05,Not Mature
+545,Alice,35.0,Male,400.0,30.0,2023-01-01,Grocery,5.0,0.075,Mature
+549,Alice,25.0,Male,200.0,10.0,2023-02-15,Furniture,10.0,0.05,Mature
+550,Bob,25.0,Other,100.0,10.0,2023-02-15,Furniture,10.0,0.1,Mature
+555,Eve,25.0,Other,300.0,20.0,2023-01-01,Electronics,5.0,0.06666666666666667,Mature
+558,Eve,25.0,Female,400.0,20.0,2023-02-15,Clothing,20.0,0.05,Mature
+561,Alice,35.0,Female,300.0,20.0,2023-02-15,Electronics,20.0,0.06666666666666667,Mature
+565,David,30.0,Female,200.0,40.0,2023-01-01,Grocery,15.0,0.2,Mature
+567,Charlie,30.0,Other,200.0,30.0,2023-01-01,Furniture,20.0,0.15,Mature
+569,David,25.0,Male,200.0,10.0,2023-02-15,Grocery,5.0,0.05,Mature
+572,Bob,20.0,Other,200.0,30.0,2023-02-15,Grocery,0.0,0.15,Not Mature
+574,Charlie,30.0,Other,100.0,30.0,2023-02-15,Electronics,15.0,0.3,Mature
+575,Eve,30.0,Male,200.0,10.0,2023-02-15,Clothing,10.0,0.05,Mature
+576,Eve,30.0,Male,300.0,10.0,2023-01-01,Electronics,15.0,0.03333333333333333,Mature
+580,David,35.0,Other,300.0,20.0,2023-02-15,Electronics,5.0,0.06666666666666667,Mature
+583,Alice,20.0,Other,400.0,20.0,2023-02-15,Clothing,5.0,0.05,Not Mature
+585,Charlie,35.0,Other,300.0,20.0,2023-02-15,Electronics,15.0,0.06666666666666667,Mature
+588,Alice,25.0,Female,200.0,40.0,2023-02-15,Clothing,20.0,0.2,Mature
+591,Alice,25.0,Male,400.0,30.0,2023-02-15,Clothing,10.0,0.075,Mature
+596,Eve,35.0,Male,300.0,10.0,2023-02-15,Grocery,10.0,0.03333333333333333,Mature
+599,Eve,35.0,Male,100.0,30.0,2023-01-01,Grocery,20.0,0.3,Mature
+601,Charlie,35.0,Other,300.0,30.0,2023-02-15,Grocery,20.0,0.1,Mature
+603,Eve,25.0,Other,200.0,40.0,2023-01-01,Clothing,10.0,0.2,Mature
+604,David,25.0,Female,300.0,10.0,2023-01-01,Clothing,20.0,0.03333333333333333,Mature
+608,Alice,30.0,Other,300.0,10.0,2023-02-15,Electronics,15.0,0.03333333333333333,Mature
+611,Alice,25.0,Other,100.0,20.0,2023-01-01,Electronics,15.0,0.2,Mature
+614,Charlie,20.0,Female,100.0,20.0,2023-02-15,Furniture,0.0,0.2,Not Mature
+615,Alice,25.0,Other,300.0,20.0,2023-02-15,Clothing,0.0,0.06666666666666667,Mature
+618,Bob,25.0,Male,100.0,20.0,2023-01-01,Grocery,0.0,0.2,Mature
+619,David,35.0,Other,300.0,40.0,2023-02-15,Furniture,5.0,0.13333333333333333,Mature
+622,Bob,30.0,Other,200.0,20.0,2023-01-01,Clothing,10.0,0.1,Mature
+629,David,25.0,Female,200.0,40.0,2023-02-15,Clothing,0.0,0.2,Mature
+632,Alice,25.0,Other,300.0,30.0,2023-02-15,Grocery,0.0,0.1,Mature
+633,David,25.0,Other,200.0,10.0,2023-01-01,Electronics,10.0,0.05,Mature
+636,Alice,20.0,Other,200.0,30.0,2023-01-01,Electronics,15.0,0.15,Not Mature
+638,Eve,25.0,Male,300.0,20.0,2023-02-15,Clothing,20.0,0.06666666666666667,Mature
+639,David,25.0,Male,300.0,30.0,2023-01-01,Clothing,5.0,0.1,Mature
+640,Eve,35.0,Male,100.0,30.0,2023-01-01,Electronics,20.0,0.3,Mature
+643,Eve,20.0,Male,200.0,20.0,2023-01-01,Clothing,20.0,0.1,Not Mature
+644,Charlie,25.0,Other,300.0,30.0,2023-02-15,Grocery,0.0,0.1,Mature
+647,Charlie,25.0,Other,400.0,10.0,2023-01-01,Grocery,10.0,0.025,Mature
+648,Eve,20.0,Other,200.0,20.0,2023-01-01,Clothing,20.0,0.1,Not Mature
+650,Bob,20.0,Female,100.0,40.0,2023-02-15,Furniture,10.0,0.4,Not Mature
+651,Bob,25.0,Female,200.0,30.0,2023-01-01,Electronics,5.0,0.15,Mature
+653,Charlie,30.0,Other,200.0,30.0,2023-01-01,Clothing,5.0,0.15,Mature
+655,Eve,30.0,Other,400.0,20.0,2023-02-15,Electronics,5.0,0.05,Mature
+664,Charlie,25.0,Other,100.0,10.0,2023-02-15,Grocery,0.0,0.1,Mature
+665,Charlie,30.0,Female,400.0,20.0,2023-01-01,Furniture,5.0,0.05,Mature
+667,Eve,35.0,Other,100.0,30.0,2023-01-01,Clothing,5.0,0.3,Mature
+669,Bob,25.0,Male,200.0,20.0,2023-01-01,Grocery,20.0,0.1,Mature
+670,Alice,20.0,Male,300.0,40.0,2023-01-01,Electronics,15.0,0.13333333333333333,Not Mature
+671,Charlie,35.0,Male,300.0,20.0,2023-02-15,Clothing,15.0,0.06666666666666667,Mature
+674,David,20.0,Female,400.0,10.0,2023-01-01,Furniture,10.0,0.025,Not Mature
+677,Eve,30.0,Other,300.0,10.0,2023-01-01,Grocery,0.0,0.03333333333333333,Mature
+685,Charlie,20.0,Male,300.0,40.0,2023-01-01,Furniture,5.0,0.13333333333333333,Not Mature
+686,Alice,25.0,Female,400.0,20.0,2023-02-15,Electronics,10.0,0.05,Mature
+689,Alice,25.0,Other,200.0,20.0,2023-01-01,Clothing,5.0,0.1,Mature
+692,Eve,25.0,Male,200.0,40.0,2023-02-15,Electronics,15.0,0.2,Mature
+693,David,25.0,Other,400.0,40.0,2023-01-01,Furniture,10.0,0.1,Mature
+697,David,25.0,Other,200.0,30.0,2023-02-15,Clothing,10.0,0.15,Mature
+700,Bob,35.0,Other,100.0,30.0,2023-01-01,Electronics,10.0,0.3,Mature
+704,David,25.0,Other,200.0,30.0,2023-02-15,Clothing,0.0,0.15,Mature
+706,David,35.0,Female,400.0,20.0,2023-02-15,Furniture,10.0,0.05,Mature
+707,Eve,20.0,Male,100.0,30.0,2023-02-15,Furniture,15.0,0.3,Not Mature
+712,Eve,20.0,Other,100.0,20.0,2023-02-15,Electronics,0.0,0.2,Not Mature
+717,Bob,25.0,Other,400.0,40.0,2023-01-01,Grocery,15.0,0.1,Mature
+723,Bob,35.0,Other,300.0,30.0,2023-02-15,Clothing,10.0,0.1,Mature
+725,Alice,25.0,Female,200.0,20.0,2023-01-01,Grocery,0.0,0.1,Mature
+726,Alice,25.0,Other,400.0,20.0,2023-02-15,Electronics,10.0,0.05,Mature
+732,Eve,30.0,Male,400.0,20.0,2023-01-01,Electronics,10.0,0.05,Mature
+734,Bob,25.0,Male,100.0,20.0,2023-02-15,Electronics,10.0,0.2,Mature
+736,Bob,25.0,Other,200.0,20.0,2023-02-15,Clothing,10.0,0.1,Mature
+737,Alice,25.0,Other,200.0,30.0,2023-02-15,Furniture,0.0,0.15,Mature
+738,David,35.0,Male,200.0,40.0,2023-02-15,Grocery,10.0,0.2,Mature
+739,David,25.0,Other,100.0,20.0,2023-02-15,Grocery,5.0,0.2,Mature
+745,Charlie,35.0,Female,100.0,10.0,2023-02-15,Furniture,15.0,0.1,Mature
+746,Charlie,25.0,Male,200.0,10.0,2023-01-01,Furniture,10.0,0.05,Mature
+747,Charlie,35.0,Female,200.0,20.0,2023-02-15,Electronics,20.0,0.1,Mature
+749,Alice,25.0,Male,100.0,20.0,2023-02-15,Electronics,15.0,0.2,Mature
+752,David,25.0,Male,200.0,30.0,2023-02-15,Clothing,20.0,0.15,Mature
+753,Alice,20.0,Other,200.0,20.0,2023-02-15,Grocery,5.0,0.1,Not Mature
+754,Charlie,25.0,Other,200.0,30.0,2023-01-01,Electronics,5.0,0.15,Mature
+755,Charlie,35.0,Other,100.0,20.0,2023-02-15,Furniture,20.0,0.2,Mature
+756,Charlie,35.0,Other,200.0,20.0,2023-02-15,Grocery,10.0,0.1,Mature
+757,Eve,20.0,Other,200.0,20.0,2023-01-01,Clothing,15.0,0.1,Not Mature
+758,Bob,25.0,Male,200.0,40.0,2023-02-15,Clothing,5.0,0.2,Mature
+759,Eve,25.0,Female,300.0,10.0,2023-02-15,Grocery,15.0,0.03333333333333333,Mature
+760,Bob,20.0,Male,100.0,10.0,2023-02-15,Clothing,20.0,0.1,Not Mature
+761,Charlie,25.0,Male,200.0,30.0,2023-02-15,Electronics,10.0,0.15,Mature
+764,Eve,25.0,Other,300.0,40.0,2023-02-15,Furniture,20.0,0.13333333333333333,Mature
+765,Bob,30.0,Other,200.0,20.0,2023-01-01,Clothing,10.0,0.1,Mature
+766,David,25.0,Male,200.0,20.0,2023-02-15,Furniture,0.0,0.1,Mature
+768,Eve,25.0,Other,400.0,10.0,2023-01-01,Clothing,10.0,0.025,Mature
+769,Eve,30.0,Other,200.0,20.0,2023-01-01,Furniture,20.0,0.1,Mature
+770,Alice,35.0,Female,400.0,10.0,2023-02-15,Electronics,10.0,0.025,Mature
+774,Bob,35.0,Other,300.0,40.0,2023-02-15,Clothing,20.0,0.13333333333333333,Mature
+780,Alice,30.0,Female,400.0,20.0,2023-02-15,Grocery,0.0,0.05,Mature
+783,Alice,35.0,Female,200.0,20.0,2023-01-01,Furniture,15.0,0.1,Mature
+784,Charlie,30.0,Other,300.0,20.0,2023-02-15,Grocery,15.0,0.06666666666666667,Mature
+786,Alice,20.0,Other,100.0,30.0,2023-01-01,Electronics,0.0,0.3,Not Mature
+787,Bob,30.0,Male,200.0,20.0,2023-01-01,Clothing,0.0,0.1,Mature
+788,David,25.0,Female,100.0,30.0,2023-01-01,Electronics,0.0,0.3,Mature
+789,Alice,35.0,Other,400.0,20.0,2023-01-01,Furniture,0.0,0.05,Mature
+790,Alice,35.0,Male,200.0,30.0,2023-02-15,Furniture,20.0,0.15,Mature
+792,Eve,25.0,Other,300.0,30.0,2023-01-01,Electronics,5.0,0.1,Mature
+798,Bob,25.0,Male,100.0,40.0,2023-02-15,Clothing,5.0,0.4,Mature
+799,Charlie,35.0,Female,300.0,20.0,2023-01-01,Clothing,15.0,0.06666666666666667,Mature
+801,Charlie,25.0,Male,300.0,30.0,2023-02-15,Grocery,15.0,0.1,Mature
+804,Eve,20.0,Other,400.0,10.0,2023-01-01,Grocery,5.0,0.025,Not Mature
+805,Bob,30.0,Male,200.0,20.0,2023-02-15,Electronics,20.0,0.1,Mature
+807,Charlie,30.0,Other,100.0,30.0,2023-02-15,Electronics,10.0,0.3,Mature
+808,Charlie,25.0,Other,300.0,40.0,2023-02-15,Clothing,15.0,0.13333333333333333,Mature
+809,Alice,35.0,Female,200.0,20.0,2023-01-01,Electronics,0.0,0.1,Mature
+811,David,30.0,Male,400.0,10.0,2023-02-15,Clothing,0.0,0.025,Mature
+814,Alice,25.0,Other,400.0,20.0,2023-02-15,Electronics,15.0,0.05,Mature
+818,Alice,35.0,Male,400.0,40.0,2023-02-15,Clothing,10.0,0.1,Mature
+826,Eve,30.0,Other,200.0,40.0,2023-01-01,Clothing,5.0,0.2,Mature
+827,Bob,30.0,Female,400.0,20.0,2023-02-15,Furniture,5.0,0.05,Mature
+828,David,25.0,Male,300.0,30.0,2023-02-15,Furniture,15.0,0.1,Mature
+830,Alice,20.0,Female,300.0,30.0,2023-01-01,Furniture,15.0,0.1,Not Mature
+833,Bob,20.0,Female,100.0,10.0,2023-02-15,Electronics,20.0,0.1,Not Mature
+834,Alice,30.0,Female,400.0,10.0,2023-01-01,Furniture,10.0,0.025,Mature
+836,David,25.0,Other,100.0,30.0,2023-02-15,Clothing,20.0,0.3,Mature
+839,Charlie,25.0,Other,300.0,10.0,2023-01-01,Grocery,5.0,0.03333333333333333,Mature
+840,Charlie,35.0,Other,200.0,40.0,2023-01-01,Clothing,15.0,0.2,Mature
+841,Eve,25.0,Other,400.0,20.0,2023-01-01,Clothing,0.0,0.05,Mature
+844,Alice,20.0,Male,200.0,30.0,2023-01-01,Furniture,0.0,0.15,Not Mature
+848,Charlie,35.0,Other,400.0,20.0,2023-02-15,Grocery,15.0,0.05,Mature
+850,Charlie,35.0,Male,200.0,40.0,2023-01-01,Clothing,0.0,0.2,Mature
+853,David,20.0,Other,100.0,40.0,2023-02-15,Electronics,10.0,0.4,Not Mature
+854,Bob,35.0,Female,400.0,20.0,2023-02-15,Electronics,20.0,0.05,Mature
+855,David,35.0,Other,300.0,40.0,2023-02-15,Furniture,10.0,0.13333333333333333,Mature
+861,Alice,35.0,Other,200.0,40.0,2023-02-15,Electronics,0.0,0.2,Mature
+862,Bob,30.0,Female,300.0,20.0,2023-02-15,Electronics,20.0,0.06666666666666667,Mature
+863,Charlie,25.0,Other,200.0,30.0,2023-01-01,Electronics,10.0,0.15,Mature
+865,Charlie,25.0,Female,200.0,30.0,2023-02-15,Electronics,20.0,0.15,Mature
+866,Eve,25.0,Other,200.0,20.0,2023-01-01,Electronics,0.0,0.1,Mature
+872,David,35.0,Other,300.0,20.0,2023-01-01,Electronics,20.0,0.06666666666666667,Mature
+877,Alice,25.0,Other,200.0,20.0,2023-02-15,Clothing,20.0,0.1,Mature
+880,Charlie,30.0,Other,200.0,30.0,2023-02-15,Grocery,0.0,0.15,Mature
+881,David,25.0,Other,200.0,10.0,2023-02-15,Clothing,15.0,0.05,Mature
+882,Eve,20.0,Male,200.0,20.0,2023-02-15,Electronics,0.0,0.1,Not Mature
+885,Alice,25.0,Female,300.0,20.0,2023-01-01,Grocery,20.0,0.06666666666666667,Mature
+886,Bob,35.0,Other,200.0,10.0,2023-01-01,Clothing,20.0,0.05,Mature
+889,Bob,25.0,Female,100.0,30.0,2023-02-15,Electronics,15.0,0.3,Mature
+890,David,30.0,Female,400.0,20.0,2023-02-15,Furniture,0.0,0.05,Mature
+897,Alice,25.0,Male,200.0,30.0,2023-02-15,Grocery,10.0,0.15,Mature
+898,Alice,25.0,Female,400.0,30.0,2023-02-15,Furniture,15.0,0.075,Mature
+900,Charlie,25.0,Other,200.0,10.0,2023-01-01,Electronics,20.0,0.05,Mature
+908,Charlie,20.0,Other,200.0,20.0,2023-02-15,Electronics,15.0,0.1,Not Mature
+909,Alice,25.0,Other,400.0,10.0,2023-02-15,Furniture,5.0,0.025,Mature
+914,Alice,25.0,Other,200.0,30.0,2023-02-15,Electronics,15.0,0.15,Mature
+917,Charlie,35.0,Other,100.0,30.0,2023-01-01,Electronics,15.0,0.3,Mature
+920,David,30.0,Male,200.0,10.0,2023-01-01,Furniture,0.0,0.05,Mature
+929,Alice,25.0,Other,100.0,20.0,2023-01-01,Grocery,15.0,0.2,Mature
+932,Alice,30.0,Female,300.0,30.0,2023-02-15,Furniture,5.0,0.1,Mature
+938,Alice,35.0,Male,400.0,20.0,2023-02-15,Electronics,15.0,0.05,Mature
+939,Alice,25.0,Other,200.0,10.0,2023-02-15,Furniture,10.0,0.05,Mature
+946,Charlie,20.0,Male,100.0,20.0,2023-02-15,Electronics,10.0,0.2,Not Mature
+948,David,30.0,Male,300.0,40.0,2023-01-01,Electronics,15.0,0.13333333333333333,Mature
+951,David,20.0,Other,300.0,20.0,2023-01-01,Electronics,0.0,0.06666666666666667,Not Mature
+952,Charlie,25.0,Other,200.0,20.0,2023-01-01,Clothing,0.0,0.1,Mature
+953,David,30.0,Female,300.0,30.0,2023-01-01,Electronics,15.0,0.1,Mature
+955,Alice,25.0,Other,300.0,40.0,2023-02-15,Electronics,15.0,0.13333333333333333,Mature
+957,Eve,35.0,Other,200.0,10.0,2023-01-01,Electronics,0.0,0.05,Mature
+961,David,25.0,Other,400.0,40.0,2023-01-01,Clothing,5.0,0.1,Mature
+963,Bob,35.0,Female,200.0,40.0,2023-02-15,Electronics,15.0,0.2,Mature
+966,Bob,25.0,Male,200.0,20.0,2023-01-01,Furniture,20.0,0.1,Mature
+967,Alice,30.0,Male,200.0,20.0,2023-02-15,Clothing,15.0,0.1,Mature
+969,David,25.0,Male,100.0,20.0,2023-01-01,Furniture,15.0,0.2,Mature
+970,Eve,25.0,Female,300.0,10.0,2023-01-01,Furniture,10.0,0.03333333333333333,Mature
+972,Eve,30.0,Other,200.0,30.0,2023-02-15,Clothing,0.0,0.15,Mature
+973,Eve,35.0,Female,100.0,20.0,2023-01-01,Furniture,0.0,0.2,Mature
+976,David,30.0,Female,100.0,10.0,2023-01-01,Grocery,15.0,0.1,Mature
+984,Bob,35.0,Other,300.0,10.0,2023-02-15,Electronics,0.0,0.03333333333333333,Mature
+986,Charlie,25.0,Male,400.0,20.0,2023-01-01,Furniture,20.0,0.05,Mature
+987,Eve,30.0,Other,300.0,10.0,2023-01-01,Furniture,20.0,0.03333333333333333,Mature
+995,Eve,25.0,Male,200.0,10.0,2023-01-01,Grocery,10.0,0.05,Mature
+996,Bob,25.0,Female,300.0,20.0,2023-01-01,Furniture,0.0,0.06666666666666667,Mature
+1001,David,20.0,Other,300.0,10.0,2023-01-01,Grocery,15.0,0.03333333333333333,Not Mature
+1004,David,30.0,Male,200.0,10.0,2023-01-01,Grocery,0.0,0.05,Mature
+1005,Eve,25.0,Other,200.0,30.0,2023-02-15,Furniture,15.0,0.15,Mature
+1008,Alice,35.0,Female,200.0,40.0,2023-02-15,Grocery,10.0,0.2,Mature
+1009,David,25.0,Other,400.0,20.0,2023-01-01,Furniture,10.0,0.05,Mature
+1011,Alice,25.0,Other,200.0,40.0,2023-02-15,Clothing,0.0,0.2,Mature
+1016,Alice,25.0,Other,200.0,30.0,2023-01-01,Grocery,15.0,0.15,Mature
+1019,Bob,30.0,Other,100.0,10.0,2023-02-15,Furniture,15.0,0.1,Mature
+1023,Charlie,20.0,Male,200.0,40.0,2023-01-01,Electronics,5.0,0.2,Not Mature
+1025,Alice,25.0,Female,400.0,40.0,2023-01-01,Clothing,20.0,0.1,Mature
+1026,Eve,30.0,Other,200.0,20.0,2023-02-15,Clothing,5.0,0.1,Mature
+1029,David,30.0,Male,400.0,40.0,2023-02-15,Electronics,5.0,0.1,Mature
+1033,Alice,25.0,Male,400.0,10.0,2023-01-01,Furniture,10.0,0.025,Mature
+1038,Charlie,25.0,Female,100.0,20.0,2023-01-01,Furniture,15.0,0.2,Mature
+1040,Bob,25.0,Other,300.0,20.0,2023-02-15,Grocery,10.0,0.06666666666666667,Mature
+1041,Charlie,20.0,Other,100.0,20.0,2023-02-15,Furniture,0.0,0.2,Not Mature
+1054,Alice,25.0,Male,200.0,40.0,2023-01-01,Electronics,20.0,0.2,Mature
+1055,Eve,35.0,Other,300.0,10.0,2023-02-15,Furniture,0.0,0.03333333333333333,Mature
+1056,Charlie,30.0,Other,300.0,10.0,2023-01-01,Furniture,0.0,0.03333333333333333,Mature
+1058,David,20.0,Male,100.0,30.0,2023-01-01,Electronics,20.0,0.3,Not Mature
+1059,Bob,35.0,Female,300.0,10.0,2023-01-01,Grocery,15.0,0.03333333333333333,Mature
+1061,Alice,30.0,Other,200.0,20.0,2023-02-15,Clothing,5.0,0.1,Mature
+1062,Alice,20.0,Other,400.0,40.0,2023-01-01,Grocery,10.0,0.1,Not Mature
+1063,David,25.0,Other,200.0,20.0,2023-01-01,Grocery,10.0,0.1,Mature
+1073,Charlie,25.0,Other,300.0,30.0,2023-02-15,Furniture,20.0,0.1,Mature
+1076,Alice,20.0,Other,400.0,20.0,2023-01-01,Grocery,15.0,0.05,Not Mature
+1080,Bob,30.0,Male,300.0,10.0,2023-02-15,Furniture,10.0,0.03333333333333333,Mature
+1086,Alice,25.0,Other,200.0,20.0,2023-02-15,Furniture,5.0,0.1,Mature
+1087,Bob,25.0,Female,200.0,20.0,2023-02-15,Electronics,15.0,0.1,Mature
+1088,Charlie,35.0,Other,200.0,30.0,2023-02-15,Furniture,15.0,0.15,Mature
+1089,David,25.0,Female,100.0,30.0,2023-02-15,Grocery,20.0,0.3,Mature
+1090,Alice,35.0,Female,200.0,10.0,2023-01-01,Grocery,15.0,0.05,Mature
+1092,Charlie,20.0,Other,400.0,20.0,2023-01-01,Clothing,10.0,0.05,Not Mature
+1095,Charlie,25.0,Male,400.0,40.0,2023-01-01,Grocery,10.0,0.1,Mature
+1097,David,35.0,Male,300.0,20.0,2023-02-15,Clothing,5.0,0.06666666666666667,Mature
+1102,Alice,30.0,Male,300.0,20.0,2023-02-15,Furniture,20.0,0.06666666666666667,Mature
+1106,Eve,35.0,Other,100.0,20.0,2023-01-01,Grocery,0.0,0.2,Mature
+1109,Charlie,20.0,Female,200.0,40.0,2023-02-15,Furniture,10.0,0.2,Not Mature
+1112,David,20.0,Other,200.0,20.0,2023-02-15,Grocery,0.0,0.1,Not Mature
+1114,Charlie,25.0,Male,200.0,10.0,2023-01-01,Grocery,0.0,0.05,Mature
+1117,David,30.0,Female,400.0,10.0,2023-02-15,Electronics,5.0,0.025,Mature
+1123,Eve,25.0,Other,200.0,30.0,2023-02-15,Grocery,10.0,0.15,Mature
+1131,Bob,20.0,Female,300.0,30.0,2023-02-15,Grocery,0.0,0.1,Not Mature
+1137,Bob,25.0,Other,100.0,30.0,2023-01-01,Clothing,15.0,0.3,Mature
+1145,Eve,35.0,Male,200.0,20.0,2023-02-15,Furniture,20.0,0.1,Mature
+1146,David,25.0,Other,400.0,20.0,2023-02-15,Electronics,20.0,0.05,Mature
+1148,David,25.0,Other,300.0,40.0,2023-02-15,Electronics,15.0,0.13333333333333333,Mature
+1149,Bob,20.0,Male,400.0,40.0,2023-02-15,Furniture,5.0,0.1,Not Mature
+1151,Alice,20.0,Male,200.0,40.0,2023-01-01,Clothing,15.0,0.2,Not Mature
+1153,Charlie,35.0,Other,200.0,20.0,2023-01-01,Clothing,10.0,0.1,Mature
+1154,Alice,25.0,Other,100.0,20.0,2023-02-15,Grocery,10.0,0.2,Mature
+1155,Bob,30.0,Male,300.0,20.0,2023-02-15,Clothing,20.0,0.06666666666666667,Mature
+1156,Charlie,35.0,Female,400.0,10.0,2023-02-15,Furniture,10.0,0.025,Mature
+1160,Eve,25.0,Female,100.0,20.0,2023-01-01,Electronics,20.0,0.2,Mature
+1161,Alice,30.0,Other,100.0,20.0,2023-01-01,Electronics,20.0,0.2,Mature
+1165,Bob,25.0,Male,400.0,10.0,2023-02-15,Grocery,5.0,0.025,Mature
+1166,Bob,35.0,Female,100.0,20.0,2023-01-01,Grocery,20.0,0.2,Mature
+1167,Eve,25.0,Female,100.0,30.0,2023-02-15,Electronics,10.0,0.3,Mature
+1169,Bob,25.0,Other,200.0,40.0,2023-01-01,Electronics,5.0,0.2,Mature
+1170,Eve,25.0,Other,300.0,40.0,2023-01-01,Furniture,20.0,0.13333333333333333,Mature
+1182,David,20.0,Other,400.0,10.0,2023-02-15,Clothing,0.0,0.025,Not Mature
+1183,Eve,35.0,Other,200.0,40.0,2023-02-15,Clothing,0.0,0.2,Mature
+1186,Charlie,30.0,Other,200.0,30.0,2023-01-01,Furniture,0.0,0.15,Mature
+1193,Eve,35.0,Other,400.0,20.0,2023-02-15,Electronics,20.0,0.05,Mature
+1195,Eve,20.0,Other,100.0,20.0,2023-02-15,Grocery,20.0,0.2,Not Mature
+1209,Bob,20.0,Other,100.0,10.0,2023-02-15,Electronics,10.0,0.1,Not Mature
+1211,Eve,35.0,Other,200.0,10.0,2023-02-15,Grocery,5.0,0.05,Mature
+1212,Charlie,30.0,Other,100.0,10.0,2023-02-15,Electronics,0.0,0.1,Mature
+1213,Charlie,35.0,Other,300.0,40.0,2023-01-01,Electronics,10.0,0.13333333333333333,Mature
+1214,David,35.0,Male,200.0,30.0,2023-02-15,Clothing,20.0,0.15,Mature
+1216,Charlie,25.0,Other,200.0,40.0,2023-01-01,Clothing,20.0,0.2,Mature
+1219,Eve,35.0,Other,200.0,40.0,2023-02-15,Clothing,0.0,0.2,Mature
+1223,David,35.0,Other,400.0,10.0,2023-02-15,Clothing,10.0,0.025,Mature
+1225,Charlie,25.0,Female,200.0,40.0,2023-02-15,Grocery,15.0,0.2,Mature
+1226,David,25.0,Female,200.0,30.0,2023-01-01,Furniture,15.0,0.15,Mature
+1227,Charlie,35.0,Other,100.0,20.0,2023-01-01,Furniture,20.0,0.2,Mature
+1228,Alice,25.0,Other,400.0,20.0,2023-02-15,Electronics,20.0,0.05,Mature
+1229,Charlie,25.0,Female,400.0,30.0,2023-02-15,Electronics,15.0,0.075,Mature
+1231,Charlie,35.0,Other,100.0,40.0,2023-01-01,Electronics,15.0,0.4,Mature
+1232,Bob,25.0,Female,400.0,20.0,2023-01-01,Electronics,0.0,0.05,Mature
+1233,Alice,25.0,Male,200.0,40.0,2023-01-01,Grocery,15.0,0.2,Mature
+1235,Bob,25.0,Other,200.0,30.0,2023-02-15,Clothing,5.0,0.15,Mature
+1239,Alice,35.0,Male,200.0,40.0,2023-02-15,Clothing,15.0,0.2,Mature
+1245,Alice,35.0,Other,400.0,20.0,2023-01-01,Grocery,20.0,0.05,Mature
+1246,Charlie,30.0,Other,200.0,20.0,2023-02-15,Furniture,5.0,0.1,Mature
+1247,Charlie,25.0,Male,200.0,40.0,2023-01-01,Electronics,15.0,0.2,Mature
+1250,David,25.0,Other,100.0,10.0,2023-01-01,Furniture,0.0,0.1,Mature
+1256,Eve,25.0,Female,400.0,20.0,2023-02-15,Grocery,10.0,0.05,Mature
+1257,David,30.0,Male,200.0,10.0,2023-01-01,Clothing,10.0,0.05,Mature
+1258,Charlie,30.0,Male,300.0,30.0,2023-01-01,Grocery,10.0,0.1,Mature
+1259,Charlie,35.0,Male,400.0,10.0,2023-02-15,Furniture,20.0,0.025,Mature
+1261,Eve,25.0,Other,200.0,10.0,2023-02-15,Grocery,0.0,0.05,Mature
+1262,Alice,30.0,Other,400.0,40.0,2023-01-01,Furniture,20.0,0.1,Mature
+1267,Charlie,30.0,Other,200.0,40.0,2023-02-15,Grocery,15.0,0.2,Mature
+1269,Alice,25.0,Other,200.0,40.0,2023-02-15,Clothing,5.0,0.2,Mature
+1271,Alice,25.0,Other,100.0,20.0,2023-01-01,Electronics,5.0,0.2,Mature
+1273,Alice,30.0,Other,200.0,20.0,2023-02-15,Grocery,15.0,0.1,Mature
+1276,Bob,25.0,Male,100.0,40.0,2023-01-01,Grocery,20.0,0.4,Mature
+1280,Bob,30.0,Male,100.0,10.0,2023-01-01,Furniture,10.0,0.1,Mature
+1281,Alice,25.0,Other,200.0,30.0,2023-02-15,Furniture,5.0,0.15,Mature
+1283,Eve,30.0,Female,100.0,20.0,2023-02-15,Furniture,20.0,0.2,Mature
+1284,Bob,25.0,Male,100.0,30.0,2023-02-15,Grocery,0.0,0.3,Mature
+1296,Bob,35.0,Other,200.0,20.0,2023-01-01,Electronics,20.0,0.1,Mature
+1298,Charlie,25.0,Other,200.0,10.0,2023-01-01,Electronics,20.0,0.05,Mature
+1299,David,25.0,Male,400.0,20.0,2023-02-15,Clothing,5.0,0.05,Mature
+1302,Bob,25.0,Male,400.0,20.0,2023-01-01,Grocery,15.0,0.05,Mature
+1303,Charlie,20.0,Other,200.0,40.0,2023-02-15,Furniture,10.0,0.2,Not Mature
+1305,Charlie,25.0,Male,100.0,20.0,2023-01-01,Electronics,20.0,0.2,Mature
+1306,Bob,25.0,Male,200.0,20.0,2023-01-01,Electronics,20.0,0.1,Mature
+1307,David,30.0,Male,400.0,40.0,2023-02-15,Furniture,5.0,0.1,Mature
+1317,David,35.0,Other,400.0,20.0,2023-01-01,Electronics,5.0,0.05,Mature
+1319,Charlie,25.0,Other,400.0,30.0,2023-02-15,Clothing,10.0,0.075,Mature
+1321,Bob,30.0,Male,200.0,10.0,2023-02-15,Grocery,0.0,0.05,Mature
+1325,Bob,25.0,Other,400.0,20.0,2023-02-15,Furniture,20.0,0.05,Mature
+1328,David,35.0,Other,400.0,20.0,2023-02-15,Furniture,5.0,0.05,Mature
+1329,Eve,25.0,Other,200.0,30.0,2023-01-01,Grocery,0.0,0.15,Mature
+1332,Eve,25.0,Other,200.0,20.0,2023-01-01,Electronics,20.0,0.1,Mature
+1336,Alice,35.0,Male,400.0,30.0,2023-01-01,Electronics,5.0,0.075,Mature
+1338,Alice,35.0,Female,100.0,20.0,2023-02-15,Furniture,5.0,0.2,Mature
+1343,Charlie,35.0,Other,100.0,20.0,2023-02-15,Electronics,5.0,0.2,Mature
+1344,Eve,35.0,Female,100.0,10.0,2023-01-01,Clothing,0.0,0.1,Mature
+1345,Bob,25.0,Female,200.0,40.0,2023-02-15,Furniture,10.0,0.2,Mature
+1346,David,25.0,Male,400.0,30.0,2023-02-15,Electronics,20.0,0.075,Mature
+1349,Alice,25.0,Other,200.0,20.0,2023-01-01,Furniture,20.0,0.1,Mature
+1351,Eve,25.0,Female,400.0,30.0,2023-02-15,Furniture,10.0,0.075,Mature
+1353,Alice,25.0,Other,100.0,20.0,2023-02-15,Clothing,20.0,0.2,Mature
+1354,Alice,20.0,Other,100.0,40.0,2023-01-01,Clothing,5.0,0.4,Not Mature
+1358,Bob,35.0,Other,400.0,30.0,2023-01-01,Furniture,20.0,0.075,Mature
+1361,Eve,35.0,Other,200.0,20.0,2023-01-01,Electronics,20.0,0.1,Mature
+1364,Charlie,25.0,Other,400.0,30.0,2023-02-15,Electronics,0.0,0.075,Mature
+1365,Eve,20.0,Male,200.0,20.0,2023-02-15,Grocery,5.0,0.1,Not Mature
+1369,David,25.0,Male,400.0,20.0,2023-02-15,Grocery,0.0,0.05,Mature
+1372,Eve,25.0,Male,200.0,10.0,2023-02-15,Clothing,0.0,0.05,Mature
+1376,Bob,20.0,Other,400.0,20.0,2023-01-01,Furniture,15.0,0.05,Not Mature
+1377,Charlie,25.0,Other,300.0,40.0,2023-02-15,Grocery,5.0,0.13333333333333333,Mature
+1378,Bob,25.0,Male,400.0,40.0,2023-02-15,Clothing,15.0,0.1,Mature
+1384,Charlie,30.0,Other,400.0,40.0,2023-01-01,Electronics,5.0,0.1,Mature
+1388,Alice,25.0,Other,200.0,20.0,2023-02-15,Electronics,0.0,0.1,Mature
+1391,Bob,25.0,Female,100.0,30.0,2023-02-15,Electronics,0.0,0.3,Mature
+1393,Eve,35.0,Male,400.0,20.0,2023-01-01,Furniture,20.0,0.05,Mature
+1401,Charlie,25.0,Male,300.0,10.0,2023-02-15,Furniture,10.0,0.03333333333333333,Mature
+1402,Eve,20.0,Female,300.0,30.0,2023-02-15,Furniture,15.0,0.1,Not Mature
+1405,Alice,30.0,Female,200.0,10.0,2023-01-01,Grocery,10.0,0.05,Mature
+1407,Eve,25.0,Other,300.0,40.0,2023-02-15,Grocery,20.0,0.13333333333333333,Mature
+1408,Bob,30.0,Male,100.0,40.0,2023-02-15,Grocery,10.0,0.4,Mature
+1412,Charlie,35.0,Female,200.0,10.0,2023-01-01,Clothing,0.0,0.05,Mature
+1416,Charlie,25.0,Male,200.0,40.0,2023-02-15,Clothing,15.0,0.2,Mature
+1418,Bob,25.0,Other,300.0,20.0,2023-01-01,Clothing,0.0,0.06666666666666667,Mature
+1419,David,25.0,Other,200.0,10.0,2023-02-15,Electronics,15.0,0.05,Mature
+1420,Bob,25.0,Female,100.0,20.0,2023-01-01,Clothing,10.0,0.2,Mature
+1422,Alice,25.0,Other,400.0,20.0,2023-01-01,Furniture,15.0,0.05,Mature
+1423,Eve,30.0,Other,200.0,30.0,2023-02-15,Electronics,10.0,0.15,Mature
+1424,Charlie,25.0,Female,200.0,40.0,2023-01-01,Electronics,15.0,0.2,Mature
+1425,Charlie,30.0,Female,200.0,30.0,2023-02-15,Clothing,10.0,0.15,Mature
+1426,Bob,25.0,Other,200.0,10.0,2023-02-15,Electronics,20.0,0.05,Mature
+1431,Bob,35.0,Other,200.0,30.0,2023-01-01,Electronics,0.0,0.15,Mature
+1432,Eve,35.0,Other,300.0,10.0,2023-02-15,Furniture,15.0,0.03333333333333333,Mature
+1434,Eve,25.0,Other,200.0,20.0,2023-01-01,Furniture,20.0,0.1,Mature
+1441,Eve,35.0,Male,100.0,30.0,2023-02-15,Grocery,10.0,0.3,Mature
+1442,Charlie,35.0,Other,100.0,10.0,2023-01-01,Clothing,15.0,0.1,Mature
+1443,Bob,20.0,Other,300.0,30.0,2023-02-15,Grocery,0.0,0.1,Not Mature
+1445,Bob,25.0,Male,200.0,10.0,2023-02-15,Clothing,20.0,0.05,Mature
+1447,Eve,30.0,Other,100.0,20.0,2023-02-15,Grocery,0.0,0.2,Mature
+1448,Eve,25.0,Other,400.0,40.0,2023-01-01,Clothing,20.0,0.1,Mature
+1456,Eve,30.0,Female,200.0,30.0,2023-01-01,Electronics,20.0,0.15,Mature
+1457,Charlie,35.0,Female,400.0,30.0,2023-02-15,Clothing,15.0,0.075,Mature
+1465,Eve,25.0,Other,100.0,30.0,2023-02-15,Electronics,5.0,0.3,Mature
+1469,Alice,25.0,Other,400.0,40.0,2023-01-01,Grocery,15.0,0.1,Mature
+1470,Charlie,20.0,Other,300.0,10.0,2023-02-15,Furniture,5.0,0.03333333333333333,Not Mature
+1476,David,25.0,Other,300.0,10.0,2023-01-01,Clothing,15.0,0.03333333333333333,Mature
+1477,Bob,25.0,Other,400.0,20.0,2023-01-01,Electronics,10.0,0.05,Mature
+1478,Eve,20.0,Other,400.0,40.0,2023-01-01,Furniture,0.0,0.1,Not Mature
+1480,David,35.0,Other,300.0,20.0,2023-01-01,Furniture,0.0,0.06666666666666667,Mature
+1484,Alice,35.0,Male,200.0,10.0,2023-02-15,Grocery,20.0,0.05,Mature
+1490,Charlie,30.0,Male,200.0,30.0,2023-02-15,Grocery,20.0,0.15,Mature
+1493,Alice,25.0,Male,100.0,20.0,2023-01-01,Electronics,15.0,0.2,Mature
+1494,Bob,25.0,Male,300.0,20.0,2023-01-01,Clothing,15.0,0.06666666666666667,Mature
+1497,Eve,25.0,Other,200.0,10.0,2023-01-01,Grocery,0.0,0.05,Mature
+1499,David,25.0,Female,200.0,20.0,2023-02-15,Furniture,10.0,0.1,Mature
+1500,David,35.0,Other,200.0,20.0,2023-01-01,Clothing,0.0,0.1,Mature
+1503,David,20.0,Female,200.0,20.0,2023-01-01,Electronics,5.0,0.1,Not Mature
+1504,Charlie,25.0,Other,200.0,20.0,2023-01-01,Electronics,15.0,0.1,Mature
+1510,Bob,25.0,Other,100.0,40.0,2023-01-01,Grocery,15.0,0.4,Mature
+1513,Bob,25.0,Other,100.0,10.0,2023-02-15,Electronics,15.0,0.1,Mature
+1515,David,35.0,Male,200.0,40.0,2023-02-15,Clothing,15.0,0.2,Mature
+1518,Charlie,20.0,Other,400.0,30.0,2023-01-01,Furniture,15.0,0.075,Not Mature
+1522,Eve,25.0,Other,400.0,40.0,2023-01-01,Clothing,15.0,0.1,Mature
+1524,Alice,20.0,Other,300.0,40.0,2023-02-15,Electronics,20.0,0.13333333333333333,Not Mature
+1527,Bob,25.0,Other,300.0,30.0,2023-01-01,Grocery,0.0,0.1,Mature
+1529,Bob,30.0,Male,200.0,20.0,2023-02-15,Electronics,15.0,0.1,Mature
+1532,David,20.0,Other,400.0,30.0,2023-02-15,Grocery,10.0,0.075,Not Mature
+1536,Alice,25.0,Male,200.0,40.0,2023-01-01,Clothing,20.0,0.2,Mature
+1538,Eve,35.0,Other,400.0,20.0,2023-02-15,Electronics,0.0,0.05,Mature
+1550,Eve,30.0,Other,200.0,30.0,2023-01-01,Electronics,0.0,0.15,Mature
+1551,Eve,25.0,Other,200.0,40.0,2023-01-01,Electronics,20.0,0.2,Mature
+1559,Alice,25.0,Other,300.0,40.0,2023-02-15,Furniture,20.0,0.13333333333333333,Mature
+1561,David,30.0,Male,200.0,30.0,2023-01-01,Furniture,15.0,0.15,Mature
+1564,Charlie,20.0,Other,200.0,30.0,2023-02-15,Grocery,10.0,0.15,Not Mature
+1574,Eve,20.0,Male,200.0,10.0,2023-01-01,Electronics,20.0,0.05,Not Mature
+1577,Bob,25.0,Other,200.0,40.0,2023-02-15,Furniture,15.0,0.2,Mature
+1578,David,35.0,Male,200.0,40.0,2023-01-01,Electronics,5.0,0.2,Mature
+1580,Eve,35.0,Male,400.0,30.0,2023-02-15,Clothing,5.0,0.075,Mature
+1581,David,25.0,Other,200.0,40.0,2023-01-01,Clothing,10.0,0.2,Mature
+1582,Eve,35.0,Other,200.0,20.0,2023-02-15,Clothing,5.0,0.1,Mature
+1584,Bob,25.0,Other,200.0,20.0,2023-01-01,Clothing,15.0,0.1,Mature
+1589,David,25.0,Female,300.0,20.0,2023-01-01,Furniture,20.0,0.06666666666666667,Mature
+1590,David,20.0,Other,100.0,10.0,2023-02-15,Grocery,20.0,0.1,Not Mature
+1595,Eve,25.0,Other,100.0,20.0,2023-02-15,Electronics,15.0,0.2,Mature
+1598,Charlie,35.0,Other,100.0,40.0,2023-01-01,Electronics,10.0,0.4,Mature
+1602,Bob,25.0,Other,400.0,20.0,2023-02-15,Furniture,15.0,0.05,Mature
+1603,Bob,35.0,Other,200.0,20.0,2023-01-01,Clothing,10.0,0.1,Mature
+1608,David,30.0,Other,200.0,40.0,2023-02-15,Furniture,15.0,0.2,Mature
+1612,Alice,25.0,Other,200.0,30.0,2023-01-01,Electronics,20.0,0.15,Mature
+1613,Alice,25.0,Female,300.0,30.0,2023-02-15,Electronics,0.0,0.1,Mature
+1614,David,20.0,Male,200.0,10.0,2023-02-15,Electronics,10.0,0.05,Not Mature
+1616,David,25.0,Male,300.0,20.0,2023-02-15,Furniture,15.0,0.06666666666666667,Mature
+1622,Alice,30.0,Other,300.0,40.0,2023-02-15,Clothing,20.0,0.13333333333333333,Mature
+1624,Alice,20.0,Other,100.0,10.0,2023-02-15,Furniture,5.0,0.1,Not Mature
+1628,Alice,25.0,Female,200.0,20.0,2023-01-01,Electronics,20.0,0.1,Mature
+1629,Eve,20.0,Other,300.0,10.0,2023-02-15,Electronics,15.0,0.03333333333333333,Not Mature
+1631,Bob,20.0,Other,200.0,40.0,2023-01-01,Furniture,20.0,0.2,Not Mature
+1632,Bob,25.0,Female,400.0,20.0,2023-01-01,Furniture,5.0,0.05,Mature
+1634,Bob,20.0,Other,200.0,10.0,2023-01-01,Electronics,10.0,0.05,Not Mature
+1636,Bob,25.0,Male,200.0,20.0,2023-01-01,Grocery,0.0,0.1,Mature
+1637,Bob,30.0,Male,100.0,10.0,2023-01-01,Electronics,20.0,0.1,Mature
+1640,Charlie,25.0,Female,400.0,30.0,2023-01-01,Grocery,15.0,0.075,Mature
+1642,Charlie,25.0,Other,100.0,20.0,2023-01-01,Clothing,5.0,0.2,Mature
+1643,Charlie,20.0,Female,200.0,10.0,2023-01-01,Furniture,0.0,0.05,Not Mature
+1647,Bob,35.0,Female,400.0,10.0,2023-02-15,Furniture,10.0,0.025,Mature
+1648,David,25.0,Male,400.0,20.0,2023-02-15,Furniture,10.0,0.05,Mature
+1650,David,25.0,Male,200.0,20.0,2023-01-01,Electronics,15.0,0.1,Mature
+1652,Charlie,20.0,Other,100.0,10.0,2023-02-15,Grocery,10.0,0.1,Not Mature
+1653,Charlie,25.0,Other,400.0,40.0,2023-01-01,Clothing,0.0,0.1,Mature
+1654,David,30.0,Other,300.0,40.0,2023-01-01,Grocery,5.0,0.13333333333333333,Mature
+1656,Bob,35.0,Female,300.0,40.0,2023-02-15,Furniture,5.0,0.13333333333333333,Mature
+1657,Bob,35.0,Other,100.0,20.0,2023-01-01,Grocery,20.0,0.2,Mature
+1659,Alice,20.0,Male,300.0,20.0,2023-01-01,Electronics,5.0,0.06666666666666667,Not Mature
+1663,Bob,25.0,Male,200.0,20.0,2023-01-01,Furniture,0.0,0.1,Mature
+1667,Alice,20.0,Female,400.0,20.0,2023-02-15,Clothing,5.0,0.05,Not Mature
+1673,Eve,30.0,Other,200.0,30.0,2023-02-15,Furniture,20.0,0.15,Mature
+1677,David,25.0,Other,300.0,30.0,2023-02-15,Grocery,15.0,0.1,Mature
+1678,Bob,25.0,Female,400.0,40.0,2023-02-15,Furniture,10.0,0.1,Mature
+1685,David,30.0,Other,400.0,10.0,2023-01-01,Electronics,10.0,0.025,Mature
+1686,Bob,25.0,Female,200.0,20.0,2023-01-01,Furniture,20.0,0.1,Mature
+1687,Charlie,25.0,Other,400.0,20.0,2023-01-01,Grocery,15.0,0.05,Mature
+1689,Eve,20.0,Female,400.0,20.0,2023-01-01,Furniture,5.0,0.05,Not Mature
+1690,Eve,20.0,Female,200.0,20.0,2023-02-15,Electronics,20.0,0.1,Not Mature
+1694,Eve,30.0,Other,200.0,20.0,2023-01-01,Grocery,10.0,0.1,Mature
+1697,David,30.0,Male,200.0,30.0,2023-02-15,Grocery,20.0,0.15,Mature
+1698,Eve,35.0,Male,200.0,40.0,2023-01-01,Grocery,20.0,0.2,Mature
+1700,David,20.0,Female,200.0,20.0,2023-02-15,Electronics,10.0,0.1,Not Mature
+1707,Alice,25.0,Other,100.0,20.0,2023-02-15,Clothing,0.0,0.2,Mature
+1709,Bob,30.0,Female,400.0,20.0,2023-02-15,Furniture,0.0,0.05,Mature
+1713,Bob,35.0,Other,200.0,20.0,2023-01-01,Clothing,5.0,0.1,Mature
+1717,Charlie,35.0,Other,400.0,40.0,2023-01-01,Grocery,0.0,0.1,Mature
+1718,Charlie,25.0,Other,300.0,40.0,2023-02-15,Furniture,0.0,0.13333333333333333,Mature
+1719,Bob,20.0,Other,100.0,10.0,2023-01-01,Electronics,10.0,0.1,Not Mature
+1733,Eve,20.0,Female,300.0,20.0,2023-02-15,Electronics,20.0,0.06666666666666667,Not Mature
+1734,Eve,35.0,Other,100.0,10.0,2023-01-01,Clothing,0.0,0.1,Mature
+1735,Eve,20.0,Other,200.0,20.0,2023-01-01,Clothing,20.0,0.1,Not Mature
+1737,David,35.0,Male,400.0,10.0,2023-01-01,Grocery,5.0,0.025,Mature
+1738,Eve,25.0,Male,100.0,30.0,2023-01-01,Clothing,5.0,0.3,Mature
+1740,David,30.0,Other,300.0,30.0,2023-02-15,Electronics,15.0,0.1,Mature
+1742,Alice,25.0,Male,100.0,40.0,2023-02-15,Clothing,5.0,0.4,Mature
+1746,David,25.0,Other,400.0,10.0,2023-02-15,Electronics,15.0,0.025,Mature
+1748,Charlie,25.0,Female,100.0,20.0,2023-02-15,Electronics,15.0,0.2,Mature
+1752,David,30.0,Male,400.0,20.0,2023-02-15,Clothing,20.0,0.05,Mature
+1755,Charlie,30.0,Other,100.0,10.0,2023-01-01,Clothing,15.0,0.1,Mature
+1757,Charlie,25.0,Male,400.0,30.0,2023-02-15,Grocery,15.0,0.075,Mature
+1765,David,25.0,Female,100.0,20.0,2023-01-01,Furniture,20.0,0.2,Mature
+1767,David,30.0,Female,100.0,20.0,2023-02-15,Grocery,10.0,0.2,Mature
+1770,David,20.0,Female,200.0,40.0,2023-01-01,Clothing,15.0,0.2,Not Mature
+1772,Alice,30.0,Other,400.0,30.0,2023-02-15,Electronics,15.0,0.075,Mature
+1776,David,35.0,Female,200.0,30.0,2023-01-01,Electronics,0.0,0.15,Mature
+1780,David,35.0,Other,200.0,40.0,2023-02-15,Grocery,15.0,0.2,Mature
+1782,David,30.0,Female,200.0,40.0,2023-01-01,Electronics,15.0,0.2,Mature
+1784,Eve,25.0,Male,200.0,10.0,2023-02-15,Electronics,20.0,0.05,Mature
+1785,David,35.0,Female,300.0,20.0,2023-01-01,Clothing,15.0,0.06666666666666667,Mature
+1786,Bob,20.0,Male,300.0,20.0,2023-01-01,Clothing,0.0,0.06666666666666667,Not Mature
+1789,Eve,35.0,Male,400.0,20.0,2023-01-01,Grocery,10.0,0.05,Mature
+1791,Bob,25.0,Other,400.0,20.0,2023-02-15,Electronics,5.0,0.05,Mature
+1793,Alice,25.0,Female,200.0,20.0,2023-01-01,Grocery,10.0,0.1,Mature
+1797,Charlie,25.0,Other,200.0,20.0,2023-02-15,Grocery,5.0,0.1,Mature
+1802,David,20.0,Female,200.0,20.0,2023-01-01,Clothing,15.0,0.1,Not Mature
+1803,Bob,35.0,Other,400.0,20.0,2023-01-01,Electronics,20.0,0.05,Mature
+1804,David,20.0,Other,200.0,40.0,2023-02-15,Electronics,15.0,0.2,Not Mature
+1806,Bob,35.0,Female,200.0,20.0,2023-02-15,Clothing,15.0,0.1,Mature
+1807,Charlie,30.0,Other,100.0,20.0,2023-01-01,Clothing,0.0,0.2,Mature
+1809,Bob,25.0,Female,200.0,10.0,2023-01-01,Clothing,15.0,0.05,Mature
+1812,Eve,30.0,Other,200.0,10.0,2023-02-15,Grocery,15.0,0.05,Mature
+1814,Charlie,35.0,Male,100.0,10.0,2023-02-15,Furniture,10.0,0.1,Mature
+1815,Bob,25.0,Other,100.0,20.0,2023-01-01,Grocery,0.0,0.2,Mature
+1818,Eve,30.0,Other,200.0,20.0,2023-01-01,Grocery,5.0,0.1,Mature
+1820,Bob,25.0,Male,200.0,10.0,2023-01-01,Furniture,0.0,0.05,Mature
+1827,Eve,25.0,Other,100.0,10.0,2023-01-01,Grocery,10.0,0.1,Mature
+1829,Alice,35.0,Male,200.0,10.0,2023-02-15,Clothing,20.0,0.05,Mature
+1831,Charlie,20.0,Other,400.0,30.0,2023-02-15,Electronics,0.0,0.075,Not Mature
+1833,Bob,30.0,Other,300.0,10.0,2023-01-01,Electronics,0.0,0.03333333333333333,Mature
+1834,Bob,25.0,Other,200.0,30.0,2023-01-01,Electronics,5.0,0.15,Mature
+1835,Alice,25.0,Other,400.0,40.0,2023-02-15,Clothing,0.0,0.1,Mature
+1837,Alice,30.0,Female,200.0,20.0,2023-02-15,Electronics,15.0,0.1,Mature
+1839,Charlie,30.0,Other,300.0,20.0,2023-02-15,Clothing,5.0,0.06666666666666667,Mature
+1843,Alice,30.0,Male,300.0,10.0,2023-01-01,Electronics,5.0,0.03333333333333333,Mature
+1844,Charlie,30.0,Male,400.0,30.0,2023-01-01,Electronics,15.0,0.075,Mature
+1851,Bob,25.0,Other,300.0,10.0,2023-02-15,Clothing,20.0,0.03333333333333333,Mature
+1852,Alice,35.0,Other,200.0,10.0,2023-01-01,Grocery,15.0,0.05,Mature
+1854,Alice,30.0,Other,300.0,20.0,2023-01-01,Furniture,15.0,0.06666666666666667,Mature
+1856,Eve,35.0,Female,400.0,20.0,2023-01-01,Furniture,10.0,0.05,Mature
+1857,Alice,20.0,Other,300.0,10.0,2023-02-15,Clothing,15.0,0.03333333333333333,Not Mature
+1858,Eve,30.0,Male,200.0,30.0,2023-01-01,Grocery,15.0,0.15,Mature
+1859,Eve,20.0,Other,400.0,20.0,2023-01-01,Furniture,15.0,0.05,Not Mature
+1863,Bob,25.0,Other,200.0,20.0,2023-01-01,Electronics,0.0,0.1,Mature
+1865,David,25.0,Female,100.0,40.0,2023-02-15,Electronics,0.0,0.4,Mature
+1866,Charlie,35.0,Other,200.0,40.0,2023-02-15,Grocery,15.0,0.2,Mature
+1880,Eve,20.0,Male,100.0,30.0,2023-02-15,Clothing,0.0,0.3,Not Mature
+1881,Charlie,20.0,Other,400.0,30.0,2023-01-01,Electronics,20.0,0.075,Not Mature
+1882,David,25.0,Other,200.0,30.0,2023-02-15,Electronics,5.0,0.15,Mature
+1884,Alice,35.0,Female,300.0,40.0,2023-02-15,Electronics,15.0,0.13333333333333333,Mature
+1885,Alice,25.0,Male,200.0,40.0,2023-01-01,Furniture,0.0,0.2,Mature
+1887,Alice,20.0,Other,400.0,20.0,2023-02-15,Clothing,10.0,0.05,Not Mature
+1888,Charlie,20.0,Other,300.0,10.0,2023-02-15,Grocery,20.0,0.03333333333333333,Not Mature
+1889,David,25.0,Other,200.0,20.0,2023-01-01,Grocery,20.0,0.1,Mature
+1894,Bob,30.0,Female,300.0,20.0,2023-01-01,Clothing,5.0,0.06666666666666667,Mature
+1895,Alice,25.0,Female,200.0,20.0,2023-01-01,Grocery,20.0,0.1,Mature
+1896,Charlie,25.0,Male,200.0,40.0,2023-01-01,Electronics,15.0,0.2,Mature
+1900,David,30.0,Female,400.0,20.0,2023-02-15,Furniture,20.0,0.05,Mature
+1904,Alice,25.0,Other,100.0,10.0,2023-02-15,Furniture,0.0,0.1,Mature
+1911,Charlie,35.0,Other,400.0,10.0,2023-01-01,Grocery,5.0,0.025,Mature
+1912,Bob,20.0,Female,200.0,20.0,2023-01-01,Furniture,20.0,0.1,Not Mature
+1913,David,25.0,Other,300.0,30.0,2023-01-01,Clothing,5.0,0.1,Mature
+1914,Charlie,30.0,Male,200.0,20.0,2023-01-01,Furniture,10.0,0.1,Mature
+1915,Charlie,25.0,Male,300.0,40.0,2023-01-01,Clothing,15.0,0.13333333333333333,Mature
+1917,Eve,25.0,Other,200.0,40.0,2023-02-15,Grocery,20.0,0.2,Mature
+1920,David,35.0,Male,100.0,20.0,2023-01-01,Grocery,10.0,0.2,Mature
+1922,David,25.0,Other,100.0,30.0,2023-01-01,Electronics,20.0,0.3,Mature
+1923,Charlie,25.0,Other,300.0,40.0,2023-02-15,Furniture,5.0,0.13333333333333333,Mature
+1929,Bob,25.0,Other,200.0,20.0,2023-01-01,Clothing,5.0,0.1,Mature
+1930,Eve,25.0,Male,400.0,20.0,2023-01-01,Clothing,5.0,0.05,Mature
+1931,David,25.0,Female,300.0,40.0,2023-01-01,Clothing,20.0,0.13333333333333333,Mature
+1934,Charlie,25.0,Female,200.0,20.0,2023-02-15,Grocery,10.0,0.1,Mature
+1936,David,35.0,Female,300.0,20.0,2023-01-01,Clothing,15.0,0.06666666666666667,Mature
+1938,Bob,20.0,Male,100.0,20.0,2023-02-15,Furniture,20.0,0.2,Not Mature
+1942,Alice,25.0,Other,300.0,20.0,2023-01-01,Electronics,10.0,0.06666666666666667,Mature
+1945,Bob,30.0,Other,400.0,20.0,2023-02-15,Electronics,5.0,0.05,Mature
+1952,Bob,30.0,Female,300.0,30.0,2023-01-01,Furniture,15.0,0.1,Mature
+1954,Bob,25.0,Other,400.0,20.0,2023-01-01,Clothing,5.0,0.05,Mature
+1955,David,30.0,Other,100.0,30.0,2023-01-01,Grocery,15.0,0.3,Mature
+1962,Charlie,25.0,Other,200.0,10.0,2023-02-15,Grocery,10.0,0.05,Mature
+1964,Eve,25.0,Other,100.0,20.0,2023-02-15,Grocery,10.0,0.2,Mature
+1966,Alice,20.0,Male,400.0,30.0,2023-01-01,Electronics,5.0,0.075,Not Mature
+1970,Bob,30.0,Other,300.0,20.0,2023-02-15,Electronics,5.0,0.06666666666666667,Mature
+1973,Bob,25.0,Other,300.0,40.0,2023-02-15,Furniture,0.0,0.13333333333333333,Mature
+1976,Charlie,20.0,Male,100.0,20.0,2023-02-15,Grocery,0.0,0.2,Not Mature
+1977,Eve,25.0,Other,300.0,40.0,2023-01-01,Clothing,10.0,0.13333333333333333,Mature
+1978,David,30.0,Male,300.0,20.0,2023-02-15,Electronics,20.0,0.06666666666666667,Mature
+1989,Alice,30.0,Other,300.0,10.0,2023-02-15,Furniture,20.0,0.03333333333333333,Mature
+1991,Eve,35.0,Male,300.0,20.0,2023-01-01,Grocery,5.0,0.06666666666666667,Mature
+1992,Alice,20.0,Male,400.0,20.0,2023-02-15,Electronics,0.0,0.05,Not Mature
+1998,Alice,25.0,Other,100.0,20.0,2023-02-15,Furniture,0.0,0.2,Mature
+1999,Eve,25.0,Female,100.0,20.0,2023-01-01,Furniture,0.0,0.2,Mature
+2000,Charlie,35.0,Female,200.0,30.0,2023-02-15,Grocery,15.0,0.15,Mature
+2002,Charlie,25.0,Female,300.0,20.0,2023-02-15,Grocery,5.0,0.06666666666666667,Mature
+2004,Alice,20.0,Other,400.0,10.0,2023-01-01,Grocery,0.0,0.025,Not Mature
+2010,Charlie,25.0,Male,200.0,30.0,2023-01-01,Clothing,15.0,0.15,Mature
+2012,Bob,35.0,Male,100.0,20.0,2023-02-15,Grocery,0.0,0.2,Mature
+2014,Bob,20.0,Male,200.0,10.0,2023-01-01,Grocery,5.0,0.05,Not Mature
+2016,Alice,30.0,Male,300.0,20.0,2023-01-01,Clothing,20.0,0.06666666666666667,Mature
+2017,Alice,25.0,Other,200.0,10.0,2023-01-01,Furniture,15.0,0.05,Mature
+2022,Bob,25.0,Other,300.0,20.0,2023-01-01,Clothing,0.0,0.06666666666666667,Mature
+2023,Bob,25.0,Male,200.0,40.0,2023-02-15,Grocery,10.0,0.2,Mature
+2029,Charlie,25.0,Female,400.0,20.0,2023-01-01,Clothing,10.0,0.05,Mature
+2033,Alice,30.0,Male,300.0,40.0,2023-01-01,Clothing,10.0,0.13333333333333333,Mature
+2034,David,25.0,Other,400.0,40.0,2023-01-01,Grocery,15.0,0.1,Mature
+2037,David,25.0,Female,100.0,30.0,2023-01-01,Clothing,20.0,0.3,Mature
+2045,Charlie,30.0,Male,200.0,20.0,2023-02-15,Electronics,20.0,0.1,Mature
+2046,David,25.0,Other,200.0,20.0,2023-02-15,Furniture,10.0,0.1,Mature
+2052,Bob,20.0,Other,300.0,40.0,2023-02-15,Clothing,20.0,0.13333333333333333,Not Mature
+2054,Charlie,25.0,Other,100.0,40.0,2023-01-01,Electronics,0.0,0.4,Mature
+2055,Bob,25.0,Female,300.0,20.0,2023-02-15,Clothing,10.0,0.06666666666666667,Mature
+2058,Bob,25.0,Other,400.0,40.0,2023-01-01,Clothing,20.0,0.1,Mature
+2064,Bob,20.0,Male,400.0,10.0,2023-02-15,Grocery,15.0,0.025,Not Mature
+2071,Eve,25.0,Other,300.0,10.0,2023-01-01,Electronics,10.0,0.03333333333333333,Mature
+2072,David,30.0,Other,400.0,20.0,2023-02-15,Grocery,20.0,0.05,Mature
+2076,David,35.0,Male,200.0,20.0,2023-02-15,Furniture,15.0,0.1,Mature
+2079,Eve,25.0,Male,200.0,40.0,2023-02-15,Grocery,0.0,0.2,Mature
+2081,Bob,35.0,Female,200.0,30.0,2023-02-15,Grocery,10.0,0.15,Mature
+2083,Eve,30.0,Male,200.0,20.0,2023-02-15,Furniture,15.0,0.1,Mature
+2085,David,25.0,Other,200.0,40.0,2023-01-01,Clothing,5.0,0.2,Mature
+2090,Bob,20.0,Other,100.0,20.0,2023-02-15,Furniture,5.0,0.2,Not Mature
+2091,Eve,25.0,Female,200.0,20.0,2023-01-01,Electronics,5.0,0.1,Mature
+2105,Bob,35.0,Female,100.0,30.0,2023-02-15,Clothing,15.0,0.3,Mature
+2107,Charlie,35.0,Male,400.0,20.0,2023-01-01,Grocery,20.0,0.05,Mature
+2109,Eve,20.0,Male,400.0,40.0,2023-01-01,Grocery,5.0,0.1,Not Mature
+2111,Bob,20.0,Male,200.0,20.0,2023-02-15,Grocery,15.0,0.1,Not Mature
+2118,Bob,30.0,Female,200.0,20.0,2023-02-15,Furniture,0.0,0.1,Mature
+2120,David,35.0,Other,300.0,30.0,2023-01-01,Furniture,5.0,0.1,Mature
+2121,Alice,25.0,Other,200.0,20.0,2023-01-01,Grocery,0.0,0.1,Mature
+2122,Eve,25.0,Female,100.0,40.0,2023-02-15,Clothing,15.0,0.4,Mature
+2125,Charlie,25.0,Other,300.0,40.0,2023-01-01,Clothing,5.0,0.13333333333333333,Mature
+2126,Bob,30.0,Other,200.0,20.0,2023-02-15,Clothing,5.0,0.1,Mature
+2131,Bob,30.0,Female,300.0,40.0,2023-02-15,Clothing,10.0,0.13333333333333333,Mature
+2133,Bob,25.0,Male,200.0,20.0,2023-02-15,Electronics,0.0,0.1,Mature
+2135,Eve,20.0,Other,400.0,20.0,2023-02-15,Grocery,20.0,0.05,Not Mature
+2136,Alice,25.0,Other,100.0,40.0,2023-02-15,Grocery,5.0,0.4,Mature
+2140,David,25.0,Other,100.0,20.0,2023-02-15,Grocery,15.0,0.2,Mature
+2143,Alice,25.0,Female,400.0,10.0,2023-01-01,Electronics,0.0,0.025,Mature
+2147,Bob,20.0,Female,200.0,10.0,2023-01-01,Electronics,20.0,0.05,Not Mature
+2156,David,25.0,Female,100.0,10.0,2023-02-15,Grocery,15.0,0.1,Mature
+2160,Eve,35.0,Other,300.0,40.0,2023-01-01,Clothing,10.0,0.13333333333333333,Mature
+2162,Eve,25.0,Male,100.0,20.0,2023-02-15,Electronics,5.0,0.2,Mature
+2165,David,25.0,Other,300.0,30.0,2023-02-15,Grocery,10.0,0.1,Mature
+2170,Bob,20.0,Other,200.0,20.0,2023-01-01,Furniture,10.0,0.1,Not Mature
+2171,Bob,20.0,Other,200.0,30.0,2023-01-01,Furniture,10.0,0.15,Not Mature
+2174,Charlie,20.0,Female,100.0,20.0,2023-01-01,Grocery,20.0,0.2,Not Mature
+2175,Bob,25.0,Female,100.0,20.0,2023-02-15,Electronics,20.0,0.2,Mature
+2176,Eve,30.0,Male,200.0,20.0,2023-01-01,Clothing,0.0,0.1,Mature
+2177,Alice,30.0,Female,100.0,20.0,2023-02-15,Furniture,15.0,0.2,Mature
+2190,Eve,20.0,Other,200.0,20.0,2023-01-01,Electronics,5.0,0.1,Not Mature
+2192,David,25.0,Other,200.0,20.0,2023-01-01,Grocery,10.0,0.1,Mature
+2193,Eve,25.0,Male,300.0,10.0,2023-01-01,Grocery,20.0,0.03333333333333333,Mature
+2195,David,35.0,Female,400.0,20.0,2023-01-01,Furniture,20.0,0.05,Mature
+2204,Eve,25.0,Other,400.0,40.0,2023-01-01,Electronics,0.0,0.1,Mature
+2205,Eve,25.0,Male,200.0,20.0,2023-02-15,Clothing,0.0,0.1,Mature
+2206,Eve,35.0,Other,100.0,10.0,2023-02-15,Electronics,20.0,0.1,Mature
+2208,Charlie,20.0,Other,300.0,20.0,2023-02-15,Clothing,10.0,0.06666666666666667,Not Mature
+2211,Bob,25.0,Other,100.0,30.0,2023-01-01,Electronics,15.0,0.3,Mature
+2212,Bob,30.0,Other,100.0,10.0,2023-01-01,Electronics,15.0,0.1,Mature
+2213,Eve,35.0,Other,200.0,20.0,2023-02-15,Furniture,10.0,0.1,Mature
+2214,Alice,25.0,Female,200.0,30.0,2023-02-15,Furniture,15.0,0.15,Mature
+2216,Eve,20.0,Female,400.0,20.0,2023-01-01,Grocery,5.0,0.05,Not Mature
+2217,Bob,30.0,Male,400.0,40.0,2023-02-15,Furniture,5.0,0.1,Mature
+2219,Eve,25.0,Other,400.0,40.0,2023-01-01,Furniture,5.0,0.1,Mature
+2224,Eve,35.0,Male,400.0,20.0,2023-02-15,Electronics,0.0,0.05,Mature
+2226,Alice,25.0,Male,200.0,40.0,2023-02-15,Furniture,0.0,0.2,Mature
+2234,Bob,25.0,Female,200.0,20.0,2023-01-01,Clothing,20.0,0.1,Mature
+2238,David,20.0,Other,400.0,20.0,2023-01-01,Furniture,10.0,0.05,Not Mature
+2249,Alice,25.0,Male,400.0,10.0,2023-01-01,Electronics,5.0,0.025,Mature
+2252,Alice,25.0,Male,100.0,10.0,2023-01-01,Clothing,5.0,0.1,Mature
+2254,Alice,20.0,Male,100.0,10.0,2023-02-15,Furniture,20.0,0.1,Not Mature
+2255,Bob,20.0,Male,300.0,40.0,2023-02-15,Clothing,0.0,0.13333333333333333,Not Mature
+2256,David,35.0,Female,200.0,40.0,2023-02-15,Furniture,0.0,0.2,Mature
+2257,Eve,30.0,Male,200.0,20.0,2023-01-01,Electronics,10.0,0.1,Mature
+2261,Bob,25.0,Male,200.0,20.0,2023-02-15,Clothing,15.0,0.1,Mature
+2262,David,25.0,Other,300.0,30.0,2023-02-15,Electronics,0.0,0.1,Mature
+2263,Eve,25.0,Other,200.0,10.0,2023-01-01,Electronics,5.0,0.05,Mature
+2265,Charlie,25.0,Female,300.0,20.0,2023-01-01,Furniture,15.0,0.06666666666666667,Mature
+2266,Bob,35.0,Male,200.0,10.0,2023-02-15,Furniture,0.0,0.05,Mature
+2270,David,25.0,Other,200.0,40.0,2023-02-15,Furniture,20.0,0.2,Mature
+2271,Eve,35.0,Other,300.0,20.0,2023-01-01,Grocery,0.0,0.06666666666666667,Mature
+2275,Alice,25.0,Other,300.0,10.0,2023-02-15,Electronics,20.0,0.03333333333333333,Mature
+2278,Alice,35.0,Other,400.0,10.0,2023-02-15,Electronics,10.0,0.025,Mature
+2279,Charlie,25.0,Other,200.0,40.0,2023-01-01,Grocery,10.0,0.2,Mature
+2281,Eve,25.0,Other,200.0,40.0,2023-02-15,Electronics,20.0,0.2,Mature
+2286,David,25.0,Other,200.0,10.0,2023-02-15,Furniture,0.0,0.05,Mature
+2288,Bob,25.0,Other,200.0,10.0,2023-01-01,Grocery,0.0,0.05,Mature
+2291,David,20.0,Female,200.0,20.0,2023-02-15,Grocery,10.0,0.1,Not Mature
+2296,Charlie,30.0,Male,200.0,30.0,2023-02-15,Electronics,15.0,0.15,Mature
+2297,Bob,35.0,Male,200.0,40.0,2023-01-01,Grocery,10.0,0.2,Mature
+2304,Alice,25.0,Female,400.0,20.0,2023-01-01,Electronics,15.0,0.05,Mature
+2306,Bob,20.0,Other,200.0,20.0,2023-02-15,Electronics,20.0,0.1,Not Mature
+2307,Charlie,35.0,Other,300.0,10.0,2023-01-01,Electronics,0.0,0.03333333333333333,Mature
+2310,David,25.0,Other,200.0,10.0,2023-02-15,Electronics,20.0,0.05,Mature
+2311,Alice,25.0,Male,300.0,20.0,2023-01-01,Electronics,20.0,0.06666666666666667,Mature
+2312,Alice,25.0,Other,100.0,20.0,2023-02-15,Electronics,20.0,0.2,Mature
+2314,Bob,25.0,Other,300.0,20.0,2023-01-01,Electronics,10.0,0.06666666666666667,Mature
+2316,Bob,25.0,Other,100.0,10.0,2023-02-15,Electronics,20.0,0.1,Mature
+2319,David,25.0,Other,200.0,30.0,2023-02-15,Electronics,5.0,0.15,Mature
+2320,Charlie,25.0,Other,100.0,20.0,2023-02-15,Electronics,10.0,0.2,Mature
+2322,Eve,25.0,Other,100.0,20.0,2023-02-15,Furniture,0.0,0.2,Mature
+2323,Eve,30.0,Female,200.0,40.0,2023-02-15,Clothing,20.0,0.2,Mature
+2326,Charlie,25.0,Female,300.0,40.0,2023-01-01,Electronics,0.0,0.13333333333333333,Mature
+2327,Bob,30.0,Male,100.0,30.0,2023-02-15,Grocery,15.0,0.3,Mature
+2329,Bob,25.0,Male,200.0,20.0,2023-02-15,Clothing,5.0,0.1,Mature
+2332,Charlie,35.0,Female,300.0,20.0,2023-01-01,Grocery,20.0,0.06666666666666667,Mature
+2333,David,20.0,Male,200.0,10.0,2023-02-15,Grocery,10.0,0.05,Not Mature
+2334,Bob,35.0,Other,100.0,20.0,2023-02-15,Clothing,5.0,0.2,Mature
+2335,Alice,25.0,Female,200.0,20.0,2023-02-15,Electronics,15.0,0.1,Mature
+2339,Eve,25.0,Other,400.0,40.0,2023-01-01,Clothing,15.0,0.1,Mature
+2343,Eve,35.0,Male,200.0,40.0,2023-01-01,Clothing,20.0,0.2,Mature
+2347,David,30.0,Other,200.0,20.0,2023-01-01,Grocery,5.0,0.1,Mature
+2350,Eve,25.0,Female,200.0,10.0,2023-02-15,Grocery,10.0,0.05,Mature
+2351,Eve,20.0,Female,200.0,20.0,2023-02-15,Electronics,5.0,0.1,Not Mature
+2352,Eve,20.0,Other,300.0,20.0,2023-02-15,Furniture,10.0,0.06666666666666667,Not Mature
+2353,David,30.0,Male,200.0,20.0,2023-02-15,Clothing,10.0,0.1,Mature
+2361,Bob,25.0,Female,200.0,30.0,2023-01-01,Electronics,15.0,0.15,Mature
+2364,David,25.0,Female,100.0,10.0,2023-01-01,Furniture,10.0,0.1,Mature
+2365,Charlie,25.0,Female,400.0,10.0,2023-02-15,Furniture,20.0,0.025,Mature
+2366,Bob,25.0,Female,200.0,40.0,2023-01-01,Grocery,15.0,0.2,Mature
+2367,Charlie,35.0,Male,100.0,20.0,2023-01-01,Clothing,0.0,0.2,Mature
+2369,Eve,20.0,Female,100.0,10.0,2023-02-15,Clothing,0.0,0.1,Not Mature
+2370,Charlie,30.0,Male,100.0,30.0,2023-02-15,Electronics,10.0,0.3,Mature
+2375,Charlie,35.0,Other,200.0,10.0,2023-01-01,Clothing,0.0,0.05,Mature
+2379,Eve,25.0,Male,100.0,20.0,2023-02-15,Grocery,10.0,0.2,Mature
+2381,Bob,20.0,Female,400.0,10.0,2023-02-15,Electronics,5.0,0.025,Not Mature
+2385,Charlie,35.0,Other,100.0,20.0,2023-02-15,Clothing,0.0,0.2,Mature
+2388,Charlie,20.0,Other,200.0,20.0,2023-02-15,Clothing,0.0,0.1,Not Mature
+2392,Alice,25.0,Other,300.0,40.0,2023-01-01,Clothing,10.0,0.13333333333333333,Mature
+2393,Bob,25.0,Other,200.0,20.0,2023-02-15,Grocery,10.0,0.1,Mature
+2398,Alice,20.0,Male,300.0,40.0,2023-02-15,Electronics,20.0,0.13333333333333333,Not Mature
+2400,Alice,20.0,Other,200.0,40.0,2023-01-01,Electronics,20.0,0.2,Not Mature
+2401,David,25.0,Male,300.0,40.0,2023-02-15,Electronics,15.0,0.13333333333333333,Mature
+2405,Bob,20.0,Female,400.0,30.0,2023-02-15,Furniture,10.0,0.075,Not Mature
+2411,Alice,25.0,Other,100.0,20.0,2023-01-01,Clothing,10.0,0.2,Mature
+2414,Charlie,30.0,Female,200.0,40.0,2023-01-01,Furniture,5.0,0.2,Mature
+2419,Eve,20.0,Male,200.0,40.0,2023-01-01,Electronics,10.0,0.2,Not Mature
+2420,David,25.0,Male,100.0,20.0,2023-02-15,Furniture,5.0,0.2,Mature
+2423,Charlie,20.0,Other,200.0,40.0,2023-01-01,Furniture,20.0,0.2,Not Mature
+2425,Eve,25.0,Male,200.0,30.0,2023-02-15,Furniture,15.0,0.15,Mature
+2428,Bob,25.0,Female,200.0,30.0,2023-02-15,Clothing,15.0,0.15,Mature
+2430,David,25.0,Male,400.0,20.0,2023-01-01,Electronics,20.0,0.05,Mature
+2437,Charlie,30.0,Other,200.0,30.0,2023-02-15,Clothing,10.0,0.15,Mature
+2443,Bob,25.0,Male,200.0,40.0,2023-01-01,Grocery,10.0,0.2,Mature
+2444,Charlie,30.0,Male,200.0,20.0,2023-01-01,Clothing,15.0,0.1,Mature
+2446,David,20.0,Male,200.0,20.0,2023-01-01,Furniture,20.0,0.1,Not Mature
+2447,Charlie,35.0,Female,400.0,20.0,2023-02-15,Grocery,15.0,0.05,Mature
+2452,Bob,25.0,Male,400.0,40.0,2023-01-01,Furniture,15.0,0.1,Mature
+2454,David,35.0,Other,400.0,30.0,2023-01-01,Clothing,10.0,0.075,Mature
+2456,Eve,20.0,Male,200.0,20.0,2023-01-01,Grocery,5.0,0.1,Not Mature
+2457,David,25.0,Male,400.0,10.0,2023-01-01,Clothing,15.0,0.025,Mature
+2458,Alice,25.0,Male,200.0,10.0,2023-01-01,Electronics,10.0,0.05,Mature
+2460,Bob,30.0,Male,400.0,20.0,2023-01-01,Grocery,20.0,0.05,Mature
+2461,David,35.0,Male,200.0,20.0,2023-01-01,Clothing,15.0,0.1,Mature
+2462,Alice,30.0,Other,200.0,40.0,2023-01-01,Clothing,0.0,0.2,Mature
+2467,Alice,25.0,Other,200.0,20.0,2023-01-01,Electronics,5.0,0.1,Mature
+2474,Charlie,25.0,Other,200.0,40.0,2023-02-15,Grocery,20.0,0.2,Mature
+2475,David,30.0,Other,100.0,40.0,2023-01-01,Electronics,15.0,0.4,Mature
+2477,Alice,25.0,Other,400.0,20.0,2023-01-01,Grocery,15.0,0.05,Mature
+2479,Eve,25.0,Other,400.0,40.0,2023-01-01,Electronics,0.0,0.1,Mature
+2480,Alice,20.0,Female,100.0,20.0,2023-01-01,Grocery,20.0,0.2,Not Mature
+2486,Eve,20.0,Other,300.0,10.0,2023-02-15,Furniture,20.0,0.03333333333333333,Not Mature
+2490,Alice,25.0,Female,300.0,20.0,2023-01-01,Electronics,5.0,0.06666666666666667,Mature
+2491,Charlie,30.0,Other,200.0,30.0,2023-02-15,Furniture,10.0,0.15,Mature
+2492,Eve,25.0,Male,200.0,40.0,2023-01-01,Electronics,20.0,0.2,Mature
+2496,Bob,35.0,Other,300.0,20.0,2023-02-15,Furniture,5.0,0.06666666666666667,Mature
+2498,Bob,20.0,Female,300.0,30.0,2023-02-15,Electronics,15.0,0.1,Not Mature
+2500,Eve,25.0,Other,100.0,20.0,2023-01-01,Clothing,20.0,0.2,Mature
+2501,Eve,35.0,Other,200.0,40.0,2023-02-15,Furniture,10.0,0.2,Mature
+2502,Eve,30.0,Female,200.0,20.0,2023-02-15,Clothing,10.0,0.1,Mature
+2505,Eve,25.0,Male,400.0,20.0,2023-01-01,Grocery,15.0,0.05,Mature
+2508,David,25.0,Other,400.0,20.0,2023-02-15,Clothing,0.0,0.05,Mature
+2509,Bob,30.0,Other,200.0,40.0,2023-02-15,Grocery,5.0,0.2,Mature
+2513,Alice,20.0,Other,200.0,20.0,2023-02-15,Electronics,20.0,0.1,Not Mature
+2516,Alice,25.0,Other,300.0,40.0,2023-02-15,Clothing,20.0,0.13333333333333333,Mature
+2517,David,30.0,Other,300.0,40.0,2023-01-01,Furniture,10.0,0.13333333333333333,Mature
+2527,David,25.0,Male,200.0,20.0,2023-01-01,Clothing,10.0,0.1,Mature
+2528,Charlie,25.0,Male,100.0,20.0,2023-01-01,Electronics,5.0,0.2,Mature
+2531,Bob,35.0,Female,300.0,20.0,2023-02-15,Clothing,20.0,0.06666666666666667,Mature
+2532,Alice,25.0,Other,200.0,10.0,2023-02-15,Furniture,0.0,0.05,Mature
+2534,David,25.0,Other,200.0,40.0,2023-02-15,Furniture,10.0,0.2,Mature
+2537,David,35.0,Female,200.0,20.0,2023-01-01,Furniture,0.0,0.1,Mature
+2539,David,20.0,Other,300.0,40.0,2023-02-15,Clothing,10.0,0.13333333333333333,Not Mature
+2542,Charlie,25.0,Male,200.0,10.0,2023-01-01,Grocery,0.0,0.05,Mature
+2544,Eve,20.0,Other,400.0,30.0,2023-02-15,Electronics,0.0,0.075,Not Mature
+2546,Bob,20.0,Other,100.0,20.0,2023-02-15,Grocery,15.0,0.2,Not Mature
+2547,Alice,20.0,Other,400.0,20.0,2023-02-15,Electronics,20.0,0.05,Not Mature
+2549,Bob,25.0,Other,100.0,20.0,2023-01-01,Electronics,0.0,0.2,Mature
+2550,Charlie,25.0,Other,200.0,10.0,2023-02-15,Grocery,15.0,0.05,Mature
+2552,Eve,35.0,Other,300.0,20.0,2023-02-15,Clothing,0.0,0.06666666666666667,Mature
+2553,Bob,20.0,Other,200.0,30.0,2023-01-01,Grocery,20.0,0.15,Not Mature
+2562,Charlie,30.0,Other,300.0,20.0,2023-01-01,Clothing,0.0,0.06666666666666667,Mature
+2563,Bob,35.0,Other,200.0,30.0,2023-02-15,Clothing,20.0,0.15,Mature
+2565,Alice,35.0,Male,200.0,30.0,2023-01-01,Electronics,0.0,0.15,Mature
+2566,Charlie,25.0,Female,200.0,10.0,2023-02-15,Electronics,20.0,0.05,Mature
+2568,Alice,25.0,Other,200.0,20.0,2023-02-15,Electronics,0.0,0.1,Mature
+2572,Eve,35.0,Female,400.0,40.0,2023-01-01,Furniture,15.0,0.1,Mature
+2574,Alice,25.0,Other,100.0,30.0,2023-01-01,Electronics,5.0,0.3,Mature
+2578,Bob,35.0,Male,400.0,40.0,2023-01-01,Electronics,20.0,0.1,Mature
+2579,Alice,20.0,Male,200.0,30.0,2023-02-15,Electronics,5.0,0.15,Not Mature
+2580,Alice,25.0,Female,200.0,20.0,2023-01-01,Furniture,5.0,0.1,Mature
+2583,Eve,35.0,Other,100.0,10.0,2023-01-01,Furniture,15.0,0.1,Mature
+2586,Bob,35.0,Other,300.0,10.0,2023-01-01,Grocery,0.0,0.03333333333333333,Mature
+2588,Alice,25.0,Other,200.0,30.0,2023-02-15,Electronics,15.0,0.15,Mature
+2589,Alice,20.0,Other,200.0,20.0,2023-01-01,Grocery,15.0,0.1,Not Mature
+2590,Alice,25.0,Male,200.0,30.0,2023-01-01,Electronics,5.0,0.15,Mature
+2592,Bob,20.0,Female,300.0,10.0,2023-02-15,Furniture,10.0,0.03333333333333333,Not Mature
+2597,Bob,35.0,Other,200.0,10.0,2023-01-01,Grocery,15.0,0.05,Mature
+2598,Alice,30.0,Other,100.0,10.0,2023-01-01,Clothing,0.0,0.1,Mature
+2601,Bob,25.0,Female,100.0,40.0,2023-01-01,Clothing,10.0,0.4,Mature
+2604,David,20.0,Male,100.0,40.0,2023-01-01,Clothing,0.0,0.4,Not Mature
+2605,David,20.0,Other,300.0,20.0,2023-02-15,Grocery,0.0,0.06666666666666667,Not Mature
+2606,Charlie,25.0,Other,200.0,40.0,2023-01-01,Furniture,20.0,0.2,Mature
+2608,Charlie,20.0,Female,300.0,20.0,2023-01-01,Furniture,5.0,0.06666666666666667,Not Mature
+2609,Charlie,30.0,Other,300.0,30.0,2023-02-15,Grocery,15.0,0.1,Mature
+2615,David,25.0,Other,400.0,30.0,2023-02-15,Clothing,0.0,0.075,Mature
+2620,Eve,20.0,Female,300.0,10.0,2023-01-01,Grocery,5.0,0.03333333333333333,Not Mature
+2621,Alice,20.0,Female,200.0,40.0,2023-02-15,Grocery,5.0,0.2,Not Mature
+2622,Bob,25.0,Female,300.0,40.0,2023-01-01,Clothing,20.0,0.13333333333333333,Mature
+2626,Bob,30.0,Other,200.0,20.0,2023-01-01,Grocery,20.0,0.1,Mature
+2627,Alice,25.0,Other,200.0,10.0,2023-01-01,Electronics,15.0,0.05,Mature
+2630,Alice,20.0,Female,200.0,20.0,2023-02-15,Electronics,10.0,0.1,Not Mature
+2634,David,25.0,Other,300.0,10.0,2023-02-15,Furniture,10.0,0.03333333333333333,Mature
+2636,Charlie,30.0,Other,400.0,40.0,2023-02-15,Furniture,0.0,0.1,Mature
+2637,Bob,25.0,Other,400.0,30.0,2023-02-15,Grocery,5.0,0.075,Mature
+2639,Charlie,25.0,Other,200.0,40.0,2023-01-01,Clothing,15.0,0.2,Mature
+2641,Charlie,30.0,Female,300.0,20.0,2023-02-15,Clothing,5.0,0.06666666666666667,Mature
+2643,David,35.0,Male,100.0,10.0,2023-01-01,Clothing,15.0,0.1,Mature
+2644,Bob,30.0,Other,100.0,30.0,2023-02-15,Electronics,15.0,0.3,Mature
+2649,Eve,35.0,Male,300.0,20.0,2023-01-01,Furniture,15.0,0.06666666666666667,Mature
+2650,Eve,20.0,Other,100.0,20.0,2023-02-15,Furniture,20.0,0.2,Not Mature
+2663,Charlie,20.0,Male,400.0,40.0,2023-02-15,Furniture,5.0,0.1,Not Mature
+2666,Alice,25.0,Other,200.0,30.0,2023-01-01,Furniture,15.0,0.15,Mature
+2673,Alice,25.0,Male,300.0,30.0,2023-02-15,Furniture,0.0,0.1,Mature
+2674,David,25.0,Male,200.0,20.0,2023-01-01,Electronics,10.0,0.1,Mature
+2675,Charlie,20.0,Male,300.0,20.0,2023-02-15,Furniture,5.0,0.06666666666666667,Not Mature
+2678,Eve,25.0,Other,400.0,30.0,2023-01-01,Grocery,0.0,0.075,Mature
+2680,Eve,20.0,Other,400.0,20.0,2023-01-01,Furniture,10.0,0.05,Not Mature
+2681,Bob,30.0,Other,200.0,10.0,2023-02-15,Clothing,10.0,0.05,Mature
+2682,David,35.0,Male,200.0,40.0,2023-02-15,Clothing,10.0,0.2,Mature
+2684,Bob,25.0,Male,200.0,20.0,2023-01-01,Electronics,10.0,0.1,Mature
+2691,David,25.0,Male,400.0,20.0,2023-01-01,Furniture,15.0,0.05,Mature
+2692,Alice,30.0,Female,200.0,40.0,2023-01-01,Furniture,5.0,0.2,Mature
+2694,Bob,35.0,Other,200.0,20.0,2023-01-01,Electronics,15.0,0.1,Mature
+2699,David,35.0,Male,200.0,30.0,2023-02-15,Clothing,20.0,0.15,Mature
+2700,Eve,30.0,Other,400.0,10.0,2023-02-15,Furniture,5.0,0.025,Mature
+2706,David,25.0,Other,300.0,30.0,2023-02-15,Grocery,10.0,0.1,Mature
+2707,Alice,30.0,Other,400.0,30.0,2023-01-01,Clothing,20.0,0.075,Mature
+2708,Charlie,25.0,Male,300.0,10.0,2023-01-01,Clothing,15.0,0.03333333333333333,Mature
+2709,Bob,35.0,Male,100.0,20.0,2023-01-01,Clothing,15.0,0.2,Mature
+2711,David,35.0,Other,200.0,20.0,2023-02-15,Furniture,0.0,0.1,Mature
+2713,Eve,35.0,Male,200.0,40.0,2023-02-15,Grocery,5.0,0.2,Mature
+2714,Bob,25.0,Other,300.0,40.0,2023-01-01,Clothing,5.0,0.13333333333333333,Mature
+2720,David,25.0,Male,200.0,10.0,2023-02-15,Clothing,5.0,0.05,Mature
+2724,Charlie,25.0,Other,200.0,20.0,2023-01-01,Electronics,10.0,0.1,Mature
+2725,David,25.0,Female,100.0,20.0,2023-01-01,Clothing,0.0,0.2,Mature
+2727,Alice,25.0,Female,200.0,40.0,2023-02-15,Furniture,10.0,0.2,Mature
+2729,Bob,20.0,Female,200.0,40.0,2023-01-01,Grocery,5.0,0.2,Not Mature
+2733,Alice,35.0,Male,300.0,30.0,2023-02-15,Furniture,5.0,0.1,Mature
+2737,Charlie,30.0,Other,200.0,30.0,2023-02-15,Furniture,5.0,0.15,Mature
+2738,Charlie,20.0,Female,300.0,40.0,2023-01-01,Furniture,5.0,0.13333333333333333,Not Mature
+2741,Eve,30.0,Other,400.0,20.0,2023-01-01,Clothing,5.0,0.05,Mature
+2744,Charlie,35.0,Other,400.0,20.0,2023-02-15,Grocery,0.0,0.05,Mature
+2747,David,25.0,Other,400.0,20.0,2023-01-01,Grocery,0.0,0.05,Mature
+2748,David,25.0,Other,200.0,40.0,2023-02-15,Furniture,20.0,0.2,Mature
+2749,Alice,25.0,Male,400.0,10.0,2023-02-15,Electronics,5.0,0.025,Mature
+2754,Eve,30.0,Male,100.0,20.0,2023-02-15,Grocery,20.0,0.2,Mature
+2756,Alice,25.0,Other,400.0,30.0,2023-02-15,Grocery,20.0,0.075,Mature
+2761,David,30.0,Female,100.0,20.0,2023-01-01,Furniture,0.0,0.2,Mature
+2763,Alice,20.0,Other,200.0,20.0,2023-02-15,Furniture,5.0,0.1,Not Mature
+2768,Charlie,35.0,Male,300.0,20.0,2023-02-15,Clothing,5.0,0.06666666666666667,Mature
+2769,Alice,35.0,Other,200.0,30.0,2023-01-01,Grocery,0.0,0.15,Mature
+2771,Charlie,25.0,Female,300.0,10.0,2023-01-01,Electronics,5.0,0.03333333333333333,Mature
+2775,David,35.0,Other,200.0,40.0,2023-01-01,Clothing,15.0,0.2,Mature
+2776,Eve,35.0,Other,200.0,20.0,2023-02-15,Clothing,10.0,0.1,Mature
+2778,Charlie,30.0,Male,300.0,30.0,2023-01-01,Electronics,20.0,0.1,Mature
+2782,Alice,25.0,Other,400.0,30.0,2023-01-01,Electronics,0.0,0.075,Mature
+2785,Charlie,25.0,Female,100.0,20.0,2023-02-15,Clothing,15.0,0.2,Mature
+2787,Charlie,35.0,Other,100.0,20.0,2023-01-01,Electronics,15.0,0.2,Mature
+2791,David,35.0,Other,100.0,10.0,2023-02-15,Clothing,0.0,0.1,Mature
+2792,David,25.0,Male,100.0,20.0,2023-02-15,Grocery,0.0,0.2,Mature
+2795,Charlie,25.0,Other,300.0,20.0,2023-01-01,Grocery,15.0,0.06666666666666667,Mature
+2800,David,35.0,Female,200.0,10.0,2023-02-15,Grocery,0.0,0.05,Mature
+2804,Alice,35.0,Other,200.0,20.0,2023-01-01,Electronics,10.0,0.1,Mature
+2811,Charlie,25.0,Other,200.0,40.0,2023-01-01,Furniture,0.0,0.2,Mature
+2812,Alice,20.0,Other,300.0,20.0,2023-01-01,Electronics,0.0,0.06666666666666667,Not Mature
+2813,Charlie,20.0,Other,200.0,30.0,2023-02-15,Clothing,20.0,0.15,Not Mature
+2815,David,25.0,Other,300.0,20.0,2023-01-01,Furniture,5.0,0.06666666666666667,Mature
+2823,Eve,35.0,Other,100.0,30.0,2023-01-01,Clothing,15.0,0.3,Mature
+2824,Alice,25.0,Other,100.0,20.0,2023-01-01,Furniture,10.0,0.2,Mature
+2825,David,25.0,Other,100.0,40.0,2023-02-15,Grocery,15.0,0.4,Mature
+2828,Bob,35.0,Other,200.0,30.0,2023-02-15,Electronics,15.0,0.15,Mature
+2830,Eve,30.0,Other,400.0,40.0,2023-01-01,Clothing,20.0,0.1,Mature
+2835,David,30.0,Other,200.0,20.0,2023-01-01,Clothing,5.0,0.1,Mature
+2838,Eve,30.0,Other,200.0,20.0,2023-01-01,Grocery,15.0,0.1,Mature
+2839,Alice,25.0,Female,400.0,40.0,2023-02-15,Electronics,20.0,0.1,Mature
+2840,Eve,25.0,Male,300.0,20.0,2023-01-01,Clothing,10.0,0.06666666666666667,Mature
+2845,Bob,30.0,Other,400.0,10.0,2023-01-01,Furniture,5.0,0.025,Mature
+2847,Eve,20.0,Other,300.0,40.0,2023-02-15,Grocery,15.0,0.13333333333333333,Not Mature
+2849,David,25.0,Male,400.0,40.0,2023-02-15,Furniture,5.0,0.1,Mature
+2850,Alice,20.0,Other,100.0,10.0,2023-02-15,Furniture,0.0,0.1,Not Mature
+2853,David,20.0,Other,300.0,40.0,2023-02-15,Electronics,0.0,0.13333333333333333,Not Mature
+2854,Eve,30.0,Other,100.0,10.0,2023-02-15,Furniture,20.0,0.1,Mature
+2856,Charlie,25.0,Other,300.0,30.0,2023-02-15,Furniture,0.0,0.1,Mature
+2857,David,35.0,Other,200.0,20.0,2023-02-15,Furniture,15.0,0.1,Mature
+2858,Alice,30.0,Male,300.0,30.0,2023-02-15,Furniture,5.0,0.1,Mature
+2859,Eve,30.0,Female,200.0,40.0,2023-02-15,Grocery,10.0,0.2,Mature
+2861,David,25.0,Other,200.0,20.0,2023-02-15,Grocery,15.0,0.1,Mature
+2878,David,25.0,Other,200.0,20.0,2023-01-01,Furniture,0.0,0.1,Mature
+2880,Charlie,25.0,Other,100.0,20.0,2023-02-15,Electronics,15.0,0.2,Mature
+2885,Alice,35.0,Other,300.0,30.0,2023-01-01,Clothing,10.0,0.1,Mature
+2886,Eve,25.0,Other,100.0,40.0,2023-01-01,Grocery,5.0,0.4,Mature
+2887,Eve,35.0,Other,200.0,10.0,2023-01-01,Grocery,5.0,0.05,Mature
+2888,Alice,20.0,Other,300.0,10.0,2023-02-15,Grocery,5.0,0.03333333333333333,Not Mature
+2889,Charlie,35.0,Male,300.0,30.0,2023-01-01,Grocery,20.0,0.1,Mature
+2891,Eve,30.0,Female,300.0,20.0,2023-01-01,Electronics,5.0,0.06666666666666667,Mature
+2892,David,30.0,Male,200.0,40.0,2023-01-01,Furniture,10.0,0.2,Mature
+2894,Eve,30.0,Female,100.0,20.0,2023-01-01,Grocery,5.0,0.2,Mature
+2899,David,20.0,Male,300.0,20.0,2023-01-01,Furniture,15.0,0.06666666666666667,Not Mature
+2901,Alice,25.0,Female,300.0,40.0,2023-01-01,Electronics,10.0,0.13333333333333333,Mature
+2902,Bob,20.0,Other,300.0,20.0,2023-02-15,Furniture,20.0,0.06666666666666667,Not Mature
+2903,Eve,30.0,Male,200.0,10.0,2023-02-15,Electronics,20.0,0.05,Mature
+2906,Bob,35.0,Other,400.0,10.0,2023-02-15,Electronics,5.0,0.025,Mature
+2907,Charlie,25.0,Male,100.0,10.0,2023-02-15,Electronics,15.0,0.1,Mature
+2909,Alice,30.0,Female,200.0,10.0,2023-01-01,Electronics,0.0,0.05,Mature
+2910,Eve,35.0,Other,300.0,10.0,2023-02-15,Grocery,20.0,0.03333333333333333,Mature
+2913,Alice,30.0,Male,400.0,10.0,2023-02-15,Grocery,0.0,0.025,Mature
+2915,Charlie,20.0,Other,300.0,10.0,2023-01-01,Furniture,5.0,0.03333333333333333,Not Mature
+2917,Alice,30.0,Other,100.0,30.0,2023-01-01,Grocery,20.0,0.3,Mature
+2920,Charlie,35.0,Female,100.0,20.0,2023-02-15,Furniture,10.0,0.2,Mature
+2923,Eve,35.0,Male,200.0,10.0,2023-02-15,Grocery,10.0,0.05,Mature
+2928,Eve,20.0,Other,200.0,30.0,2023-01-01,Clothing,5.0,0.15,Not Mature
+2930,Eve,25.0,Male,200.0,30.0,2023-01-01,Grocery,5.0,0.15,Mature
+2934,Eve,25.0,Other,400.0,40.0,2023-02-15,Grocery,10.0,0.1,Mature
+2935,Bob,25.0,Other,300.0,40.0,2023-01-01,Furniture,20.0,0.13333333333333333,Mature
+2936,David,30.0,Male,200.0,10.0,2023-01-01,Grocery,15.0,0.05,Mature
+2940,Charlie,35.0,Other,400.0,30.0,2023-01-01,Grocery,0.0,0.075,Mature
+2941,Eve,20.0,Female,200.0,40.0,2023-02-15,Furniture,20.0,0.2,Not Mature
+2942,Alice,25.0,Male,100.0,20.0,2023-01-01,Electronics,10.0,0.2,Mature
+2944,Bob,20.0,Other,100.0,10.0,2023-02-15,Electronics,20.0,0.1,Not Mature
+2948,Alice,35.0,Male,200.0,20.0,2023-02-15,Furniture,15.0,0.1,Mature
+2951,Eve,20.0,Male,200.0,40.0,2023-01-01,Furniture,15.0,0.2,Not Mature
+2952,Charlie,20.0,Other,400.0,20.0,2023-02-15,Grocery,0.0,0.05,Not Mature
+2956,Alice,25.0,Other,100.0,10.0,2023-02-15,Electronics,20.0,0.1,Mature
+2958,Bob,20.0,Other,300.0,40.0,2023-01-01,Electronics,10.0,0.13333333333333333,Not Mature
+2961,Bob,35.0,Other,100.0,10.0,2023-01-01,Clothing,5.0,0.1,Mature
+2962,Eve,30.0,Other,200.0,20.0,2023-01-01,Grocery,0.0,0.1,Mature
+2968,Eve,25.0,Other,300.0,20.0,2023-01-01,Grocery,0.0,0.06666666666666667,Mature
+2969,Bob,30.0,Other,400.0,20.0,2023-01-01,Furniture,15.0,0.05,Mature
+2970,Bob,20.0,Female,200.0,20.0,2023-01-01,Grocery,5.0,0.1,Not Mature
+2971,Charlie,25.0,Other,200.0,10.0,2023-02-15,Furniture,10.0,0.05,Mature
+2972,Alice,25.0,Male,300.0,10.0,2023-01-01,Electronics,15.0,0.03333333333333333,Mature
+2976,David,25.0,Other,300.0,20.0,2023-02-15,Clothing,15.0,0.06666666666666667,Mature
+2979,Bob,20.0,Male,100.0,40.0,2023-02-15,Clothing,20.0,0.4,Not Mature
+2981,Charlie,25.0,Other,200.0,30.0,2023-02-15,Electronics,0.0,0.15,Mature
+2982,Bob,25.0,Male,400.0,30.0,2023-02-15,Grocery,5.0,0.075,Mature
+2984,Alice,20.0,Other,300.0,30.0,2023-01-01,Clothing,5.0,0.1,Not Mature
+2989,Eve,25.0,Other,100.0,30.0,2023-02-15,Grocery,15.0,0.3,Mature
+2993,Alice,30.0,Other,200.0,20.0,2023-01-01,Furniture,0.0,0.1,Mature
+2994,Alice,20.0,Female,100.0,20.0,2023-02-15,Electronics,15.0,0.2,Not Mature
+2999,Bob,20.0,Male,200.0,30.0,2023-01-01,Furniture,20.0,0.15,Not Mature
+3002,Eve,25.0,Female,200.0,20.0,2023-02-15,Furniture,20.0,0.1,Mature
+3008,Bob,25.0,Other,200.0,40.0,2023-01-01,Electronics,5.0,0.2,Mature
+3011,David,30.0,Other,300.0,30.0,2023-01-01,Furniture,15.0,0.1,Mature
+3016,Charlie,25.0,Male,400.0,20.0,2023-02-15,Grocery,20.0,0.05,Mature
+3018,David,25.0,Male,400.0,20.0,2023-01-01,Electronics,0.0,0.05,Mature
+3020,Alice,35.0,Male,200.0,20.0,2023-01-01,Furniture,5.0,0.1,Mature
+3022,David,20.0,Other,200.0,10.0,2023-01-01,Furniture,15.0,0.05,Not Mature
+3024,David,25.0,Male,400.0,10.0,2023-02-15,Electronics,5.0,0.025,Mature
+3025,Eve,35.0,Other,200.0,20.0,2023-02-15,Electronics,10.0,0.1,Mature
+3027,Alice,35.0,Female,200.0,20.0,2023-02-15,Grocery,15.0,0.1,Mature
+3031,Bob,30.0,Female,100.0,40.0,2023-02-15,Grocery,10.0,0.4,Mature
+3032,David,25.0,Other,400.0,10.0,2023-02-15,Electronics,10.0,0.025,Mature
+3034,David,35.0,Male,200.0,40.0,2023-01-01,Grocery,0.0,0.2,Mature
+3036,Charlie,30.0,Other,100.0,30.0,2023-02-15,Clothing,0.0,0.3,Mature
+3037,Charlie,25.0,Other,200.0,20.0,2023-01-01,Electronics,20.0,0.1,Mature
+3042,Bob,35.0,Female,300.0,20.0,2023-02-15,Clothing,10.0,0.06666666666666667,Mature
+3044,David,35.0,Other,200.0,40.0,2023-02-15,Grocery,20.0,0.2,Mature
+3045,Alice,20.0,Other,200.0,40.0,2023-02-15,Furniture,10.0,0.2,Not Mature
+3047,Alice,25.0,Female,200.0,30.0,2023-01-01,Furniture,20.0,0.15,Mature
+3048,Eve,35.0,Male,400.0,30.0,2023-01-01,Clothing,5.0,0.075,Mature
+3050,Eve,25.0,Other,300.0,30.0,2023-01-01,Grocery,5.0,0.1,Mature
+3051,Charlie,25.0,Other,400.0,20.0,2023-02-15,Clothing,20.0,0.05,Mature
+3057,Charlie,20.0,Other,200.0,20.0,2023-02-15,Furniture,5.0,0.1,Not Mature
+3058,Charlie,25.0,Other,300.0,30.0,2023-02-15,Grocery,15.0,0.1,Mature
+3059,Charlie,25.0,Other,400.0,30.0,2023-02-15,Furniture,5.0,0.075,Mature
+3062,Bob,35.0,Other,400.0,40.0,2023-01-01,Clothing,15.0,0.1,Mature
+3063,Charlie,30.0,Other,200.0,20.0,2023-01-01,Clothing,0.0,0.1,Mature
+3064,Eve,25.0,Other,200.0,20.0,2023-02-15,Furniture,15.0,0.1,Mature
+3065,Eve,20.0,Other,400.0,10.0,2023-02-15,Electronics,20.0,0.025,Not Mature
+3066,Bob,35.0,Other,100.0,20.0,2023-02-15,Grocery,20.0,0.2,Mature
+3067,Eve,25.0,Male,400.0,40.0,2023-02-15,Grocery,0.0,0.1,Mature
+3069,Eve,30.0,Female,100.0,20.0,2023-01-01,Clothing,10.0,0.2,Mature
+3071,Bob,25.0,Other,400.0,20.0,2023-02-15,Clothing,15.0,0.05,Mature
+3072,David,20.0,Female,100.0,10.0,2023-01-01,Electronics,10.0,0.1,Not Mature
+3073,Eve,25.0,Male,300.0,20.0,2023-02-15,Clothing,5.0,0.06666666666666667,Mature
+3076,Bob,30.0,Female,400.0,40.0,2023-01-01,Electronics,0.0,0.1,Mature
+3077,David,35.0,Female,200.0,20.0,2023-01-01,Clothing,20.0,0.1,Mature
+3081,Eve,25.0,Male,400.0,40.0,2023-01-01,Electronics,10.0,0.1,Mature
+3085,Eve,35.0,Female,100.0,30.0,2023-02-15,Grocery,5.0,0.3,Mature
+3091,Eve,25.0,Male,100.0,20.0,2023-01-01,Clothing,10.0,0.2,Mature
+3092,Bob,30.0,Female,200.0,20.0,2023-02-15,Grocery,5.0,0.1,Mature
+3095,Charlie,25.0,Other,400.0,20.0,2023-01-01,Furniture,5.0,0.05,Mature
+3101,Charlie,25.0,Male,100.0,10.0,2023-01-01,Clothing,10.0,0.1,Mature
+3109,David,30.0,Other,400.0,20.0,2023-02-15,Grocery,0.0,0.05,Mature
+3110,Charlie,20.0,Male,300.0,20.0,2023-02-15,Clothing,0.0,0.06666666666666667,Not Mature
+3116,Bob,25.0,Male,100.0,40.0,2023-01-01,Clothing,5.0,0.4,Mature
+3117,Charlie,35.0,Other,400.0,20.0,2023-01-01,Clothing,0.0,0.05,Mature
+3119,Charlie,20.0,Male,100.0,20.0,2023-01-01,Furniture,5.0,0.2,Not Mature
+3121,Alice,25.0,Female,400.0,40.0,2023-02-15,Electronics,20.0,0.1,Mature
+3123,David,30.0,Female,300.0,40.0,2023-02-15,Grocery,10.0,0.13333333333333333,Mature
+3124,Bob,25.0,Male,200.0,30.0,2023-02-15,Electronics,10.0,0.15,Mature
+3126,Bob,30.0,Other,300.0,10.0,2023-02-15,Clothing,0.0,0.03333333333333333,Mature
+3129,Eve,35.0,Other,100.0,30.0,2023-01-01,Electronics,0.0,0.3,Mature
+3132,Alice,20.0,Female,200.0,10.0,2023-02-15,Clothing,0.0,0.05,Not Mature
+3134,David,25.0,Male,400.0,20.0,2023-02-15,Electronics,0.0,0.05,Mature
+3137,Eve,20.0,Other,100.0,40.0,2023-01-01,Clothing,15.0,0.4,Not Mature
+3138,Bob,35.0,Female,200.0,30.0,2023-01-01,Electronics,5.0,0.15,Mature
+3140,Eve,25.0,Male,400.0,10.0,2023-01-01,Grocery,0.0,0.025,Mature
+3141,David,35.0,Male,400.0,10.0,2023-02-15,Grocery,15.0,0.025,Mature
+3142,Eve,20.0,Female,200.0,10.0,2023-02-15,Furniture,10.0,0.05,Not Mature
+3143,Charlie,25.0,Other,200.0,40.0,2023-01-01,Clothing,5.0,0.2,Mature
+3144,David,20.0,Female,200.0,20.0,2023-01-01,Electronics,5.0,0.1,Not Mature
+3145,Eve,25.0,Female,300.0,10.0,2023-01-01,Clothing,0.0,0.03333333333333333,Mature
+3152,Charlie,35.0,Male,400.0,10.0,2023-02-15,Grocery,0.0,0.025,Mature
+3153,Charlie,35.0,Other,200.0,20.0,2023-02-15,Electronics,5.0,0.1,Mature
+3156,David,25.0,Female,100.0,20.0,2023-01-01,Electronics,5.0,0.2,Mature
+3158,Bob,25.0,Male,300.0,10.0,2023-02-15,Furniture,20.0,0.03333333333333333,Mature
+3163,Charlie,30.0,Other,300.0,10.0,2023-02-15,Furniture,15.0,0.03333333333333333,Mature
+3169,Eve,25.0,Other,200.0,20.0,2023-02-15,Electronics,10.0,0.1,Mature
+3170,Charlie,35.0,Female,200.0,20.0,2023-02-15,Furniture,20.0,0.1,Mature
+3174,David,25.0,Male,200.0,10.0,2023-02-15,Grocery,5.0,0.05,Mature
+3175,Eve,25.0,Other,100.0,30.0,2023-01-01,Electronics,15.0,0.3,Mature
+3177,Alice,20.0,Female,100.0,20.0,2023-01-01,Furniture,0.0,0.2,Not Mature
+3178,David,25.0,Female,100.0,40.0,2023-01-01,Grocery,10.0,0.4,Mature
+3179,Eve,35.0,Female,300.0,40.0,2023-01-01,Grocery,5.0,0.13333333333333333,Mature
+3181,Alice,30.0,Other,400.0,40.0,2023-02-15,Furniture,5.0,0.1,Mature
+3182,Alice,25.0,Other,200.0,20.0,2023-02-15,Furniture,0.0,0.1,Mature
+3187,Eve,25.0,Female,100.0,10.0,2023-02-15,Electronics,5.0,0.1,Mature
+3188,Eve,25.0,Female,200.0,10.0,2023-01-01,Grocery,20.0,0.05,Mature
+3189,Eve,20.0,Female,400.0,20.0,2023-02-15,Furniture,10.0,0.05,Not Mature
+3191,Eve,30.0,Female,100.0,20.0,2023-02-15,Furniture,15.0,0.2,Mature
+3192,Charlie,25.0,Male,200.0,20.0,2023-02-15,Clothing,0.0,0.1,Mature
+3193,Charlie,30.0,Male,200.0,40.0,2023-02-15,Electronics,5.0,0.2,Mature
+3194,Bob,25.0,Male,200.0,20.0,2023-01-01,Grocery,10.0,0.1,Mature
+3197,David,25.0,Female,300.0,10.0,2023-01-01,Furniture,5.0,0.03333333333333333,Mature
+3198,Bob,20.0,Female,300.0,40.0,2023-02-15,Electronics,0.0,0.13333333333333333,Not Mature
+3199,Alice,20.0,Male,200.0,20.0,2023-02-15,Furniture,10.0,0.1,Not Mature
+3203,Charlie,20.0,Other,400.0,20.0,2023-01-01,Electronics,0.0,0.05,Not Mature
+3206,Alice,20.0,Male,200.0,30.0,2023-02-15,Clothing,0.0,0.15,Not Mature
+3209,David,25.0,Male,200.0,20.0,2023-02-15,Grocery,15.0,0.1,Mature
+3211,Eve,30.0,Female,100.0,20.0,2023-01-01,Electronics,20.0,0.2,Mature
+3220,Charlie,25.0,Male,100.0,10.0,2023-02-15,Grocery,5.0,0.1,Mature
+3224,David,25.0,Male,200.0,40.0,2023-02-15,Clothing,0.0,0.2,Mature
+3227,Charlie,25.0,Female,200.0,30.0,2023-02-15,Electronics,15.0,0.15,Mature
+3231,Bob,20.0,Other,400.0,40.0,2023-01-01,Electronics,5.0,0.1,Not Mature
+3233,Eve,25.0,Female,200.0,30.0,2023-01-01,Clothing,5.0,0.15,Mature
+3236,Bob,35.0,Other,400.0,30.0,2023-01-01,Clothing,5.0,0.075,Mature
+3240,David,20.0,Other,200.0,20.0,2023-01-01,Electronics,5.0,0.1,Not Mature
+3241,David,25.0,Female,200.0,20.0,2023-01-01,Furniture,20.0,0.1,Mature
+3244,Bob,35.0,Other,400.0,30.0,2023-01-01,Furniture,0.0,0.075,Mature
+3245,Eve,20.0,Female,400.0,20.0,2023-02-15,Electronics,20.0,0.05,Not Mature
+3246,David,25.0,Other,200.0,20.0,2023-01-01,Clothing,10.0,0.1,Mature
+3247,Bob,35.0,Male,300.0,40.0,2023-02-15,Electronics,5.0,0.13333333333333333,Mature
+3248,Charlie,25.0,Other,400.0,10.0,2023-02-15,Furniture,10.0,0.025,Mature
+3249,Charlie,35.0,Male,300.0,40.0,2023-01-01,Grocery,5.0,0.13333333333333333,Mature
+3250,Eve,30.0,Male,200.0,20.0,2023-01-01,Grocery,15.0,0.1,Mature
+3252,Alice,30.0,Female,200.0,40.0,2023-02-15,Grocery,10.0,0.2,Mature
+3255,Eve,35.0,Other,200.0,40.0,2023-01-01,Clothing,20.0,0.2,Mature
+3256,Eve,25.0,Other,300.0,40.0,2023-01-01,Clothing,5.0,0.13333333333333333,Mature
+3260,Charlie,25.0,Other,200.0,10.0,2023-01-01,Clothing,5.0,0.05,Mature
+3263,Alice,25.0,Female,100.0,20.0,2023-01-01,Grocery,5.0,0.2,Mature
+3264,Bob,25.0,Female,200.0,20.0,2023-01-01,Furniture,20.0,0.1,Mature
+3265,Bob,30.0,Other,200.0,20.0,2023-02-15,Clothing,5.0,0.1,Mature
+3266,David,20.0,Female,100.0,20.0,2023-02-15,Electronics,5.0,0.2,Not Mature
+3270,Bob,30.0,Female,200.0,40.0,2023-02-15,Clothing,20.0,0.2,Mature
+3273,Eve,35.0,Female,200.0,30.0,2023-02-15,Grocery,15.0,0.15,Mature
+3276,Charlie,20.0,Male,100.0,30.0,2023-02-15,Grocery,10.0,0.3,Not Mature
+3277,Bob,20.0,Female,200.0,40.0,2023-01-01,Clothing,20.0,0.2,Not Mature
+3279,Bob,20.0,Other,400.0,20.0,2023-02-15,Grocery,5.0,0.05,Not Mature
+3280,Bob,35.0,Other,100.0,30.0,2023-01-01,Grocery,5.0,0.3,Mature
+3281,Bob,30.0,Male,400.0,20.0,2023-01-01,Furniture,15.0,0.05,Mature
+3287,Alice,30.0,Male,100.0,40.0,2023-02-15,Clothing,20.0,0.4,Mature
+3289,Eve,35.0,Female,400.0,30.0,2023-01-01,Electronics,20.0,0.075,Mature
+3294,Alice,20.0,Other,200.0,30.0,2023-02-15,Electronics,10.0,0.15,Not Mature
+3295,Eve,25.0,Female,200.0,30.0,2023-01-01,Electronics,15.0,0.15,Mature
+3298,Eve,25.0,Other,100.0,20.0,2023-02-15,Electronics,10.0,0.2,Mature
+3303,Charlie,30.0,Male,200.0,20.0,2023-02-15,Electronics,10.0,0.1,Mature
+3308,David,35.0,Other,200.0,20.0,2023-01-01,Clothing,15.0,0.1,Mature
+3309,David,35.0,Other,200.0,10.0,2023-01-01,Grocery,5.0,0.05,Mature
+3310,David,25.0,Other,100.0,20.0,2023-01-01,Furniture,20.0,0.2,Mature
+3313,Eve,35.0,Male,400.0,40.0,2023-02-15,Electronics,15.0,0.1,Mature
+3315,Alice,25.0,Female,200.0,30.0,2023-02-15,Clothing,10.0,0.15,Mature
+3316,David,30.0,Female,100.0,30.0,2023-01-01,Electronics,10.0,0.3,Mature
+3318,Eve,35.0,Female,200.0,20.0,2023-01-01,Clothing,5.0,0.1,Mature
+3320,Bob,25.0,Other,200.0,30.0,2023-02-15,Grocery,15.0,0.15,Mature
+3322,Eve,20.0,Other,400.0,20.0,2023-02-15,Electronics,5.0,0.05,Not Mature
+3324,David,20.0,Female,300.0,30.0,2023-01-01,Furniture,5.0,0.1,Not Mature
+3325,Charlie,25.0,Other,200.0,40.0,2023-01-01,Grocery,15.0,0.2,Mature
+3327,Bob,25.0,Other,200.0,20.0,2023-02-15,Grocery,20.0,0.1,Mature
+3328,Eve,35.0,Male,200.0,20.0,2023-02-15,Furniture,20.0,0.1,Mature
+3334,David,25.0,Other,200.0,20.0,2023-02-15,Electronics,15.0,0.1,Mature
+3335,Charlie,35.0,Female,200.0,20.0,2023-02-15,Grocery,10.0,0.1,Mature
+3342,Charlie,25.0,Other,200.0,30.0,2023-02-15,Furniture,20.0,0.15,Mature
+3344,David,20.0,Other,300.0,20.0,2023-01-01,Electronics,5.0,0.06666666666666667,Not Mature
+3348,Eve,30.0,Female,100.0,20.0,2023-01-01,Electronics,5.0,0.2,Mature
+3349,David,25.0,Other,100.0,10.0,2023-02-15,Clothing,15.0,0.1,Mature
+3351,Charlie,25.0,Other,200.0,10.0,2023-02-15,Grocery,15.0,0.05,Mature
+3353,Charlie,20.0,Other,200.0,30.0,2023-01-01,Furniture,20.0,0.15,Not Mature
+3356,David,30.0,Female,300.0,20.0,2023-01-01,Electronics,15.0,0.06666666666666667,Mature
+3357,Alice,25.0,Male,400.0,40.0,2023-01-01,Grocery,15.0,0.1,Mature
+3358,Eve,25.0,Female,300.0,20.0,2023-01-01,Grocery,5.0,0.06666666666666667,Mature
+3360,Eve,25.0,Other,100.0,40.0,2023-01-01,Clothing,15.0,0.4,Mature
+3367,Alice,20.0,Female,100.0,20.0,2023-02-15,Furniture,20.0,0.2,Not Mature
+3368,David,35.0,Female,300.0,30.0,2023-01-01,Electronics,15.0,0.1,Mature
+3372,Bob,25.0,Female,200.0,20.0,2023-02-15,Electronics,20.0,0.1,Mature
+3375,Bob,25.0,Other,100.0,10.0,2023-02-15,Electronics,15.0,0.1,Mature
+3376,Charlie,20.0,Other,200.0,30.0,2023-02-15,Grocery,0.0,0.15,Not Mature
+3377,David,20.0,Male,300.0,30.0,2023-01-01,Clothing,0.0,0.1,Not Mature
+3385,David,25.0,Other,100.0,20.0,2023-02-15,Electronics,15.0,0.2,Mature
+3392,Eve,25.0,Other,400.0,40.0,2023-01-01,Electronics,10.0,0.1,Mature
+3393,David,30.0,Female,100.0,30.0,2023-01-01,Furniture,10.0,0.3,Mature
+3402,Charlie,25.0,Female,200.0,20.0,2023-01-01,Grocery,0.0,0.1,Mature
+3404,Charlie,25.0,Male,400.0,20.0,2023-02-15,Grocery,10.0,0.05,Mature
+3408,Eve,20.0,Other,300.0,40.0,2023-02-15,Clothing,5.0,0.13333333333333333,Not Mature
+3414,Bob,25.0,Female,200.0,10.0,2023-02-15,Furniture,0.0,0.05,Mature
+3416,David,35.0,Other,200.0,30.0,2023-02-15,Furniture,20.0,0.15,Mature
+3417,David,35.0,Other,100.0,30.0,2023-02-15,Furniture,20.0,0.3,Mature
+3423,Eve,35.0,Other,200.0,40.0,2023-01-01,Furniture,10.0,0.2,Mature
+3426,Alice,20.0,Other,400.0,20.0,2023-02-15,Grocery,0.0,0.05,Not Mature
+3434,Alice,25.0,Female,300.0,40.0,2023-01-01,Clothing,5.0,0.13333333333333333,Mature
+3436,Charlie,25.0,Other,100.0,20.0,2023-02-15,Furniture,15.0,0.2,Mature
+3438,David,25.0,Other,400.0,20.0,2023-01-01,Furniture,20.0,0.05,Mature
+3442,Alice,35.0,Other,400.0,20.0,2023-01-01,Clothing,15.0,0.05,Mature
+3444,Alice,30.0,Male,400.0,20.0,2023-01-01,Grocery,15.0,0.05,Mature
+3446,Eve,25.0,Other,300.0,20.0,2023-02-15,Electronics,0.0,0.06666666666666667,Mature
+3448,David,25.0,Female,200.0,20.0,2023-02-15,Electronics,10.0,0.1,Mature
+3450,Eve,25.0,Other,400.0,20.0,2023-02-15,Furniture,0.0,0.05,Mature
+3451,Alice,20.0,Male,300.0,20.0,2023-02-15,Clothing,10.0,0.06666666666666667,Not Mature
+3455,David,30.0,Female,200.0,40.0,2023-02-15,Clothing,15.0,0.2,Mature
+3457,David,20.0,Female,400.0,20.0,2023-01-01,Electronics,20.0,0.05,Not Mature
+3461,Bob,35.0,Female,200.0,20.0,2023-01-01,Grocery,10.0,0.1,Mature
+3463,Eve,20.0,Male,300.0,10.0,2023-02-15,Grocery,5.0,0.03333333333333333,Not Mature
+3465,Bob,25.0,Female,200.0,40.0,2023-02-15,Electronics,0.0,0.2,Mature
+3468,Alice,25.0,Other,200.0,40.0,2023-02-15,Furniture,10.0,0.2,Mature
+3470,Charlie,35.0,Female,300.0,10.0,2023-01-01,Furniture,10.0,0.03333333333333333,Mature
+3471,Bob,30.0,Male,200.0,20.0,2023-01-01,Clothing,10.0,0.1,Mature
+3474,Alice,20.0,Other,200.0,30.0,2023-01-01,Furniture,15.0,0.15,Not Mature
+3477,Bob,35.0,Other,400.0,20.0,2023-02-15,Grocery,5.0,0.05,Mature
+3478,Charlie,20.0,Other,200.0,30.0,2023-01-01,Grocery,10.0,0.15,Not Mature
+3480,Charlie,20.0,Male,300.0,30.0,2023-01-01,Grocery,0.0,0.1,Not Mature
+3491,David,20.0,Male,200.0,40.0,2023-01-01,Furniture,20.0,0.2,Not Mature
+3492,Alice,25.0,Female,200.0,20.0,2023-01-01,Electronics,5.0,0.1,Mature
+3493,Alice,25.0,Female,200.0,10.0,2023-01-01,Clothing,0.0,0.05,Mature
+3494,Bob,35.0,Other,100.0,30.0,2023-02-15,Grocery,5.0,0.3,Mature
+3500,David,35.0,Other,200.0,20.0,2023-02-15,Electronics,10.0,0.1,Mature
+3502,Charlie,35.0,Female,300.0,20.0,2023-02-15,Grocery,20.0,0.06666666666666667,Mature
+3503,Alice,30.0,Female,400.0,40.0,2023-02-15,Clothing,20.0,0.1,Mature
+3505,Charlie,25.0,Male,200.0,10.0,2023-01-01,Grocery,0.0,0.05,Mature
+3509,Eve,25.0,Other,400.0,30.0,2023-02-15,Furniture,5.0,0.075,Mature
+3511,Bob,20.0,Male,200.0,20.0,2023-02-15,Electronics,0.0,0.1,Not Mature
+3513,Eve,20.0,Male,200.0,20.0,2023-01-01,Furniture,0.0,0.1,Not Mature
+3514,Charlie,35.0,Female,100.0,20.0,2023-02-15,Clothing,15.0,0.2,Mature
+3515,Eve,35.0,Male,100.0,40.0,2023-01-01,Grocery,0.0,0.4,Mature
+3526,David,35.0,Female,400.0,10.0,2023-01-01,Clothing,0.0,0.025,Mature
+3528,Alice,25.0,Other,300.0,20.0,2023-02-15,Clothing,20.0,0.06666666666666667,Mature
+3529,David,20.0,Male,300.0,10.0,2023-02-15,Clothing,20.0,0.03333333333333333,Not Mature
+3533,Bob,25.0,Female,200.0,20.0,2023-01-01,Grocery,0.0,0.1,Mature
+3541,Bob,25.0,Other,200.0,10.0,2023-02-15,Grocery,10.0,0.05,Mature
+3543,David,25.0,Other,200.0,20.0,2023-01-01,Grocery,10.0,0.1,Mature
+3544,David,30.0,Other,100.0,10.0,2023-02-15,Grocery,10.0,0.1,Mature
+3545,Charlie,20.0,Other,200.0,30.0,2023-01-01,Grocery,10.0,0.15,Not Mature
+3548,Eve,25.0,Other,300.0,20.0,2023-01-01,Electronics,0.0,0.06666666666666667,Mature
+3549,Bob,25.0,Female,100.0,20.0,2023-01-01,Clothing,10.0,0.2,Mature
+3554,Bob,30.0,Other,300.0,40.0,2023-01-01,Electronics,15.0,0.13333333333333333,Mature
+3555,Bob,35.0,Other,200.0,40.0,2023-01-01,Electronics,10.0,0.2,Mature
+3556,Eve,20.0,Other,300.0,10.0,2023-01-01,Grocery,5.0,0.03333333333333333,Not Mature
+3557,Bob,25.0,Male,200.0,20.0,2023-02-15,Grocery,0.0,0.1,Mature
+3562,Charlie,25.0,Other,200.0,40.0,2023-01-01,Furniture,5.0,0.2,Mature
+3570,David,25.0,Male,200.0,20.0,2023-01-01,Furniture,0.0,0.1,Mature
+3578,David,25.0,Other,400.0,10.0,2023-02-15,Furniture,15.0,0.025,Mature
+3583,Alice,25.0,Male,200.0,20.0,2023-01-01,Clothing,5.0,0.1,Mature
+3584,Eve,25.0,Female,200.0,30.0,2023-02-15,Electronics,15.0,0.15,Mature
+3589,Bob,30.0,Other,400.0,20.0,2023-02-15,Furniture,15.0,0.05,Mature
+3591,Alice,35.0,Other,100.0,10.0,2023-01-01,Furniture,5.0,0.1,Mature
+3598,Alice,25.0,Male,200.0,20.0,2023-01-01,Clothing,15.0,0.1,Mature
+3612,Eve,25.0,Other,400.0,30.0,2023-02-15,Grocery,20.0,0.075,Mature
+3614,Eve,20.0,Other,300.0,20.0,2023-01-01,Furniture,0.0,0.06666666666666667,Not Mature
+3622,Bob,35.0,Other,300.0,10.0,2023-01-01,Grocery,5.0,0.03333333333333333,Mature
+3625,David,25.0,Other,100.0,30.0,2023-02-15,Grocery,15.0,0.3,Mature
+3626,Bob,25.0,Female,200.0,40.0,2023-02-15,Electronics,5.0,0.2,Mature
+3627,Charlie,20.0,Male,100.0,40.0,2023-02-15,Grocery,0.0,0.4,Not Mature
+3630,Alice,30.0,Other,400.0,10.0,2023-01-01,Grocery,5.0,0.025,Mature
+3631,Eve,20.0,Other,400.0,20.0,2023-01-01,Grocery,0.0,0.05,Not Mature
+3636,Eve,20.0,Female,100.0,10.0,2023-02-15,Electronics,10.0,0.1,Not Mature
+3637,Alice,25.0,Other,200.0,20.0,2023-02-15,Furniture,20.0,0.1,Mature
+3639,David,35.0,Male,400.0,40.0,2023-01-01,Clothing,20.0,0.1,Mature
+3647,Charlie,25.0,Female,100.0,20.0,2023-01-01,Clothing,0.0,0.2,Mature
+3650,David,25.0,Male,200.0,30.0,2023-02-15,Grocery,0.0,0.15,Mature
+3651,Bob,20.0,Other,200.0,10.0,2023-01-01,Grocery,15.0,0.05,Not Mature
+3652,Eve,30.0,Female,100.0,20.0,2023-01-01,Electronics,10.0,0.2,Mature
+3653,Eve,25.0,Other,200.0,10.0,2023-01-01,Electronics,5.0,0.05,Mature
+3658,David,25.0,Other,100.0,20.0,2023-01-01,Electronics,10.0,0.2,Mature
+3659,Eve,25.0,Other,300.0,30.0,2023-01-01,Furniture,10.0,0.1,Mature
+3660,Eve,35.0,Male,200.0,20.0,2023-02-15,Furniture,20.0,0.1,Mature
+3661,Alice,25.0,Male,200.0,20.0,2023-02-15,Electronics,20.0,0.1,Mature
+3665,Charlie,25.0,Male,300.0,30.0,2023-02-15,Grocery,10.0,0.1,Mature
+3672,Charlie,30.0,Other,200.0,20.0,2023-02-15,Clothing,20.0,0.1,Mature
+3673,Eve,35.0,Female,400.0,30.0,2023-01-01,Electronics,0.0,0.075,Mature
+3675,Bob,35.0,Male,200.0,40.0,2023-01-01,Furniture,10.0,0.2,Mature
+3676,Eve,20.0,Other,100.0,20.0,2023-02-15,Furniture,20.0,0.2,Not Mature
+3677,Bob,30.0,Male,200.0,20.0,2023-02-15,Grocery,10.0,0.1,Mature
+3684,David,30.0,Male,300.0,10.0,2023-01-01,Furniture,20.0,0.03333333333333333,Mature
+3685,Eve,25.0,Female,200.0,10.0,2023-02-15,Electronics,0.0,0.05,Mature
+3687,Eve,35.0,Other,200.0,20.0,2023-02-15,Grocery,5.0,0.1,Mature
+3688,Alice,35.0,Female,300.0,40.0,2023-01-01,Clothing,10.0,0.13333333333333333,Mature
+3690,Eve,35.0,Male,200.0,30.0,2023-02-15,Clothing,10.0,0.15,Mature
+3691,Alice,35.0,Other,200.0,10.0,2023-02-15,Grocery,15.0,0.05,Mature
+3692,David,30.0,Male,300.0,20.0,2023-01-01,Electronics,5.0,0.06666666666666667,Mature
+3693,Eve,25.0,Female,100.0,30.0,2023-01-01,Clothing,0.0,0.3,Mature
+3697,Eve,35.0,Female,200.0,20.0,2023-02-15,Electronics,15.0,0.1,Mature
+3698,David,30.0,Male,200.0,20.0,2023-02-15,Furniture,15.0,0.1,Mature
+3699,Charlie,25.0,Other,400.0,20.0,2023-01-01,Furniture,10.0,0.05,Mature
+3704,Charlie,20.0,Other,200.0,10.0,2023-01-01,Electronics,20.0,0.05,Not Mature
+3705,David,25.0,Female,300.0,20.0,2023-02-15,Furniture,10.0,0.06666666666666667,Mature
+3712,Alice,30.0,Male,200.0,20.0,2023-02-15,Grocery,20.0,0.1,Mature
+3713,Charlie,20.0,Other,100.0,20.0,2023-02-15,Grocery,20.0,0.2,Not Mature
+3714,Charlie,25.0,Other,200.0,30.0,2023-02-15,Furniture,10.0,0.15,Mature
+3715,Alice,25.0,Other,200.0,20.0,2023-02-15,Clothing,0.0,0.1,Mature
+3718,Eve,25.0,Female,100.0,10.0,2023-02-15,Electronics,5.0,0.1,Mature
+3721,Charlie,25.0,Other,300.0,20.0,2023-02-15,Grocery,5.0,0.06666666666666667,Mature
+3723,Bob,20.0,Other,400.0,40.0,2023-01-01,Electronics,0.0,0.1,Not Mature
+3726,Alice,35.0,Male,100.0,20.0,2023-02-15,Clothing,20.0,0.2,Mature
+3727,Alice,20.0,Female,200.0,10.0,2023-01-01,Clothing,5.0,0.05,Not Mature
+3729,Bob,25.0,Other,100.0,20.0,2023-02-15,Clothing,15.0,0.2,Mature
+3732,David,20.0,Male,200.0,20.0,2023-01-01,Electronics,5.0,0.1,Not Mature
+3736,Eve,25.0,Female,200.0,30.0,2023-02-15,Clothing,5.0,0.15,Mature
+3738,Alice,35.0,Male,100.0,10.0,2023-02-15,Electronics,0.0,0.1,Mature
+3748,Bob,25.0,Male,400.0,40.0,2023-02-15,Furniture,15.0,0.1,Mature
+3751,Alice,25.0,Male,400.0,20.0,2023-02-15,Grocery,15.0,0.05,Mature
+3757,Eve,25.0,Other,300.0,10.0,2023-01-01,Clothing,10.0,0.03333333333333333,Mature
+3759,David,35.0,Female,200.0,30.0,2023-01-01,Clothing,5.0,0.15,Mature
+3763,Alice,35.0,Other,300.0,20.0,2023-02-15,Clothing,20.0,0.06666666666666667,Mature
+3766,Alice,20.0,Female,200.0,20.0,2023-02-15,Electronics,0.0,0.1,Not Mature
+3769,Bob,25.0,Male,300.0,20.0,2023-02-15,Clothing,0.0,0.06666666666666667,Mature
+3781,Eve,30.0,Female,300.0,40.0,2023-01-01,Clothing,10.0,0.13333333333333333,Mature
+3782,David,25.0,Other,200.0,10.0,2023-01-01,Clothing,10.0,0.05,Mature
+3783,Charlie,20.0,Other,200.0,30.0,2023-02-15,Electronics,0.0,0.15,Not Mature
+3784,Eve,20.0,Male,200.0,10.0,2023-02-15,Clothing,5.0,0.05,Not Mature
+3790,Eve,25.0,Female,300.0,10.0,2023-02-15,Grocery,10.0,0.03333333333333333,Mature
+3791,Alice,30.0,Other,400.0,10.0,2023-02-15,Clothing,20.0,0.025,Mature
+3796,Charlie,35.0,Female,400.0,40.0,2023-01-01,Grocery,0.0,0.1,Mature
+3798,Charlie,25.0,Other,400.0,20.0,2023-02-15,Electronics,0.0,0.05,Mature
+3801,Alice,25.0,Female,200.0,10.0,2023-02-15,Furniture,20.0,0.05,Mature
+3802,David,20.0,Male,100.0,20.0,2023-01-01,Electronics,15.0,0.2,Not Mature
+3804,David,25.0,Male,300.0,20.0,2023-02-15,Furniture,10.0,0.06666666666666667,Mature
+3808,Eve,25.0,Female,100.0,20.0,2023-02-15,Grocery,20.0,0.2,Mature
+3813,Bob,20.0,Male,100.0,10.0,2023-02-15,Electronics,10.0,0.1,Not Mature
+3816,Alice,25.0,Male,400.0,20.0,2023-02-15,Clothing,15.0,0.05,Mature
+3819,Eve,25.0,Male,300.0,20.0,2023-01-01,Clothing,0.0,0.06666666666666667,Mature
+3820,Charlie,25.0,Male,300.0,10.0,2023-02-15,Furniture,10.0,0.03333333333333333,Mature
+3822,Charlie,35.0,Other,200.0,40.0,2023-02-15,Furniture,10.0,0.2,Mature
+3825,Alice,35.0,Female,200.0,20.0,2023-01-01,Clothing,5.0,0.1,Mature
+3831,Alice,20.0,Female,200.0,20.0,2023-02-15,Grocery,15.0,0.1,Not Mature
+3835,Eve,35.0,Male,200.0,10.0,2023-01-01,Grocery,15.0,0.05,Mature
+3836,Charlie,25.0,Other,400.0,40.0,2023-02-15,Furniture,10.0,0.1,Mature
+3838,David,25.0,Other,200.0,10.0,2023-02-15,Electronics,10.0,0.05,Mature
+3841,David,35.0,Female,400.0,30.0,2023-01-01,Electronics,10.0,0.075,Mature
+3842,Charlie,25.0,Female,300.0,20.0,2023-01-01,Grocery,20.0,0.06666666666666667,Mature
+3843,Eve,20.0,Male,100.0,30.0,2023-01-01,Furniture,15.0,0.3,Not Mature
+3844,David,30.0,Other,200.0,30.0,2023-01-01,Electronics,15.0,0.15,Mature
+3845,Eve,20.0,Female,400.0,10.0,2023-02-15,Clothing,5.0,0.025,Not Mature
+3847,Bob,20.0,Other,400.0,10.0,2023-02-15,Grocery,20.0,0.025,Not Mature
+3849,Alice,35.0,Male,300.0,20.0,2023-01-01,Electronics,20.0,0.06666666666666667,Mature
+3853,Alice,20.0,Other,400.0,20.0,2023-02-15,Furniture,15.0,0.05,Not Mature
+3856,Eve,25.0,Other,300.0,40.0,2023-01-01,Grocery,5.0,0.13333333333333333,Mature
+3857,David,20.0,Other,300.0,20.0,2023-02-15,Electronics,15.0,0.06666666666666667,Not Mature
+3861,Bob,25.0,Other,200.0,20.0,2023-01-01,Clothing,0.0,0.1,Mature
+3866,Alice,25.0,Other,200.0,40.0,2023-02-15,Electronics,10.0,0.2,Mature
+3868,Charlie,25.0,Other,400.0,20.0,2023-02-15,Furniture,10.0,0.05,Mature
+3871,Bob,30.0,Other,100.0,20.0,2023-01-01,Clothing,10.0,0.2,Mature
+3872,Alice,25.0,Other,300.0,10.0,2023-01-01,Clothing,20.0,0.03333333333333333,Mature
+3875,David,25.0,Female,300.0,20.0,2023-02-15,Grocery,15.0,0.06666666666666667,Mature
+3878,Charlie,35.0,Female,100.0,20.0,2023-02-15,Grocery,20.0,0.2,Mature
+3880,Eve,25.0,Male,300.0,20.0,2023-01-01,Electronics,5.0,0.06666666666666667,Mature
+3882,Charlie,25.0,Male,400.0,20.0,2023-02-15,Clothing,20.0,0.05,Mature
+3886,Charlie,20.0,Female,300.0,20.0,2023-02-15,Furniture,10.0,0.06666666666666667,Not Mature
+3890,Eve,25.0,Female,100.0,40.0,2023-01-01,Grocery,15.0,0.4,Mature
+3892,Charlie,25.0,Other,100.0,30.0,2023-01-01,Furniture,10.0,0.3,Mature
+3896,Alice,30.0,Male,200.0,30.0,2023-01-01,Electronics,15.0,0.15,Mature
+3898,Charlie,25.0,Other,100.0,10.0,2023-02-15,Grocery,10.0,0.1,Mature
+3900,Charlie,30.0,Female,200.0,10.0,2023-02-15,Grocery,15.0,0.05,Mature
+3901,David,35.0,Other,300.0,10.0,2023-01-01,Grocery,0.0,0.03333333333333333,Mature
+3903,Eve,35.0,Other,200.0,10.0,2023-02-15,Electronics,5.0,0.05,Mature
+3904,David,35.0,Other,200.0,40.0,2023-02-15,Furniture,0.0,0.2,Mature
+3907,Bob,35.0,Female,200.0,20.0,2023-01-01,Grocery,0.0,0.1,Mature
+3908,Alice,25.0,Other,400.0,30.0,2023-01-01,Clothing,10.0,0.075,Mature
+3913,Eve,35.0,Female,400.0,10.0,2023-01-01,Grocery,10.0,0.025,Mature
+3916,Bob,25.0,Other,100.0,10.0,2023-02-15,Clothing,0.0,0.1,Mature
+3917,Alice,35.0,Male,300.0,10.0,2023-02-15,Clothing,15.0,0.03333333333333333,Mature
+3918,Eve,25.0,Other,200.0,30.0,2023-01-01,Furniture,10.0,0.15,Mature
+3921,Alice,25.0,Female,200.0,40.0,2023-01-01,Electronics,5.0,0.2,Mature
+3922,Eve,25.0,Other,400.0,10.0,2023-02-15,Grocery,10.0,0.025,Mature
+3923,David,35.0,Other,100.0,20.0,2023-02-15,Grocery,0.0,0.2,Mature
+3924,Alice,25.0,Male,300.0,20.0,2023-01-01,Clothing,5.0,0.06666666666666667,Mature
+3927,Charlie,30.0,Other,400.0,10.0,2023-02-15,Furniture,5.0,0.025,Mature
+3929,Bob,35.0,Male,200.0,40.0,2023-02-15,Electronics,10.0,0.2,Mature
+3930,David,25.0,Male,300.0,20.0,2023-01-01,Grocery,20.0,0.06666666666666667,Mature
+3931,Alice,35.0,Female,200.0,30.0,2023-02-15,Grocery,10.0,0.15,Mature
+3932,Eve,35.0,Other,200.0,30.0,2023-01-01,Furniture,10.0,0.15,Mature
+3937,Charlie,25.0,Other,300.0,20.0,2023-02-15,Furniture,0.0,0.06666666666666667,Mature
+3939,Charlie,35.0,Male,200.0,30.0,2023-02-15,Grocery,15.0,0.15,Mature
+3943,Alice,20.0,Other,400.0,20.0,2023-02-15,Furniture,5.0,0.05,Not Mature
+3959,David,30.0,Other,300.0,20.0,2023-01-01,Electronics,15.0,0.06666666666666667,Mature
+3962,Eve,25.0,Female,400.0,10.0,2023-02-15,Clothing,15.0,0.025,Mature
+3964,Alice,25.0,Other,200.0,20.0,2023-02-15,Grocery,15.0,0.1,Mature
+3967,Charlie,25.0,Other,400.0,30.0,2023-01-01,Electronics,0.0,0.075,Mature
+3970,Eve,35.0,Male,100.0,20.0,2023-01-01,Grocery,5.0,0.2,Mature
+3971,Bob,30.0,Other,200.0,20.0,2023-02-15,Electronics,5.0,0.1,Mature
+3973,Bob,35.0,Other,200.0,30.0,2023-01-01,Furniture,15.0,0.15,Mature
+3975,Charlie,25.0,Male,300.0,40.0,2023-01-01,Grocery,10.0,0.13333333333333333,Mature
+3976,Bob,30.0,Other,100.0,40.0,2023-01-01,Clothing,15.0,0.4,Mature
+3977,Bob,30.0,Female,200.0,40.0,2023-01-01,Electronics,20.0,0.2,Mature
+3981,Charlie,35.0,Female,400.0,30.0,2023-02-15,Clothing,10.0,0.075,Mature
+3982,Eve,25.0,Male,200.0,20.0,2023-01-01,Grocery,15.0,0.1,Mature
+3984,Bob,25.0,Female,300.0,40.0,2023-01-01,Grocery,20.0,0.13333333333333333,Mature
+3988,Bob,20.0,Female,100.0,20.0,2023-01-01,Clothing,20.0,0.2,Not Mature
+3992,Charlie,35.0,Other,200.0,40.0,2023-02-15,Clothing,0.0,0.2,Mature
+3993,Alice,25.0,Other,200.0,10.0,2023-02-15,Clothing,0.0,0.05,Mature
+3995,David,25.0,Female,200.0,30.0,2023-02-15,Grocery,10.0,0.15,Mature
+3996,David,30.0,Female,200.0,20.0,2023-01-01,Furniture,5.0,0.1,Mature
+3997,Alice,35.0,Male,200.0,40.0,2023-02-15,Grocery,20.0,0.2,Mature
+3999,Alice,30.0,Male,100.0,20.0,2023-01-01,Furniture,0.0,0.2,Mature
+4000,Bob,25.0,Male,400.0,10.0,2023-02-15,Clothing,10.0,0.025,Mature
+4001,Charlie,30.0,Other,100.0,30.0,2023-01-01,Electronics,5.0,0.3,Mature
+4003,Bob,30.0,Male,200.0,10.0,2023-02-15,Electronics,10.0,0.05,Mature
+4004,Eve,25.0,Female,300.0,20.0,2023-01-01,Clothing,5.0,0.06666666666666667,Mature
+4007,Charlie,25.0,Female,200.0,40.0,2023-02-15,Grocery,0.0,0.2,Mature
+4008,David,35.0,Female,400.0,40.0,2023-02-15,Grocery,10.0,0.1,Mature
+4012,David,20.0,Other,100.0,30.0,2023-01-01,Clothing,15.0,0.3,Not Mature
+4013,Charlie,35.0,Other,300.0,10.0,2023-02-15,Grocery,10.0,0.03333333333333333,Mature
+4017,Bob,30.0,Other,300.0,10.0,2023-01-01,Electronics,20.0,0.03333333333333333,Mature
+4024,Charlie,20.0,Female,300.0,20.0,2023-02-15,Grocery,5.0,0.06666666666666667,Not Mature
+4026,David,20.0,Other,200.0,10.0,2023-01-01,Clothing,15.0,0.05,Not Mature
+4030,Alice,20.0,Male,100.0,10.0,2023-02-15,Electronics,10.0,0.1,Not Mature
+4035,Alice,35.0,Other,200.0,20.0,2023-01-01,Electronics,10.0,0.1,Mature
+4039,Bob,25.0,Other,200.0,20.0,2023-02-15,Grocery,20.0,0.1,Mature
+4040,Charlie,30.0,Other,300.0,40.0,2023-02-15,Grocery,20.0,0.13333333333333333,Mature
+4041,Eve,25.0,Other,300.0,30.0,2023-01-01,Electronics,5.0,0.1,Mature
+4043,Charlie,20.0,Other,200.0,30.0,2023-01-01,Furniture,5.0,0.15,Not Mature
+4045,David,30.0,Other,400.0,20.0,2023-02-15,Electronics,20.0,0.05,Mature
+4047,Alice,30.0,Other,200.0,10.0,2023-02-15,Furniture,5.0,0.05,Mature
+4049,David,25.0,Other,200.0,30.0,2023-02-15,Electronics,0.0,0.15,Mature
+4050,David,25.0,Male,200.0,20.0,2023-01-01,Electronics,5.0,0.1,Mature
+4051,Charlie,20.0,Other,200.0,40.0,2023-02-15,Electronics,10.0,0.2,Not Mature
+4053,Alice,20.0,Other,100.0,10.0,2023-01-01,Grocery,5.0,0.1,Not Mature
+4057,David,25.0,Female,200.0,20.0,2023-02-15,Clothing,20.0,0.1,Mature
+4058,Alice,20.0,Other,400.0,20.0,2023-02-15,Grocery,10.0,0.05,Not Mature
+4060,Eve,35.0,Other,200.0,30.0,2023-01-01,Electronics,10.0,0.15,Mature
+4063,Alice,25.0,Male,300.0,20.0,2023-01-01,Grocery,10.0,0.06666666666666667,Mature
+4065,Bob,35.0,Female,300.0,20.0,2023-02-15,Grocery,15.0,0.06666666666666667,Mature
+4066,Alice,25.0,Male,200.0,30.0,2023-01-01,Furniture,5.0,0.15,Mature
+4067,Alice,25.0,Female,200.0,20.0,2023-01-01,Furniture,15.0,0.1,Mature
+4071,Charlie,25.0,Other,300.0,40.0,2023-02-15,Electronics,10.0,0.13333333333333333,Mature
+4072,Eve,35.0,Male,200.0,10.0,2023-02-15,Clothing,5.0,0.05,Mature
+4080,Alice,20.0,Male,200.0,20.0,2023-02-15,Clothing,10.0,0.1,Not Mature
+4081,Alice,30.0,Other,200.0,20.0,2023-02-15,Grocery,10.0,0.1,Mature
+4082,Eve,35.0,Other,200.0,30.0,2023-01-01,Furniture,10.0,0.15,Mature
+4083,Eve,35.0,Other,400.0,20.0,2023-02-15,Grocery,20.0,0.05,Mature
+4085,David,30.0,Other,200.0,20.0,2023-02-15,Grocery,5.0,0.1,Mature
+4087,Alice,20.0,Male,400.0,20.0,2023-02-15,Furniture,15.0,0.05,Not Mature
+4088,Eve,25.0,Other,200.0,20.0,2023-02-15,Furniture,15.0,0.1,Mature
+4089,Bob,35.0,Female,200.0,20.0,2023-01-01,Grocery,10.0,0.1,Mature
+4090,Eve,25.0,Other,300.0,20.0,2023-01-01,Clothing,10.0,0.06666666666666667,Mature
+4096,Bob,35.0,Female,200.0,20.0,2023-01-01,Electronics,15.0,0.1,Mature
+4097,Charlie,25.0,Male,100.0,40.0,2023-02-15,Clothing,20.0,0.4,Mature
+4101,Charlie,25.0,Other,200.0,20.0,2023-02-15,Electronics,20.0,0.1,Mature
+4103,Bob,25.0,Other,300.0,10.0,2023-02-15,Grocery,20.0,0.03333333333333333,Mature
+4112,Alice,30.0,Other,100.0,40.0,2023-01-01,Grocery,15.0,0.4,Mature
+4115,Charlie,25.0,Female,100.0,30.0,2023-01-01,Furniture,0.0,0.3,Mature
+4116,Charlie,30.0,Other,200.0,10.0,2023-01-01,Clothing,10.0,0.05,Mature
+4121,Bob,25.0,Female,200.0,20.0,2023-01-01,Clothing,20.0,0.1,Mature
+4124,Eve,25.0,Other,200.0,30.0,2023-01-01,Clothing,0.0,0.15,Mature
+4125,Alice,25.0,Other,400.0,40.0,2023-02-15,Grocery,20.0,0.1,Mature
+4130,Eve,25.0,Other,300.0,10.0,2023-01-01,Furniture,0.0,0.03333333333333333,Mature
+4132,Eve,20.0,Other,100.0,40.0,2023-01-01,Furniture,0.0,0.4,Not Mature
+4134,Alice,20.0,Other,100.0,20.0,2023-02-15,Clothing,0.0,0.2,Not Mature
+4135,Eve,25.0,Male,200.0,20.0,2023-02-15,Clothing,20.0,0.1,Mature
+4136,Eve,25.0,Male,200.0,20.0,2023-02-15,Electronics,15.0,0.1,Mature
+4137,Bob,30.0,Other,200.0,20.0,2023-01-01,Electronics,20.0,0.1,Mature
+4141,Alice,20.0,Female,300.0,40.0,2023-01-01,Clothing,0.0,0.13333333333333333,Not Mature
+4142,Eve,20.0,Other,200.0,40.0,2023-02-15,Furniture,10.0,0.2,Not Mature
+4143,Alice,20.0,Male,300.0,10.0,2023-01-01,Clothing,0.0,0.03333333333333333,Not Mature
+4145,Alice,20.0,Male,200.0,10.0,2023-02-15,Grocery,20.0,0.05,Not Mature
+4146,Charlie,35.0,Other,400.0,40.0,2023-01-01,Clothing,5.0,0.1,Mature
+4153,Charlie,25.0,Other,100.0,20.0,2023-02-15,Electronics,20.0,0.2,Mature
+4154,Bob,30.0,Other,400.0,20.0,2023-01-01,Clothing,10.0,0.05,Mature
+4155,David,20.0,Other,200.0,30.0,2023-01-01,Grocery,5.0,0.15,Not Mature
+4156,Alice,30.0,Male,400.0,30.0,2023-01-01,Furniture,10.0,0.075,Mature
+4157,David,35.0,Male,200.0,20.0,2023-01-01,Electronics,15.0,0.1,Mature
+4163,Charlie,20.0,Male,400.0,20.0,2023-02-15,Electronics,5.0,0.05,Not Mature
+4167,Eve,20.0,Other,100.0,20.0,2023-02-15,Clothing,10.0,0.2,Not Mature
+4168,Charlie,20.0,Female,100.0,20.0,2023-01-01,Furniture,20.0,0.2,Not Mature
+4169,Charlie,35.0,Female,100.0,40.0,2023-01-01,Electronics,20.0,0.4,Mature
+4171,Alice,35.0,Other,300.0,10.0,2023-01-01,Grocery,0.0,0.03333333333333333,Mature
+4174,Charlie,30.0,Female,100.0,20.0,2023-01-01,Electronics,10.0,0.2,Mature
+4175,Eve,20.0,Other,300.0,40.0,2023-01-01,Grocery,5.0,0.13333333333333333,Not Mature
+4180,David,25.0,Other,200.0,10.0,2023-02-15,Furniture,0.0,0.05,Mature
+4182,David,20.0,Male,200.0,20.0,2023-01-01,Clothing,15.0,0.1,Not Mature
+4183,David,30.0,Other,200.0,30.0,2023-01-01,Electronics,20.0,0.15,Mature
+4184,David,35.0,Male,200.0,20.0,2023-01-01,Clothing,0.0,0.1,Mature
+4186,Alice,25.0,Other,100.0,30.0,2023-02-15,Electronics,10.0,0.3,Mature
+4188,Bob,20.0,Other,300.0,40.0,2023-02-15,Grocery,0.0,0.13333333333333333,Not Mature
+4196,Eve,25.0,Female,100.0,20.0,2023-02-15,Furniture,20.0,0.2,Mature
+4201,David,20.0,Male,300.0,20.0,2023-01-01,Clothing,5.0,0.06666666666666667,Not Mature
+4202,Charlie,30.0,Male,300.0,40.0,2023-02-15,Grocery,0.0,0.13333333333333333,Mature
+4203,David,25.0,Male,200.0,20.0,2023-02-15,Clothing,20.0,0.1,Mature
+4205,Charlie,25.0,Other,200.0,40.0,2023-02-15,Electronics,15.0,0.2,Mature
+4207,Charlie,25.0,Male,200.0,20.0,2023-02-15,Furniture,0.0,0.1,Mature
+4209,Charlie,35.0,Other,200.0,20.0,2023-01-01,Furniture,10.0,0.1,Mature
+4211,Alice,35.0,Other,200.0,30.0,2023-01-01,Electronics,15.0,0.15,Mature
+4212,Alice,20.0,Male,300.0,20.0,2023-01-01,Clothing,5.0,0.06666666666666667,Not Mature
+4213,David,30.0,Male,400.0,10.0,2023-01-01,Grocery,20.0,0.025,Mature
+4215,Bob,35.0,Female,200.0,20.0,2023-01-01,Furniture,10.0,0.1,Mature
+4217,Alice,25.0,Male,100.0,20.0,2023-02-15,Furniture,10.0,0.2,Mature
+4221,Bob,25.0,Other,400.0,20.0,2023-02-15,Grocery,10.0,0.05,Mature
+4224,Bob,30.0,Male,200.0,40.0,2023-02-15,Furniture,20.0,0.2,Mature
+4225,David,25.0,Male,300.0,40.0,2023-01-01,Clothing,5.0,0.13333333333333333,Mature
+4228,Eve,35.0,Female,300.0,40.0,2023-02-15,Furniture,10.0,0.13333333333333333,Mature
+4229,Charlie,25.0,Female,400.0,30.0,2023-02-15,Clothing,5.0,0.075,Mature
+4230,David,25.0,Other,400.0,40.0,2023-01-01,Electronics,15.0,0.1,Mature
+4231,Eve,20.0,Female,200.0,30.0,2023-01-01,Clothing,15.0,0.15,Not Mature
+4232,Charlie,35.0,Other,200.0,10.0,2023-01-01,Electronics,20.0,0.05,Mature
+4239,Charlie,35.0,Other,200.0,10.0,2023-01-01,Furniture,20.0,0.05,Mature
+4242,David,35.0,Female,100.0,10.0,2023-01-01,Furniture,20.0,0.1,Mature
+4243,Bob,30.0,Female,400.0,20.0,2023-01-01,Grocery,15.0,0.05,Mature
+4248,Bob,25.0,Other,200.0,20.0,2023-02-15,Furniture,15.0,0.1,Mature
+4257,David,30.0,Female,200.0,10.0,2023-01-01,Furniture,0.0,0.05,Mature
+4260,Charlie,20.0,Female,300.0,20.0,2023-01-01,Grocery,10.0,0.06666666666666667,Not Mature
+4262,Bob,30.0,Other,100.0,40.0,2023-02-15,Grocery,0.0,0.4,Mature
+4264,Bob,25.0,Other,200.0,10.0,2023-01-01,Grocery,20.0,0.05,Mature
+4265,David,30.0,Other,300.0,10.0,2023-01-01,Grocery,15.0,0.03333333333333333,Mature
+4266,Charlie,20.0,Other,100.0,20.0,2023-02-15,Electronics,15.0,0.2,Not Mature
+4267,Bob,30.0,Other,300.0,30.0,2023-01-01,Grocery,5.0,0.1,Mature
+4269,Alice,25.0,Male,400.0,20.0,2023-02-15,Clothing,15.0,0.05,Mature
+4273,Eve,25.0,Male,200.0,10.0,2023-01-01,Grocery,10.0,0.05,Mature
+4280,Charlie,25.0,Other,200.0,10.0,2023-02-15,Clothing,20.0,0.05,Mature
+4281,David,30.0,Male,100.0,20.0,2023-02-15,Electronics,10.0,0.2,Mature
+4283,Eve,20.0,Other,200.0,40.0,2023-02-15,Grocery,20.0,0.2,Not Mature
+4285,David,25.0,Female,200.0,20.0,2023-01-01,Grocery,0.0,0.1,Mature
+4288,David,20.0,Other,400.0,20.0,2023-02-15,Electronics,0.0,0.05,Not Mature
+4289,David,25.0,Male,200.0,40.0,2023-01-01,Furniture,0.0,0.2,Mature
+4291,David,35.0,Female,200.0,10.0,2023-02-15,Electronics,20.0,0.05,Mature
+4292,Alice,25.0,Other,100.0,10.0,2023-01-01,Clothing,0.0,0.1,Mature
+4293,Eve,30.0,Female,200.0,40.0,2023-02-15,Electronics,10.0,0.2,Mature
+4294,Eve,35.0,Other,300.0,40.0,2023-01-01,Electronics,20.0,0.13333333333333333,Mature
+4297,Eve,30.0,Male,400.0,20.0,2023-01-01,Clothing,15.0,0.05,Mature
+4298,David,25.0,Other,100.0,40.0,2023-01-01,Furniture,15.0,0.4,Mature
+4302,Eve,35.0,Female,200.0,30.0,2023-01-01,Furniture,10.0,0.15,Mature
+4305,Bob,20.0,Other,300.0,10.0,2023-02-15,Clothing,0.0,0.03333333333333333,Not Mature
+4306,Charlie,25.0,Female,100.0,30.0,2023-02-15,Electronics,20.0,0.3,Mature
+4308,Eve,25.0,Other,200.0,10.0,2023-01-01,Clothing,10.0,0.05,Mature
+4310,David,25.0,Male,200.0,30.0,2023-02-15,Grocery,5.0,0.15,Mature
+4314,Charlie,25.0,Male,300.0,30.0,2023-01-01,Furniture,10.0,0.1,Mature
+4315,Eve,20.0,Female,300.0,20.0,2023-01-01,Clothing,10.0,0.06666666666666667,Not Mature
+4316,Bob,35.0,Other,300.0,10.0,2023-02-15,Electronics,5.0,0.03333333333333333,Mature
+4318,Eve,25.0,Other,100.0,30.0,2023-01-01,Electronics,20.0,0.3,Mature
+4320,Charlie,25.0,Male,200.0,30.0,2023-02-15,Clothing,10.0,0.15,Mature
+4325,David,25.0,Male,100.0,30.0,2023-01-01,Electronics,10.0,0.3,Mature
+4327,Charlie,20.0,Other,100.0,10.0,2023-02-15,Grocery,20.0,0.1,Not Mature
+4332,Eve,25.0,Other,100.0,20.0,2023-01-01,Electronics,5.0,0.2,Mature
+4333,Charlie,20.0,Male,200.0,40.0,2023-02-15,Clothing,0.0,0.2,Not Mature
+4334,Bob,30.0,Female,400.0,20.0,2023-01-01,Grocery,20.0,0.05,Mature
+4335,Alice,25.0,Other,400.0,10.0,2023-01-01,Electronics,0.0,0.025,Mature
+4337,Charlie,30.0,Female,200.0,20.0,2023-02-15,Grocery,10.0,0.1,Mature
+4338,Bob,35.0,Other,400.0,20.0,2023-01-01,Grocery,10.0,0.05,Mature
+4341,Eve,30.0,Other,200.0,20.0,2023-01-01,Clothing,10.0,0.1,Mature
+4343,Eve,30.0,Other,200.0,10.0,2023-02-15,Electronics,15.0,0.05,Mature
+4344,Bob,25.0,Female,400.0,40.0,2023-01-01,Grocery,20.0,0.1,Mature
+4347,David,35.0,Male,200.0,20.0,2023-02-15,Clothing,5.0,0.1,Mature
+4350,Charlie,25.0,Male,100.0,20.0,2023-01-01,Clothing,0.0,0.2,Mature
+4353,Bob,20.0,Other,200.0,20.0,2023-01-01,Furniture,0.0,0.1,Not Mature
+4355,Charlie,30.0,Female,200.0,40.0,2023-01-01,Clothing,20.0,0.2,Mature
+4356,Alice,20.0,Other,300.0,10.0,2023-02-15,Grocery,20.0,0.03333333333333333,Not Mature
+4357,David,30.0,Other,200.0,20.0,2023-01-01,Electronics,20.0,0.1,Mature
+4358,Charlie,25.0,Female,300.0,20.0,2023-02-15,Electronics,20.0,0.06666666666666667,Mature
+4362,Eve,25.0,Other,300.0,40.0,2023-01-01,Electronics,20.0,0.13333333333333333,Mature
+4365,Charlie,25.0,Female,200.0,20.0,2023-02-15,Grocery,20.0,0.1,Mature
+4371,Bob,25.0,Male,200.0,30.0,2023-01-01,Electronics,15.0,0.15,Mature
+4372,David,35.0,Other,300.0,30.0,2023-02-15,Grocery,0.0,0.1,Mature
+4374,Charlie,20.0,Other,200.0,20.0,2023-01-01,Furniture,5.0,0.1,Not Mature
+4375,Charlie,35.0,Other,200.0,20.0,2023-02-15,Electronics,20.0,0.1,Mature
+4377,Bob,30.0,Other,100.0,30.0,2023-01-01,Clothing,10.0,0.3,Mature
+4383,Eve,20.0,Female,300.0,10.0,2023-01-01,Grocery,15.0,0.03333333333333333,Not Mature
+4385,Charlie,20.0,Other,200.0,40.0,2023-02-15,Clothing,20.0,0.2,Not Mature
+4386,Alice,35.0,Male,100.0,40.0,2023-01-01,Furniture,5.0,0.4,Mature
+4388,Bob,20.0,Other,100.0,20.0,2023-02-15,Electronics,5.0,0.2,Not Mature
+4389,Charlie,20.0,Other,400.0,20.0,2023-02-15,Electronics,20.0,0.05,Not Mature
+4390,Alice,25.0,Other,300.0,10.0,2023-02-15,Grocery,5.0,0.03333333333333333,Mature
+4391,David,25.0,Other,200.0,20.0,2023-01-01,Furniture,0.0,0.1,Mature
+4398,David,20.0,Other,200.0,40.0,2023-02-15,Furniture,20.0,0.2,Not Mature
+4399,Bob,25.0,Male,100.0,40.0,2023-01-01,Clothing,0.0,0.4,Mature
+4401,Charlie,30.0,Male,200.0,20.0,2023-02-15,Clothing,5.0,0.1,Mature
+4402,Charlie,25.0,Other,200.0,20.0,2023-01-01,Clothing,20.0,0.1,Mature
+4403,David,35.0,Other,200.0,20.0,2023-01-01,Clothing,10.0,0.1,Mature
+4404,David,25.0,Male,200.0,40.0,2023-01-01,Electronics,20.0,0.2,Mature
+4405,Charlie,20.0,Other,200.0,20.0,2023-02-15,Clothing,15.0,0.1,Not Mature
+4407,Bob,30.0,Other,300.0,20.0,2023-01-01,Furniture,5.0,0.06666666666666667,Mature
+4412,Alice,20.0,Other,100.0,40.0,2023-02-15,Electronics,20.0,0.4,Not Mature
+4415,Bob,25.0,Other,100.0,30.0,2023-01-01,Grocery,20.0,0.3,Mature
+4421,Bob,25.0,Female,200.0,40.0,2023-02-15,Grocery,20.0,0.2,Mature
+4422,Alice,20.0,Male,200.0,10.0,2023-01-01,Electronics,0.0,0.05,Not Mature
+4424,David,20.0,Other,100.0,20.0,2023-02-15,Clothing,20.0,0.2,Not Mature
+4426,Eve,25.0,Male,400.0,40.0,2023-02-15,Grocery,15.0,0.1,Mature
+4428,Charlie,35.0,Male,300.0,10.0,2023-01-01,Furniture,20.0,0.03333333333333333,Mature
+4432,Charlie,20.0,Other,100.0,10.0,2023-02-15,Clothing,20.0,0.1,Not Mature
+4434,Eve,25.0,Other,200.0,20.0,2023-02-15,Furniture,10.0,0.1,Mature
+4435,Bob,25.0,Female,200.0,20.0,2023-02-15,Clothing,15.0,0.1,Mature
+4438,Eve,35.0,Other,300.0,10.0,2023-02-15,Electronics,0.0,0.03333333333333333,Mature
+4441,Eve,20.0,Other,400.0,20.0,2023-01-01,Electronics,20.0,0.05,Not Mature
+4443,Alice,25.0,Other,400.0,10.0,2023-02-15,Electronics,15.0,0.025,Mature
+4448,Charlie,25.0,Male,200.0,10.0,2023-02-15,Clothing,20.0,0.05,Mature
+4452,Bob,20.0,Other,200.0,20.0,2023-02-15,Furniture,5.0,0.1,Not Mature
+4453,Bob,30.0,Other,100.0,20.0,2023-01-01,Clothing,0.0,0.2,Mature
+4455,David,30.0,Other,200.0,40.0,2023-01-01,Furniture,10.0,0.2,Mature
+4458,David,25.0,Other,400.0,10.0,2023-02-15,Grocery,0.0,0.025,Mature
+4459,Eve,30.0,Other,200.0,10.0,2023-02-15,Furniture,20.0,0.05,Mature
+4460,David,25.0,Male,300.0,20.0,2023-02-15,Furniture,5.0,0.06666666666666667,Mature
+4461,Charlie,25.0,Male,400.0,20.0,2023-02-15,Clothing,20.0,0.05,Mature
+4462,Eve,30.0,Male,200.0,20.0,2023-01-01,Furniture,20.0,0.1,Mature
+4464,David,20.0,Male,200.0,30.0,2023-01-01,Electronics,15.0,0.15,Not Mature
+4469,David,25.0,Other,400.0,20.0,2023-01-01,Furniture,10.0,0.05,Mature
+4470,Alice,30.0,Other,200.0,40.0,2023-02-15,Grocery,20.0,0.2,Mature
+4474,David,25.0,Other,400.0,40.0,2023-02-15,Clothing,20.0,0.1,Mature
+4475,Eve,35.0,Male,400.0,20.0,2023-01-01,Electronics,20.0,0.05,Mature
+4477,David,25.0,Male,300.0,40.0,2023-02-15,Grocery,5.0,0.13333333333333333,Mature
+4478,Bob,20.0,Other,400.0,10.0,2023-01-01,Furniture,0.0,0.025,Not Mature
+4479,Bob,20.0,Other,300.0,30.0,2023-01-01,Electronics,10.0,0.1,Not Mature
+4480,Charlie,20.0,Other,200.0,20.0,2023-01-01,Furniture,0.0,0.1,Not Mature
+4482,Eve,25.0,Female,100.0,20.0,2023-01-01,Clothing,15.0,0.2,Mature
+4484,Charlie,35.0,Other,200.0,20.0,2023-01-01,Furniture,10.0,0.1,Mature
+4485,David,25.0,Other,200.0,30.0,2023-01-01,Furniture,10.0,0.15,Mature
+4486,David,20.0,Other,400.0,20.0,2023-01-01,Electronics,0.0,0.05,Not Mature
+4487,Alice,25.0,Other,400.0,20.0,2023-01-01,Grocery,10.0,0.05,Mature
+4488,Alice,25.0,Other,200.0,40.0,2023-01-01,Clothing,15.0,0.2,Mature
+4495,Eve,30.0,Other,400.0,20.0,2023-01-01,Grocery,10.0,0.05,Mature
+4499,David,20.0,Other,300.0,20.0,2023-01-01,Electronics,0.0,0.06666666666666667,Not Mature
+4500,Alice,25.0,Male,300.0,20.0,2023-01-01,Furniture,15.0,0.06666666666666667,Mature
+4501,Bob,25.0,Male,400.0,40.0,2023-02-15,Furniture,5.0,0.1,Mature
+4504,Alice,30.0,Male,100.0,20.0,2023-02-15,Clothing,5.0,0.2,Mature
+4506,Bob,35.0,Other,200.0,30.0,2023-02-15,Grocery,0.0,0.15,Mature
+4512,David,35.0,Female,300.0,30.0,2023-01-01,Furniture,15.0,0.1,Mature
+4515,David,35.0,Female,200.0,20.0,2023-01-01,Furniture,20.0,0.1,Mature
+4525,Alice,25.0,Other,400.0,20.0,2023-02-15,Grocery,15.0,0.05,Mature
+4528,Eve,35.0,Male,200.0,10.0,2023-02-15,Grocery,0.0,0.05,Mature
+4530,David,30.0,Other,200.0,10.0,2023-01-01,Clothing,0.0,0.05,Mature
+4532,David,20.0,Male,200.0,20.0,2023-01-01,Furniture,0.0,0.1,Not Mature
+4533,David,20.0,Male,200.0,20.0,2023-01-01,Clothing,20.0,0.1,Not Mature
+4539,Charlie,25.0,Male,400.0,20.0,2023-01-01,Clothing,5.0,0.05,Mature
+4542,Eve,30.0,Other,100.0,40.0,2023-02-15,Furniture,15.0,0.4,Mature
+4545,Alice,35.0,Male,400.0,20.0,2023-02-15,Grocery,20.0,0.05,Mature
+4546,Charlie,20.0,Other,100.0,40.0,2023-02-15,Furniture,5.0,0.4,Not Mature
+4548,Charlie,30.0,Other,100.0,40.0,2023-01-01,Clothing,0.0,0.4,Mature
+4549,Charlie,25.0,Other,200.0,10.0,2023-01-01,Clothing,0.0,0.05,Mature
+4551,Alice,25.0,Female,200.0,40.0,2023-01-01,Furniture,15.0,0.2,Mature
+4552,Charlie,20.0,Other,400.0,40.0,2023-01-01,Clothing,0.0,0.1,Not Mature
+4557,Alice,20.0,Female,200.0,10.0,2023-02-15,Furniture,15.0,0.05,Not Mature
+4565,Bob,25.0,Male,100.0,20.0,2023-01-01,Grocery,15.0,0.2,Mature
+4572,Alice,30.0,Male,200.0,20.0,2023-02-15,Clothing,15.0,0.1,Mature
+4573,Alice,35.0,Other,100.0,10.0,2023-02-15,Electronics,5.0,0.1,Mature
+4575,Alice,35.0,Other,300.0,30.0,2023-01-01,Grocery,5.0,0.1,Mature
+4576,Bob,20.0,Female,200.0,20.0,2023-02-15,Electronics,5.0,0.1,Not Mature
+4580,Charlie,25.0,Male,400.0,40.0,2023-01-01,Grocery,0.0,0.1,Mature
+4581,Bob,25.0,Other,200.0,30.0,2023-02-15,Clothing,0.0,0.15,Mature
+4584,Eve,30.0,Male,100.0,40.0,2023-02-15,Clothing,0.0,0.4,Mature
+4587,Alice,20.0,Male,200.0,20.0,2023-02-15,Clothing,0.0,0.1,Not Mature
+4588,Eve,25.0,Other,300.0,20.0,2023-02-15,Grocery,5.0,0.06666666666666667,Mature
+4591,Alice,20.0,Other,100.0,10.0,2023-01-01,Electronics,5.0,0.1,Not Mature
+4592,Eve,25.0,Male,200.0,30.0,2023-01-01,Electronics,20.0,0.15,Mature
+4595,Bob,30.0,Other,400.0,20.0,2023-01-01,Grocery,15.0,0.05,Mature
+4596,Eve,35.0,Female,400.0,40.0,2023-02-15,Grocery,0.0,0.1,Mature
+4598,Eve,20.0,Female,100.0,40.0,2023-01-01,Furniture,5.0,0.4,Not Mature
+4599,Eve,25.0,Other,400.0,10.0,2023-02-15,Grocery,20.0,0.025,Mature
+4602,David,30.0,Male,100.0,10.0,2023-01-01,Grocery,15.0,0.1,Mature
+4606,David,30.0,Other,400.0,20.0,2023-02-15,Grocery,0.0,0.05,Mature
+4609,Alice,25.0,Male,200.0,20.0,2023-02-15,Grocery,15.0,0.1,Mature
+4610,Alice,20.0,Other,400.0,10.0,2023-02-15,Grocery,10.0,0.025,Not Mature
+4611,David,25.0,Female,300.0,40.0,2023-01-01,Electronics,10.0,0.13333333333333333,Mature
+4613,Alice,25.0,Other,200.0,30.0,2023-02-15,Electronics,5.0,0.15,Mature
+4617,Bob,20.0,Male,100.0,10.0,2023-01-01,Electronics,20.0,0.1,Not Mature
+4625,David,30.0,Female,400.0,20.0,2023-01-01,Grocery,10.0,0.05,Mature
+4626,Alice,20.0,Other,100.0,10.0,2023-02-15,Grocery,0.0,0.1,Not Mature
+4628,Bob,35.0,Female,100.0,20.0,2023-01-01,Clothing,20.0,0.2,Mature
+4630,Charlie,25.0,Male,200.0,40.0,2023-02-15,Electronics,15.0,0.2,Mature
+4635,Eve,25.0,Other,200.0,20.0,2023-01-01,Clothing,20.0,0.1,Mature
+4637,Eve,20.0,Female,300.0,10.0,2023-01-01,Electronics,10.0,0.03333333333333333,Not Mature
+4641,Charlie,25.0,Other,100.0,40.0,2023-01-01,Clothing,5.0,0.4,Mature
+4642,Alice,25.0,Other,200.0,30.0,2023-02-15,Furniture,0.0,0.15,Mature
+4650,Bob,35.0,Male,300.0,30.0,2023-01-01,Furniture,15.0,0.1,Mature
+4652,David,25.0,Male,100.0,30.0,2023-02-15,Electronics,10.0,0.3,Mature
+4654,Alice,25.0,Other,200.0,30.0,2023-02-15,Grocery,15.0,0.15,Mature
+4655,Charlie,25.0,Male,100.0,10.0,2023-01-01,Clothing,20.0,0.1,Mature
+4656,David,25.0,Female,200.0,40.0,2023-01-01,Clothing,20.0,0.2,Mature
+4658,Eve,30.0,Other,300.0,10.0,2023-02-15,Clothing,15.0,0.03333333333333333,Mature
+4660,David,35.0,Female,300.0,30.0,2023-02-15,Clothing,20.0,0.1,Mature
+4661,David,30.0,Female,300.0,20.0,2023-02-15,Electronics,0.0,0.06666666666666667,Mature
+4664,Charlie,25.0,Other,300.0,20.0,2023-01-01,Grocery,15.0,0.06666666666666667,Mature
+4665,David,30.0,Female,200.0,40.0,2023-01-01,Electronics,0.0,0.2,Mature
+4667,Eve,20.0,Male,100.0,30.0,2023-02-15,Electronics,20.0,0.3,Not Mature
+4668,David,35.0,Other,100.0,20.0,2023-02-15,Clothing,20.0,0.2,Mature
+4669,Bob,20.0,Other,300.0,20.0,2023-02-15,Furniture,5.0,0.06666666666666667,Not Mature
+4670,Alice,25.0,Female,200.0,20.0,2023-01-01,Clothing,15.0,0.1,Mature
+4676,David,35.0,Male,300.0,30.0,2023-02-15,Furniture,20.0,0.1,Mature
+4679,David,20.0,Female,200.0,20.0,2023-01-01,Electronics,5.0,0.1,Not Mature
+4687,David,25.0,Other,400.0,30.0,2023-01-01,Grocery,20.0,0.075,Mature
+4688,Charlie,20.0,Female,200.0,10.0,2023-02-15,Electronics,0.0,0.05,Not Mature
+4689,Alice,25.0,Female,200.0,30.0,2023-01-01,Furniture,5.0,0.15,Mature
+4690,David,25.0,Female,300.0,30.0,2023-02-15,Electronics,10.0,0.1,Mature
+4695,Bob,35.0,Female,300.0,40.0,2023-01-01,Electronics,0.0,0.13333333333333333,Mature
+4697,Alice,20.0,Other,100.0,20.0,2023-01-01,Electronics,15.0,0.2,Not Mature
+4699,David,25.0,Other,400.0,20.0,2023-02-15,Electronics,15.0,0.05,Mature
+4707,Alice,25.0,Male,100.0,40.0,2023-01-01,Grocery,10.0,0.4,Mature
+4709,David,30.0,Male,200.0,20.0,2023-02-15,Clothing,15.0,0.1,Mature
+4711,Eve,35.0,Other,100.0,10.0,2023-01-01,Furniture,0.0,0.1,Mature
+4712,David,30.0,Other,300.0,20.0,2023-01-01,Grocery,0.0,0.06666666666666667,Mature
+4715,Bob,25.0,Female,300.0,40.0,2023-01-01,Clothing,10.0,0.13333333333333333,Mature
+4717,David,20.0,Other,300.0,30.0,2023-02-15,Clothing,20.0,0.1,Not Mature
+4718,David,30.0,Male,100.0,10.0,2023-01-01,Clothing,15.0,0.1,Mature
+4720,Alice,35.0,Male,100.0,40.0,2023-01-01,Clothing,10.0,0.4,Mature
+4722,Charlie,30.0,Male,200.0,30.0,2023-01-01,Grocery,0.0,0.15,Mature
+4724,Eve,25.0,Male,400.0,20.0,2023-02-15,Furniture,0.0,0.05,Mature
+4727,Alice,25.0,Female,400.0,20.0,2023-01-01,Clothing,0.0,0.05,Mature
+4732,David,35.0,Other,100.0,20.0,2023-01-01,Furniture,5.0,0.2,Mature
+4733,Eve,25.0,Other,400.0,20.0,2023-02-15,Electronics,20.0,0.05,Mature
+4738,Eve,25.0,Male,200.0,40.0,2023-01-01,Clothing,15.0,0.2,Mature
+4744,David,25.0,Other,100.0,20.0,2023-02-15,Clothing,15.0,0.2,Mature
+4745,David,20.0,Female,400.0,40.0,2023-02-15,Furniture,15.0,0.1,Not Mature
+4747,Bob,20.0,Other,200.0,20.0,2023-02-15,Clothing,10.0,0.1,Not Mature
+4751,Charlie,20.0,Other,100.0,40.0,2023-02-15,Grocery,5.0,0.4,Not Mature
+4753,Bob,20.0,Other,300.0,20.0,2023-01-01,Grocery,20.0,0.06666666666666667,Not Mature
+4755,David,25.0,Female,200.0,10.0,2023-01-01,Furniture,0.0,0.05,Mature
+4760,Bob,35.0,Other,100.0,40.0,2023-02-15,Grocery,0.0,0.4,Mature
+4769,Charlie,20.0,Female,100.0,10.0,2023-01-01,Grocery,20.0,0.1,Not Mature
+4770,Bob,25.0,Other,200.0,30.0,2023-01-01,Electronics,5.0,0.15,Mature
+4771,Alice,25.0,Other,100.0,20.0,2023-02-15,Clothing,20.0,0.2,Mature
+4775,David,25.0,Other,300.0,20.0,2023-02-15,Clothing,15.0,0.06666666666666667,Mature
+4776,David,30.0,Female,400.0,10.0,2023-02-15,Clothing,10.0,0.025,Mature
+4781,Eve,25.0,Female,200.0,20.0,2023-02-15,Electronics,5.0,0.1,Mature
+4784,Bob,25.0,Male,200.0,30.0,2023-01-01,Furniture,5.0,0.15,Mature
+4785,Alice,35.0,Other,200.0,40.0,2023-01-01,Electronics,0.0,0.2,Mature
+4790,Alice,25.0,Male,200.0,30.0,2023-01-01,Grocery,5.0,0.15,Mature
+4792,Alice,25.0,Male,200.0,20.0,2023-02-15,Clothing,0.0,0.1,Mature
+4793,Eve,20.0,Other,200.0,20.0,2023-01-01,Furniture,15.0,0.1,Not Mature
+4795,Alice,30.0,Female,100.0,40.0,2023-02-15,Clothing,10.0,0.4,Mature
+4801,Charlie,30.0,Other,400.0,10.0,2023-02-15,Grocery,0.0,0.025,Mature
+4804,Alice,20.0,Female,100.0,40.0,2023-01-01,Grocery,0.0,0.4,Not Mature
+4806,Eve,35.0,Other,200.0,10.0,2023-01-01,Electronics,5.0,0.05,Mature
+4808,Alice,35.0,Other,200.0,10.0,2023-02-15,Grocery,0.0,0.05,Mature
+4810,Charlie,25.0,Male,400.0,20.0,2023-01-01,Electronics,0.0,0.05,Mature
+4814,Eve,35.0,Female,300.0,10.0,2023-01-01,Furniture,0.0,0.03333333333333333,Mature
+4815,Alice,25.0,Male,300.0,10.0,2023-01-01,Grocery,20.0,0.03333333333333333,Mature
+4816,Eve,25.0,Other,100.0,40.0,2023-02-15,Clothing,20.0,0.4,Mature
+4819,Eve,25.0,Female,200.0,40.0,2023-02-15,Grocery,10.0,0.2,Mature
+4820,Bob,35.0,Other,400.0,40.0,2023-01-01,Electronics,15.0,0.1,Mature
+4821,Alice,30.0,Other,400.0,10.0,2023-02-15,Electronics,5.0,0.025,Mature
+4826,Bob,30.0,Female,100.0,10.0,2023-01-01,Electronics,0.0,0.1,Mature
+4831,David,25.0,Other,100.0,10.0,2023-02-15,Electronics,15.0,0.1,Mature
+4842,Charlie,25.0,Female,300.0,20.0,2023-01-01,Furniture,20.0,0.06666666666666667,Mature
+4843,David,25.0,Male,300.0,10.0,2023-01-01,Clothing,20.0,0.03333333333333333,Mature
+4844,David,30.0,Other,300.0,20.0,2023-02-15,Clothing,15.0,0.06666666666666667,Mature
+4845,Charlie,35.0,Other,400.0,20.0,2023-02-15,Electronics,0.0,0.05,Mature
+4847,David,30.0,Other,100.0,40.0,2023-02-15,Clothing,10.0,0.4,Mature
+4848,Eve,25.0,Female,100.0,30.0,2023-01-01,Electronics,0.0,0.3,Mature
+4849,Eve,35.0,Male,300.0,10.0,2023-02-15,Electronics,15.0,0.03333333333333333,Mature
+4851,Charlie,35.0,Male,200.0,40.0,2023-02-15,Furniture,5.0,0.2,Mature
+4859,David,25.0,Other,400.0,30.0,2023-01-01,Clothing,10.0,0.075,Mature
+4862,David,30.0,Other,100.0,20.0,2023-01-01,Furniture,5.0,0.2,Mature
+4865,David,30.0,Male,400.0,30.0,2023-01-01,Grocery,20.0,0.075,Mature
+4866,Eve,30.0,Male,200.0,40.0,2023-02-15,Clothing,20.0,0.2,Mature
+4868,Charlie,25.0,Male,400.0,40.0,2023-02-15,Clothing,0.0,0.1,Mature
+4870,Alice,25.0,Other,400.0,40.0,2023-02-15,Electronics,5.0,0.1,Mature
+4873,David,20.0,Female,100.0,40.0,2023-02-15,Clothing,10.0,0.4,Not Mature
+4874,Charlie,25.0,Other,200.0,10.0,2023-02-15,Electronics,0.0,0.05,Mature
+4875,Bob,20.0,Male,400.0,10.0,2023-02-15,Grocery,15.0,0.025,Not Mature
+4877,Alice,30.0,Other,300.0,20.0,2023-01-01,Clothing,10.0,0.06666666666666667,Mature
+4878,Charlie,30.0,Other,200.0,40.0,2023-02-15,Grocery,0.0,0.2,Mature
+4879,Bob,25.0,Other,300.0,10.0,2023-01-01,Clothing,0.0,0.03333333333333333,Mature
+4882,Eve,25.0,Other,400.0,20.0,2023-02-15,Furniture,20.0,0.05,Mature
+4883,Eve,20.0,Male,400.0,40.0,2023-01-01,Grocery,20.0,0.1,Not Mature
+4886,Bob,25.0,Male,200.0,20.0,2023-02-15,Furniture,0.0,0.1,Mature
+4887,Charlie,25.0,Other,200.0,20.0,2023-01-01,Clothing,5.0,0.1,Mature
+4890,Bob,20.0,Male,100.0,10.0,2023-02-15,Electronics,5.0,0.1,Not Mature
+4892,David,35.0,Other,200.0,20.0,2023-02-15,Grocery,5.0,0.1,Mature
+4893,David,25.0,Other,200.0,20.0,2023-01-01,Electronics,20.0,0.1,Mature
+4894,Eve,25.0,Female,300.0,40.0,2023-01-01,Electronics,15.0,0.13333333333333333,Mature
+4895,Bob,25.0,Other,200.0,20.0,2023-01-01,Clothing,20.0,0.1,Mature
+4896,Bob,35.0,Other,100.0,30.0,2023-01-01,Electronics,20.0,0.3,Mature
+4897,Bob,20.0,Female,100.0,40.0,2023-01-01,Furniture,10.0,0.4,Not Mature
+4898,Alice,25.0,Other,200.0,10.0,2023-02-15,Grocery,15.0,0.05,Mature
+4902,Charlie,20.0,Male,200.0,20.0,2023-01-01,Furniture,5.0,0.1,Not Mature
+4905,Charlie,25.0,Other,200.0,20.0,2023-02-15,Furniture,10.0,0.1,Mature
+4908,David,20.0,Male,200.0,20.0,2023-01-01,Clothing,0.0,0.1,Not Mature
+4910,Alice,25.0,Other,400.0,10.0,2023-02-15,Furniture,10.0,0.025,Mature
+4911,Alice,30.0,Other,300.0,40.0,2023-02-15,Grocery,20.0,0.13333333333333333,Mature
+4913,Eve,20.0,Other,200.0,30.0,2023-02-15,Grocery,5.0,0.15,Not Mature
+4923,David,30.0,Other,200.0,20.0,2023-01-01,Clothing,15.0,0.1,Mature
+4926,Bob,25.0,Other,200.0,30.0,2023-01-01,Clothing,20.0,0.15,Mature
+4927,Alice,30.0,Other,200.0,20.0,2023-02-15,Electronics,0.0,0.1,Mature
+4929,Alice,25.0,Female,200.0,20.0,2023-02-15,Electronics,20.0,0.1,Mature
+4930,Alice,20.0,Male,300.0,20.0,2023-02-15,Electronics,0.0,0.06666666666666667,Not Mature
+4932,Charlie,25.0,Female,200.0,40.0,2023-02-15,Clothing,10.0,0.2,Mature
+4938,Bob,30.0,Other,200.0,30.0,2023-02-15,Grocery,0.0,0.15,Mature
+4940,Alice,35.0,Other,100.0,30.0,2023-01-01,Furniture,5.0,0.3,Mature
+4941,Bob,20.0,Male,400.0,20.0,2023-01-01,Clothing,0.0,0.05,Not Mature
+4943,Alice,25.0,Other,200.0,10.0,2023-01-01,Furniture,15.0,0.05,Mature
+4946,Alice,30.0,Other,200.0,10.0,2023-01-01,Clothing,10.0,0.05,Mature
+4949,Bob,20.0,Other,200.0,10.0,2023-01-01,Grocery,5.0,0.05,Not Mature
+4951,Charlie,20.0,Female,200.0,30.0,2023-02-15,Electronics,0.0,0.15,Not Mature
+4952,Charlie,20.0,Female,200.0,20.0,2023-02-15,Furniture,10.0,0.1,Not Mature
+4953,Charlie,25.0,Female,300.0,10.0,2023-02-15,Electronics,10.0,0.03333333333333333,Mature
+4956,Eve,30.0,Other,300.0,10.0,2023-02-15,Electronics,20.0,0.03333333333333333,Mature
+4957,Alice,25.0,Other,200.0,30.0,2023-02-15,Electronics,20.0,0.15,Mature
+4958,Bob,35.0,Female,400.0,30.0,2023-01-01,Electronics,5.0,0.075,Mature
+4959,David,20.0,Other,400.0,40.0,2023-01-01,Clothing,20.0,0.1,Not Mature
+4960,Alice,35.0,Other,200.0,10.0,2023-02-15,Clothing,10.0,0.05,Mature
+4961,Bob,35.0,Other,300.0,40.0,2023-02-15,Clothing,5.0,0.13333333333333333,Mature
+4962,Bob,30.0,Male,200.0,30.0,2023-02-15,Electronics,15.0,0.15,Mature
+4963,Charlie,20.0,Other,200.0,30.0,2023-01-01,Furniture,5.0,0.15,Not Mature
+4968,Charlie,30.0,Female,200.0,40.0,2023-01-01,Furniture,5.0,0.2,Mature
+4970,Charlie,20.0,Other,200.0,20.0,2023-01-01,Clothing,10.0,0.1,Not Mature
+4982,Charlie,20.0,Female,200.0,20.0,2023-02-15,Electronics,15.0,0.1,Not Mature
+4988,Charlie,25.0,Other,200.0,30.0,2023-01-01,Grocery,20.0,0.15,Mature
+4989,Alice,35.0,Male,200.0,20.0,2023-01-01,Electronics,15.0,0.1,Mature
+4993,Eve,25.0,Female,400.0,10.0,2023-01-01,Electronics,0.0,0.025,Mature
+4999,David,35.0,Male,200.0,20.0,2023-01-01,Grocery,10.0,0.1,Mature
