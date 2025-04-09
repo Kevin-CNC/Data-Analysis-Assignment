@@ -4,8 +4,6 @@ Our current targets:
 - Apply NumPy for numerical operations. 
 - Perform exploratory data analysis (EDA). 
 - Generate meaningful Visualisations using Matplotlib and Seaborn. 
-
-- (Bonus) Implement an interactive dashboard for real-time analysis. 
 """
 # Importing all required modules.
 import numpy as NP
