@@ -58,8 +58,11 @@ def readCsvAndCleanData(csvPath:str):
     # we must make sure all dates are converted properly & handles invalid dates
     messy_df["Date"] = PND.to_datetime(messy_df["Date"], errors='coerce')
 
-    # we only drop rows with NaT values
-    messy_df = messy_df.dropna(subset=["Date"])
+    # to keep as much data as possible, we will use a modal date to fill in the blanks
+    modal_date = messy_df["Date"].mode()[0] # gets the most common date in the column
+    
+    # we fill in the NaT values with the modal date
+    messy_df["Date"] = messy_df["Date"].fillna(modal_date)
     ######################
     # CATEGORY OPERATIONS
     
