@@ -131,7 +131,7 @@ def performEDA(cleaned_df:PND.DataFrame):
     ).round(2)
     print("\nAverage Sales by Category and Discounts:")
     print(pivot)
-    
+
     
     # finds out the average discount & sale amount per category
     avgGroupedDiscAndSales = cleaned_df.groupby("Category")[["Discount", "Sales"]].mean().round(2) #we round to 2 figures as sales do require it
@@ -166,6 +166,27 @@ def performEDA(cleaned_df:PND.DataFrame):
     PLT.ylabel("Frequency of discount (Units)") 
     PLT.show()
     
+    PLT.hist(cleaned_df["Discount"], bins=20, color="firebrick") 
+    PLT.title("Discounts distribution") 
+    PLT.xlabel("Discount (%)") 
+    PLT.ylabel("Frequency of discount (Units)") 
+    PLT.show()
+    
+    # grouping this category for analysis
+    discount_summary = cleaned_df.groupby('category').agg(
+        discount_count=('discount', 'count'),
+        total_discount=('discount', 'sum')
+    ).reset_index()
+    
+    PLT.figure(figsize=(12, 6))
+    SNS.barplot(x='category', y='discount_count', data=discount_summary, color='skyblue', label='Frequency')
+    SNS.barplot(x='category', y='total_discount', data=discount_summary, color='steelblue', alpha=0.7, label='Total Discount')
+    PLT.xticks(rotation=45)
+    PLT.ylabel('Count / Total Discount')
+    PLT.title('Discount Frequency & Total Amount per Product Category')
+    PLT.legend()
+    PLT.tight_layout()
+    PLT.show()
     
 if __name__ == "__main__":
     cleaned = readCsvAndCleanData("file.csv")
