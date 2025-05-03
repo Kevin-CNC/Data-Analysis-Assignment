@@ -99,8 +99,9 @@ def performDataWrangling(cleaned_df:PND.DataFrame):
     # show grouping & aggregation by creating the new "Profit Margin" column & grouping discounts by types of products sold.
     cleaned_df["Profit Margin"] = cleaned_df["Profit"] / cleaned_df["Sales"]
     
-    # groups discounts by their associated 'category' type
-    discountByProducts = cleaned_df.groupby("Category")["Discount"].sum().reset_index()
+    # aggregates sales by their associated 'category' type
+    discountByProducts = cleaned_df.groupby("Category")["Sales"].sum().reset_index()
+    print("Total sales by products:\n")
     print(discountByProducts)
     
     # lambda application by classifying age groups
@@ -166,21 +167,16 @@ def performEDA(cleaned_df:PND.DataFrame):
     PLT.ylabel("Frequency of discount (Units)") 
     PLT.show()
     
-    PLT.hist(cleaned_df["Discount"], bins=20, color="firebrick") 
-    PLT.title("Discounts distribution") 
-    PLT.xlabel("Discount (%)") 
-    PLT.ylabel("Frequency of discount (Units)") 
-    PLT.show()
-    
-    # grouping this category for analysis
-    discount_summary = cleaned_df.groupby('category').agg(
-        discount_count=('discount', 'count'),
-        total_discount=('discount', 'sum')
+    # grouping discounts by category category for analysis
+    discount_summary = cleaned_df.groupby('Category').agg(
+        discount_count=('Discount', 'count'),
+        average_discount=('Discount', 'mean')
     ).reset_index()
+
     
     PLT.figure(figsize=(12, 6))
-    SNS.barplot(x='category', y='discount_count', data=discount_summary, color='skyblue', label='Frequency')
-    SNS.barplot(x='category', y='total_discount', data=discount_summary, color='steelblue', alpha=0.7, label='Total Discount')
+    SNS.barplot(x='Category', y='discount_count', data=discount_summary, color='skyblue', label='Frequency (Unit)')
+    SNS.barplot(x='Category', y='average_discount', data=discount_summary, color='purple', alpha=0.7, label='Average Discount (%)')
     PLT.xticks(rotation=45)
     PLT.ylabel('Count / Total Discount')
     PLT.title('Discount Frequency & Total Amount per Product Category')
